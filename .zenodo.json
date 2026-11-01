@@ -9,7 +9,7 @@
       "orcid": "0009-0003-8333-7337"
     }
   ],
-  "description": "<p>Paper (rev. 9, November 2026) with its pre-registration records, result files and notebooks. On GSM-Symbolic arithmetic with three open models (OLMo-2 1B, Gemma-2-2b-it, Qwen2.5-7B-Instruct), entropy relates in opposite directions to two definitions of a forking token: forced swaps and resampling. The paper is paper/latex/main.pdf. The analysis code will be released separately as a tested package.</p>",
+  "description": "<p>Paper (rev. 9, November 2026) with its pre-registration records, result files and notebooks. On GSM-Symbolic arithmetic with three open models (OLMo-2 1B, Gemma-2-2b-it, Qwen2.5-7B-Instruct), entropy relates in opposite directions to two definitions of a forking token: forced swaps and resampling. The paper is paper/latex/main.pdf. scripts/recompute_table2.py recomputes four experiments of Table 2 from the released records in one command. reports/raais_pilot_summary.json is a cost-and-feasibility pilot for a follow-up study on a reasoning model. The analysis code will be released separately as a tested package.</p>",
   "license": "cc-by-4.0",
   "language": "eng",
   "keywords": [

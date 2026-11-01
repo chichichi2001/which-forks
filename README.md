@@ -24,7 +24,7 @@ substantial part of the forced-swap side, not all of it.
 | `reports/` | Result files of the runs (see the exceptions below). |
 | `notebooks/` | The Colab notebooks as they were run, saved without outputs (see below). |
 | `scripts/` | The scripts that build the paper, its figures and this release. |
-| `MANIFEST.json` | Every file with its size, SHA-256, and the last commit that changed it in the private working repository. Files revised or added here for the release (paper rev. 9 and the Table 2 script) carry a `note` instead of a commit; the five redacted notes keep the SHA-256 of their originals (see below). |
+| `MANIFEST.json` | Every file with its size, SHA-256, and the last commit that changed it in the private working repository. Files revised or added here for the release (paper rev. 9, the Table 2 script and the pilot summary) carry a `note` instead of a commit; the five redacted notes keep the SHA-256 of their originals (see below). |
 | `COMMITS.md` | Every commit hash cited in the paper and the notes, with its full hash, date, subject and the files it changed. |
 
 ### How to check the records
@@ -66,6 +66,15 @@ substantial part of the forced-swap side, not all of it.
     the digit-only keys of `per_item` back to integers before recomputing it.
   - `cr3_explore_result.json` is missing its final closing brace (as written by the run); add it before parsing.
   - `cr0_smoke_v1.json` (an API smoke test) is not included, because it holds five short model responses.
+
+### Pilot for the next study
+
+`reports/raais_pilot_summary.json` is a small pilot (1 November 2026) for a follow-up study on whether a reasoning
+model recovers from a changed digit: DeepSeek-R1-Distill-Qwen-1.5B on 5 GSM-Symbolic problems, one L4, vLLM 0.32.0.
+It measured cost and feasibility only: generation speed, how often runs reach the 4,000-token limit, and how many
+checked, correct digits each problem offers. The outputs of the changed-digit condition were not scored and were not
+saved. The file holds numbers and template IDs only. The notebook that produced it is not published, because it
+contains a private notification address.
 
 ### What is not here yet
 

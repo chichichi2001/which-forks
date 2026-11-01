@@ -2298,6 +2298,13 @@
    "last_private_commit": "813c37e250d8d08dce35d6722c9a19d76db8872c"
   },
   {
+   "path": "reports/raais_pilot_summary.json",
+   "bytes": 1463,
+   "sha256": "4b7f10c18caf576ae54e55315c13c1365a126270b6934de0d0f6d30bac3addaa",
+   "last_private_commit": null,
+   "note": "added in this repository (2026-11-01): pilot for the follow-up study; produced on Colab, not in the private repository"
+  },
+  {
    "path": "reports/rk1_RESULT.json",
    "bytes": 2760,
    "sha256": "518935195a9fcfb4ce9d23bdcdb7a712f0b84a7b5674e28c95c790f952bd970c",

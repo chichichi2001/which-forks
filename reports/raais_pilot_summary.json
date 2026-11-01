@@ -1,0 +1,104 @@
+{
+ "label": "forks-RAAIS \u8a66\u3057\u6253\u3061\uff08R1-Distill-1.5B\u30fbL4\uff09",
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "gpu": "NVIDIA L4, 23034 MiB",
+ "vllm": "0.32.0",
+ "settings": {
+  "n_problems": 5,
+  "n_base": 8,
+  "max_tokens": 4000,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "topk_logprobs": 20,
+  "seed": 20261101
+ },
+ "template_ids": [
+  81,
+  59,
+  8,
+  53,
+  96
+ ],
+ "stage1": {
+  "tokens": 83447,
+  "seconds": 84.45284986495972,
+  "tok_per_s": 988.0898055356561,
+  "cutoff": 5,
+  "runs": 40,
+  "accuracy_per_problem": [
+   0.875,
+   1.0,
+   1.0,
+   1.0,
+   0.375
+  ],
+  "mean_tokens_per_run": 2086.175
+ },
+ "usable_digits_per_sample": [
+  [
+   16,
+   29,
+   17,
+   39,
+   139,
+   68,
+   37,
+   73
+  ],
+  [
+   30,
+   7,
+   34,
+   61,
+   36,
+   22,
+   32,
+   8
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   2,
+   0
+  ],
+  [
+   12,
+   15,
+   14,
+   18,
+   21,
+   23,
+   6,
+   9
+  ],
+  [
+   2,
+   2,
+   12,
+   16,
+   36,
+   14,
+   74,
+   11
+  ]
+ ],
+ "stage2": {
+  "prompts": 28,
+  "tokens": 76299,
+  "seconds": 66.52671599388123,
+  "cutoff_pooled": 2,
+  "runs": 112,
+  "accuracy_condition_a": 0.8571428571428571
+ },
+ "extrapolation": {
+  "main_study_max_tokens": 51200000,
+  "tok_per_s": 1058.06371273683,
+  "gpu_hours_if_all_runs_hit_limit": 13.441744623709335,
+  "gpu_hours_at_observed_mean_length": 7.010457897591706
+ },
+ "note": "Pilot for cost and feasibility only. Condition (b) outputs were not scored and are not saved."
+}
