@@ -24,10 +24,18 @@ substantial part of the forced-swap side, not all of it.
 | `reports/` | Result files of the runs (see the exceptions below). |
 | `notebooks/` | The Colab notebooks as they were run, saved without outputs (see below). |
 | `scripts/` | The scripts that build the paper, its figures and this release. |
-| `MANIFEST.json` | Every file with its size, SHA-256, and the last commit that changed it in the private working repository. Four files (paper and its build script) revised here for the release (paper rev. 9) carry a `note` instead of a commit; the five redacted notes keep the SHA-256 of their originals (see below). |
+| `MANIFEST.json` | Every file with its size, SHA-256, and the last commit that changed it in the private working repository. Files revised or added here for the release (paper rev. 9 and the Table 2 script) carry a `note` instead of a commit; the five redacted notes keep the SHA-256 of their originals (see below). |
 | `COMMITS.md` | Every commit hash cited in the paper and the notes, with its full hash, date, subject and the files it changed. |
 
 ### How to check the records
+
+- **Recompute Table 2 in one command.** `python scripts/recompute_table2.py` (standard library only, about a
+  second) recomputes entropy's within-item AUROC for DP3–DP6 from the per-position records in
+  `reports/r1_TABLES.json`, using the frozen labelling rule (top 15% of positions pooled across items, count
+  rounded down, ties broken by item order and then position), and checks every value against Table 2 of the
+  paper. All eight values match. `--boot` adds 95% intervals (2,000 resamples of templates); they agree with the
+  paper's to within about 0.005, the difference coming from the random-number generator. The per-position records
+  of DP7 and DP9 are not in this repository, so those rows are not recomputed.
 
 - The paper and the notes quote SHA-256 values of frozen gate documents and result files. `MANIFEST.json`
   gives the SHA-256 of every file here, so each quoted value can be checked:

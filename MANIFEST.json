@@ -2333,6 +2333,13 @@
    "bytes": 14602,
    "sha256": "887a1731ac9b48bc9cb003f55c8d1336922ee1e2c4be839e22cfed9ecbb310b7",
    "last_private_commit": "44bd1889c69748c2fa4d290e544598fa36578f84"
+  },
+  {
+   "path": "scripts/recompute_table2.py",
+   "bytes": 4730,
+   "sha256": "578b1fa162ffdbef68e974d182cf191ab3b6898ef20d45cc268676cfde2f934d",
+   "last_private_commit": null,
+   "note": "added in this repository for the public release (2026-11-01); not in the private repository"
   }
  ]
 }
