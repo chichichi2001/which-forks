@@ -1,0 +1,12 @@
+{
+  "title": "Which forks? The definition of a forking token can flip its relation to entropy",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {"name": "Honda, Chisa", "affiliation": "Independent researcher"}
+  ],
+  "description": "<p>Paper (rev. 9, November 2026) with its pre-registration records, result files and notebooks. On GSM-Symbolic arithmetic with three open models (OLMo-2 1B, Gemma-2-2b-it, Qwen2.5-7B-Instruct), entropy relates in opposite directions to two definitions of a forking token: forced swaps and resampling. The paper is paper/latex/main.pdf. The analysis code will be released separately as a tested package.</p>",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": ["large language models", "chain-of-thought", "forking tokens", "entropy", "pre-registration", "interpretability"]
+}
