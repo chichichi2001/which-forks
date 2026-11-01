@@ -1,0 +1,316 @@
+{
+ "diverged_rows": 0,
+ "halves": [
+  "A",
+  "B",
+  "C"
+ ],
+ "max_diverged_rows": 1,
+ "pass": true,
+ "per_half": {
+  "A": {
+   "code_commit": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+   "diverged_rows": 0,
+   "half": "A",
+   "per_row": [],
+   "rows": []
+  },
+  "B": {
+   "code_commit": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+   "diverged_rows": 0,
+   "half": "B",
+   "per_row": [
+    {
+     "base_compared_steps": 90,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 5,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 40
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 64
+      },
+      {
+       "i": 10,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 80
+      }
+     ],
+     "row": 16
+    },
+    {
+     "base_compared_steps": 213,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 13,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 104
+      },
+      {
+       "i": 23,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 184
+      },
+      {
+       "i": 24,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 192
+      }
+     ],
+     "row": 19
+    }
+   ],
+   "rows": [
+    16,
+    19
+   ]
+  },
+  "C": {
+   "code_commit": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+   "diverged_rows": 0,
+   "half": "C",
+   "per_row": [
+    {
+     "base_compared_steps": 137,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 1,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 8
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 72
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 88
+      }
+     ],
+     "row": 28
+    },
+    {
+     "base_compared_steps": 295,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 8,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 64
+      },
+      {
+       "i": 31,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 248
+      },
+      {
+       "i": 32,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 256
+      }
+     ],
+     "row": 36
+    },
+    {
+     "base_compared_steps": 208,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 0,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 0
+      },
+      {
+       "i": 20,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 160
+      },
+      {
+       "i": 24,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 192
+      }
+     ],
+     "row": 37
+    }
+   ],
+   "rows": [
+    28,
+    36,
+    37
+   ]
+  }
+ },
+ "rows_as_declared": true
+}

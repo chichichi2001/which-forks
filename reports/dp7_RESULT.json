@@ -1,0 +1,346 @@
+{
+ "analysis": {
+  "MAIN1_entropy_top_e_tau": {
+   "ci": [
+    0.21873219017941375,
+    0.34754433657820843
+   ],
+   "items_both": 35,
+   "positives": 121,
+   "within_item_auroc": 0.28340610022926355
+  },
+  "MAIN2_entropy_top_e2": {
+   "ci": [
+    0.15983992572203296,
+    0.2457309205455199
+   ],
+   "items_both": 35,
+   "positives": 121,
+   "within_item_auroc": 0.20347578131649705
+  },
+  "MAIN3_digit_or_item_x_entropy_quintile": {
+   "bootstrap_undefined": 9,
+   "ci": [
+    22.907478061808472,
+    231.70000000000002
+   ],
+   "control_median": 1.0421009710852158,
+   "control_ok": true,
+   "label": "DIGIT_BEYOND_CONFIDENCE_AND_SWAP",
+   "mh_den": 0.7627917833800186,
+   "mh_num": 37.24761904761904,
+   "odds_ratio": 48.83065059061141
+  },
+  "S1_entropy_tertiles": [
+   {
+    "entropy_tertile": 0,
+    "mean_e2": 0.23005073800738007,
+    "mean_e_tau": 0.25968634686346864,
+    "mean_e_tau_minus_e2": 0.029635608856088562,
+    "positions": 271,
+    "top_e2_rate": 0.31365313653136534,
+    "top_e_tau_rate": 0.3025830258302583
+   },
+   {
+    "entropy_tertile": 1,
+    "mean_e2": 0.03449074074074074,
+    "mean_e_tau": 0.07465277777777778,
+    "mean_e_tau_minus_e2": 0.04016203703703704,
+    "positions": 270,
+    "top_e2_rate": 0.07407407407407407,
+    "top_e_tau_rate": 0.06666666666666667
+   },
+   {
+    "entropy_tertile": 2,
+    "mean_e2": 0.015393518518518518,
+    "mean_e_tau": 0.071875,
+    "mean_e_tau_minus_e2": 0.05648148148148148,
+    "positions": 270,
+    "top_e2_rate": 0.05925925925925926,
+    "top_e_tau_rate": 0.07777777777777778
+   }
+  ],
+  "S2_thresholds_e_tau": {
+   "0.05": {
+    "ci": [
+     0.10498442992722169,
+     0.26386409014547985
+    ],
+    "items_both": 24,
+    "positives": 40,
+    "within_item_auroc": 0.1769541737147923
+   },
+   "0.10": {
+    "ci": [
+     0.17464657523295962,
+     0.3120055497317011
+    ],
+    "items_both": 34,
+    "positives": 81,
+    "within_item_auroc": 0.24200675354273038
+   },
+   "0.20": {
+    "ci": [
+     0.25265659189150297,
+     0.36604122364587516
+    ],
+    "items_both": 37,
+    "positives": 162,
+    "within_item_auroc": 0.3076670121024885
+   },
+   "0.30": {
+    "ci": [
+     0.31065992375589896,
+     0.4240951530251978
+    ],
+    "items_both": 38,
+    "positives": 243,
+    "within_item_auroc": 0.36762977923086887
+   },
+   "0.50": {
+    "ci": [
+     0.37502562853956045,
+     0.4790522545125771
+    ],
+    "items_both": 38,
+    "positives": 405,
+    "within_item_auroc": 0.42655221529386433
+   }
+  },
+  "S3_within_item_spearman": {
+   "e2": {
+    "mean_within_item_spearman": -0.267512709761981,
+    "null_mean": -0.0004048334471223776,
+    "null_q025": -0.09085333686462813,
+    "null_q975": 0.07220834689075828
+   },
+   "e_tau": {
+    "mean_within_item_spearman": -0.19520871177828603,
+    "null_mean": 0.003878304145437286,
+    "null_q025": -0.0696407266008755,
+    "null_q975": 0.08547325101746833
+   }
+  },
+  "S4_tau_token_kinds": {
+   "digit_positions": {
+    "digit": {
+     "mean_e_tau": 0.6389973958333334,
+     "positions": 96,
+     "top_e_tau_rate": 0.7395833333333334
+    },
+    "other": {
+     "mean_e_tau": 0.30849358974358976,
+     "positions": 39,
+     "top_e_tau_rate": 0.38461538461538464
+    },
+    "space": {
+     "mean_e_tau": 0.0625,
+     "positions": 17,
+     "top_e_tau_rate": 0.058823529411764705
+    }
+   },
+   "non_digit_positions": {
+    "digit": {
+     "mean_e_tau": 0.2013888888888889,
+     "positions": 9,
+     "top_e_tau_rate": 0.2222222222222222
+    },
+    "other": {
+     "mean_e_tau": 0.05820446735395189,
+     "positions": 582,
+     "top_e_tau_rate": 0.054982817869415807
+    },
+    "space": {
+     "mean_e_tau": -0.0027573529411764708,
+     "positions": 68,
+     "top_e_tau_rate": 0.0
+    }
+   }
+  },
+  "S5_answer_format": {
+   "keep": [
+    {
+     "entropy_tertile": 0,
+     "truncated_rate": 0.00022007042253521127,
+     "unreadable_rate": 0.015074823943661973
+    },
+    {
+     "entropy_tertile": 1,
+     "truncated_rate": 0.0005521201413427562,
+     "unreadable_rate": 0.01777826855123675
+    },
+    {
+     "entropy_tertile": 2,
+     "truncated_rate": 0.0006602112676056338,
+     "unreadable_rate": 0.023877640845070422
+    }
+   ],
+   "swap": [
+    {
+     "entropy_tertile": 0,
+     "truncated_rate": 0.00022007042253521127,
+     "unreadable_rate": 0.02068661971830986
+    },
+    {
+     "entropy_tertile": 1,
+     "truncated_rate": 0.0006625441696113075,
+     "unreadable_rate": 0.019213780918727916
+    },
+    {
+     "entropy_tertile": 2,
+     "truncated_rate": 0.00011003521126760564,
+     "unreadable_rate": 0.03025968309859155
+    }
+   ],
+   "swapt": [
+    {
+     "entropy_tertile": 0,
+     "truncated_rate": 0.00011003521126760564,
+     "unreadable_rate": 0.023327464788732395
+    },
+    {
+     "entropy_tertile": 1,
+     "truncated_rate": 0.0006625441696113075,
+     "unreadable_rate": 0.02617049469964664
+    },
+    {
+     "entropy_tertile": 2,
+     "truncated_rate": 0.0008802816901408451,
+     "unreadable_rate": 0.03455105633802817
+    }
+   ]
+  },
+  "S6_reliability": {
+   "e2": {
+    "pearson_halves": 0.8539446516829194,
+    "top_agreement": 0.9284833538840938
+   },
+   "e_tau": {
+    "pearson_halves": 0.8755364245662215,
+    "top_agreement": 0.9482120838471023
+   }
+  },
+  "S7_by_correctness": {
+   "correct": {
+    "main1": {
+     "ci": [
+      0.17773078658527577,
+      0.333662102244684
+     ],
+     "items_both": 21,
+     "positives": 121,
+     "within_item_auroc": 0.25221372072322973
+    },
+    "main2": {
+     "ci": [
+      0.09777324527324527,
+      0.18296582165629785
+     ],
+     "items_both": 20,
+     "positives": 121,
+     "within_item_auroc": 0.13936939911939913
+    }
+   },
+   "wrong": {
+    "main1": {
+     "ci": [
+      0.2213943665790575,
+      0.443473118152489
+     ],
+     "items_both": 14,
+     "positives": 121,
+     "within_item_auroc": 0.33019466948831433
+    },
+    "main2": {
+     "ci": [
+      0.22424683267369025,
+      0.3455674061974984
+     ],
+     "items_both": 15,
+     "positives": 121,
+     "within_item_auroc": 0.2889509575792943
+    }
+   }
+  },
+  "S8_matched_vs_unmatched": {
+   "entropy_quantiles_matched": [
+    3.068805782968581e-05,
+    0.0010904140301964019,
+    0.02416839915659827,
+    0.27890371296616223,
+    0.9295130630331243
+   ],
+   "entropy_quantiles_unmatched": [
+    1.045741360738913e-06,
+    5.771754047956468e-06,
+    4.476775312941361e-05,
+    0.0006283282990930804,
+    0.003669761345605994
+   ],
+   "log10_p_tau_quantiles_matched": [
+    -6.202554966014205,
+    -6.037032424460804,
+    -5.9996984065566235,
+    -5.971622255982904,
+    -5.808694078224777
+   ],
+   "log10_p_tau_quantiles_unmatched": [
+    -7.623903949143645,
+    -7.030142064126654,
+    -6.677497113363417,
+    -6.5144175303975045,
+    -5.1960575040455295
+   ],
+   "matched_positions": 811,
+   "p2_quantiles_matched": [
+    1.2098649855954718e-06,
+    6.204949342387819e-05,
+    0.0019231402466371242,
+    0.04526926928033549,
+    0.27506899602446433
+   ],
+   "p2_quantiles_unmatched": [
+    2.3882063383577734e-08,
+    1.0772508787111918e-07,
+    2.5454974806450734e-06,
+    4.484553246374261e-05,
+    0.0002433647948258139
+   ],
+   "quantiles": [
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95
+   ],
+   "unmatched_positions": 40
+  },
+  "base_accuracy": 0.6,
+  "coverage_ok": true,
+  "digit_positions": 152,
+  "guard_ok": true,
+  "items": 40,
+  "items_in_analysis": 39,
+  "items_unreadable_base": 1,
+  "label_main1": "AWAY_PERSISTS_MATCHED",
+  "label_main2": "AWAY_REPLICATED",
+  "label_main3": "DIGIT_BEYOND_CONFIDENCE_AND_SWAP",
+  "match_coverage": 0.9529964747356052,
+  "positions_all": 851,
+  "positions_matched": 811,
+  "top_n": 121
+ },
+ "code_commits": {
+  "A": "5592aa76bdd1d0576af563f241f2e31c96d33511",
+  "B": "5592aa76bdd1d0576af563f241f2e31c96d33511"
+ },
+ "gate_doc_sha256": "fa30c6ef7dac63a5fb45778a482c1fea55f3d6454da3c2e7831034a2c41ec0f5",
+ "items_sha256": "aeef9fe19f0c5411b91d0e65f7581e6712e29c82c33737fd2abb75ad34d600f6",
+ "result_sha256": "7d15e62e258588dfd239c976e9490fd86862b043a548dcaccf2bc4f2b3b85ff1",
+ "schema": "dp7-matched-v1",
+ "versions": {
+  "numpy": "2.1.3",
+  "scikit_learn": "1.6.1",
+  "scipy": "1.16.3"
+ }
+}

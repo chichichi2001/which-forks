@@ -1,0 +1,497 @@
+{
+ "diverged_rows": 0,
+ "halves": [
+  "A",
+  "B"
+ ],
+ "max_diverged_rows": 1,
+ "pass": true,
+ "per_half": {
+  "A": {
+   "code_commit": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b",
+   "diverged_rows": 0,
+   "half": "A",
+   "per_row": [
+    {
+     "base_compared_steps": 173,
+     "base_diverged_at": null,
+     "diverged": false,
+     "row": 9,
+     "samples": [
+      {
+       "i": 0,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 302,
+       "t": 0
+      },
+      {
+       "i": 0,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 212,
+       "t": 0
+      },
+      {
+       "i": 0,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 246,
+       "t": 0
+      },
+      {
+       "i": 0,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 512,
+       "t": 0
+      },
+      {
+       "i": 4,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 132,
+       "t": 32
+      },
+      {
+       "i": 4,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 286,
+       "t": 32
+      },
+      {
+       "i": 4,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 480,
+       "t": 32
+      },
+      {
+       "i": 4,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 382,
+       "t": 32
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 75,
+       "t": 104
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 85,
+       "t": 104
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 88,
+       "t": 104
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 167,
+       "t": 104
+      }
+     ]
+    },
+    {
+     "base_compared_steps": 512,
+     "base_diverged_at": null,
+     "diverged": false,
+     "row": 11,
+     "samples": [
+      {
+       "i": 1,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 504,
+       "t": 8
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 504,
+       "t": 8
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 504,
+       "t": 8
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 504,
+       "t": 8
+      },
+      {
+       "i": 33,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 248,
+       "t": 264
+      },
+      {
+       "i": 33,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 248,
+       "t": 264
+      },
+      {
+       "i": 33,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 248,
+       "t": 264
+      },
+      {
+       "i": 33,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 248,
+       "t": 264
+      },
+      {
+       "i": 43,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 168,
+       "t": 344
+      },
+      {
+       "i": 43,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 168,
+       "t": 344
+      },
+      {
+       "i": 43,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 168,
+       "t": 344
+      },
+      {
+       "i": 43,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 168,
+       "t": 344
+      }
+     ]
+    },
+    {
+     "base_compared_steps": 103,
+     "base_diverged_at": null,
+     "diverged": false,
+     "row": 17,
+     "samples": [
+      {
+       "i": 0,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 87,
+       "t": 0
+      },
+      {
+       "i": 0,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 86,
+       "t": 0
+      },
+      {
+       "i": 0,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 101,
+       "t": 0
+      },
+      {
+       "i": 0,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 84,
+       "t": 0
+      },
+      {
+       "i": 7,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 49,
+       "t": 56
+      },
+      {
+       "i": 7,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 58,
+       "t": 56
+      },
+      {
+       "i": 7,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 41,
+       "t": 56
+      },
+      {
+       "i": 7,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 47,
+       "t": 56
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 34,
+       "t": 64
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 48,
+       "t": 64
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 33,
+       "t": 64
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 41,
+       "t": 64
+      }
+     ]
+    }
+   ],
+   "rows": [
+    9,
+    11,
+    17
+   ],
+   "rows_as_declared": true
+  },
+  "B": {
+   "code_commit": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b",
+   "diverged_rows": 0,
+   "half": "B",
+   "per_row": [
+    {
+     "base_compared_steps": 125,
+     "base_diverged_at": null,
+     "diverged": false,
+     "row": 33,
+     "samples": [
+      {
+       "i": 8,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 67,
+       "t": 64
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 58,
+       "t": 64
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 60,
+       "t": 64
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 58,
+       "t": 64
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 42,
+       "t": 72
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 45,
+       "t": 72
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 53,
+       "t": 72
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 47,
+       "t": 72
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 20,
+       "t": 104
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 20,
+       "t": 104
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 20,
+       "t": 104
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 18,
+       "t": 104
+      }
+     ]
+    },
+    {
+     "base_compared_steps": 152,
+     "base_diverged_at": null,
+     "diverged": false,
+     "row": 45,
+     "samples": [
+      {
+       "i": 1,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 101,
+       "t": 8
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 154,
+       "t": 8
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 141,
+       "t": 8
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 101,
+       "t": 8
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 75,
+       "t": 88
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 65,
+       "t": 88
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 77,
+       "t": 88
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 74,
+       "t": 88
+      },
+      {
+       "i": 16,
+       "identical": true,
+       "j": 0,
+       "stored_tokens": 24,
+       "t": 128
+      },
+      {
+       "i": 16,
+       "identical": true,
+       "j": 1,
+       "stored_tokens": 24,
+       "t": 128
+      },
+      {
+       "i": 16,
+       "identical": true,
+       "j": 2,
+       "stored_tokens": 24,
+       "t": 128
+      },
+      {
+       "i": 16,
+       "identical": true,
+       "j": 3,
+       "stored_tokens": 24,
+       "t": 128
+      }
+     ]
+    }
+   ],
+   "rows": [
+    33,
+    45
+   ],
+   "rows_as_declared": true
+  }
+ },
+ "rows_as_declared": true
+}

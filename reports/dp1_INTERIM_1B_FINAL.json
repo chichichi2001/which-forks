@@ -1,0 +1,26 @@
+{
+ "audit_diverged_rows": {
+  "1B": 0
+ },
+ "audit_pass": {
+  "1B": true
+ },
+ "audit_sha256": "2e206bb3060db79fe957ceae6d4b5d0d1645e3cf778c1d9ddb18158d5b0ae13d",
+ "code_commits": {
+  "1B": {
+   "A": "9e896e1606f6708b46e7117c722125c505f255b8",
+   "B": "9e896e1606f6708b46e7117c722125c505f255b8"
+  }
+ },
+ "complete": false,
+ "final_labels": {
+  "1B": "DP1_WEAK_MARKER"
+ },
+ "labels_before_audit": {
+  "1B": "DP1_WEAK_MARKER"
+ },
+ "models": [
+  "1B"
+ ],
+ "result_sha256": "98a12e81d957513d026d3dc1e09e5b7997116a227b2edc34a61912d7480a302c"
+}

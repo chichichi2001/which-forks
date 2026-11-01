@@ -1,0 +1,69 @@
+{
+ "schema": "cr1-g1-lengths-v1",
+ "n_called": 193,
+ "n_length_fail": 134,
+ "too_short": 0,
+ "too_long": 134,
+ "length_fail_bins": {
+  "<20": 0,
+  "20-29": 0,
+  "81-100": 58,
+  "101-120": 44,
+  "121-150": 25,
+  "151-200": 7,
+  ">200": 0
+ },
+ "length_fail_L_median": 104,
+ "length_fail_L_p90": 137,
+ "length_fail_L_max": 172,
+ "output_tokens_all_median": 181,
+ "unreadable": 2,
+ "stop_reason_counts": {
+  "end_turn": 191,
+  "max_tokens": 2
+ },
+ "windows": {
+  "30-80": {
+   "N": 57,
+   "L_mean": 64.1,
+   "usd_all": 58.81,
+   "n_after_budget": 57,
+   "usd_after_budget": 58.81
+  },
+  "30-100": {
+   "N": 81,
+   "L_mean": 73.2,
+   "usd_all": 105.77,
+   "n_after_budget": 69,
+   "usd_after_budget": 89.33
+  },
+  "30-120": {
+   "N": 94,
+   "L_mean": 79.6,
+   "usd_all": 142.78,
+   "n_after_budget": 56,
+   "usd_after_budget": 89.36
+  },
+  "30-150": {
+   "N": 100,
+   "L_mean": 84.1,
+   "usd_all": 167.16,
+   "n_after_budget": 51,
+   "usd_after_budget": 89.57
+  },
+  "20-80": {
+   "N": 57,
+   "L_mean": 64.1,
+   "usd_all": 58.81,
+   "n_after_budget": 57,
+   "usd_after_budget": 58.81
+  },
+  "20-120": {
+   "N": 94,
+   "L_mean": 79.6,
+   "usd_all": 142.78,
+   "n_after_budget": 56,
+   "usd_after_budget": 89.36
+  }
+ }
+}

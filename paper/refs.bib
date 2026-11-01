@@ -1,0 +1,479 @@
+% refs.bib -- verified 2026-10-09 against arXiv abs/HTML/PDF pages, iclr.cc / neurips.cc
+% virtual pages, proceedings.neurips.cc, ACL Anthology, AAAI OJS, dblp, transformer-circuits.pub.
+% Key convention: lastname + year + first title word (leading articles/numerals skipped;
+% hyphenated first words truncated at the hyphen; collective authors -> gemmateam / teamolmo).
+% @inproceedings = venue confirmed on an official page; @misc = arXiv-only or venue unconfirmed.
+% Per-entry evidence and corrections were reported in the session (2026-10-09); see notes/dp2_related_work.md.
+
+% ---------------------------------------------------------------------------
+% 1
+@inproceedings{bigelow2025forking,
+  title         = {Forking Paths in Neural Text Generation},
+  author        = {Bigelow, Eric and Holtzman, Ari and Tanaka, Hidenori and Ullman, Tomer},
+  booktitle     = {International Conference on Learning Representations (ICLR)},
+  year          = {2025},
+  eprint        = {2412.07961},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2412.07961}
+}
+
+% 2  (title confirmed: "Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation")
+@misc{bigelow2026forking,
+  title         = {Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation},
+  author        = {Bigelow, Eric and Zur, Amir and Grant, Satchel and Haklay, Tal and Rager, Can and Lewis, Owen and McGrath, Thomas and Merullo, Jack and Lubana, Ekdeep Singh and Geiger, Atticus},
+  year          = {2026},
+  eprint        = {2608.19611},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2608.19611}
+}
+
+% 3  (no venue found)
+@misc{zur2025are,
+  title         = {Are Language Models Aware of the Road Not Taken? Token-Level Uncertainty and Hidden State Dynamics},
+  author        = {Zur, Amir and Geiger, Atticus and Lubana, Ekdeep Singh and Bigelow, Eric},
+  year          = {2025},
+  eprint        = {2511.04527},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2511.04527}
+}
+
+% 4  (no venue found; latest arXiv version v4, 2025-10-27)
+@misc{bogdan2025thought,
+  title         = {Thought Anchors: Which {LLM} Reasoning Steps Matter?},
+  author        = {Bogdan, Paul C. and Macar, Uzay and Nanda, Neel and Conmy, Arthur},
+  year          = {2025},
+  eprint        = {2506.19143},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2506.19143}
+}
+
+% 5  (ICLR 2026 main-conference poster confirmed on iclr.cc)
+@inproceedings{macar2026thought,
+  title         = {Thought Branches: Interpreting {LLM} Reasoning Requires Resampling},
+  author        = {Macar, Uzay and Bogdan, Paul C. and Rajamanoharan, Senthooran and Nanda, Neel},
+  booktitle     = {International Conference on Learning Representations (ICLR)},
+  year          = {2026},
+  eprint        = {2510.27484},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2510.27484}
+}
+
+% 6  (ICML 2025 confirmed 2026-10-09: icml.cc/virtual/2025/poster/44503 and
+%     mlanthology.org/icml/2025/lin2025icml-critical -- PMLR 267, pp. 37906-37918)
+@inproceedings{lin2025critical,
+  title         = {Critical Tokens Matter: Token-Level Contrastive Estimation Enhances {LLM}'s Reasoning Capability},
+  author        = {Lin, Zicheng and Liang, Tian and Xu, Jiahao and Liu, Qiuzhi and Wang, Xing and Luo, Ruilin and Shi, Chufan and Li, Siheng and Yang, Yujiu and Tu, Zhaopeng},
+  booktitle     = {Proceedings of the 42nd International Conference on Machine Learning},
+  series        = {Proceedings of Machine Learning Research},
+  volume        = {267},
+  pages         = {37906--37918},
+  year          = {2025},
+  eprint        = {2411.19943},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2411.19943}
+}
+
+% 7
+@misc{abdin2024phi,
+  title         = {Phi-4 Technical Report},
+  author        = {Abdin, Marah and Aneja, Jyoti and Behl, Harkirat and Bubeck, S{\'e}bastien and Eldan, Ronen and Gunasekar, Suriya and Harrison, Michael and Hewett, Russell J. and Javaheripi, Mojan and Kauffmann, Piero and Lee, James R. and Lee, Yin Tat and Li, Yuanzhi and Liu, Weishung and Mendes, Caio C. T. and Nguyen, Anh and Price, Eric and de Rosa, Gustavo and Saarikivi, Olli and Salim, Adil and Shah, Shital and Wang, Xin and Ward, Rachel and Wu, Yue and Yu, Dingli and Zhang, Cyril and Zhang, Yi},
+  year          = {2024},
+  eprint        = {2412.08905},
+  archivePrefix = {arXiv},
+  note          = {Microsoft Research Technical Report MSR-TR-2024-57},
+  url           = {https://arxiv.org/abs/2412.08905}
+}
+
+% 8  (TITLE AND AUTHORS CHANGED in v3, 2026-09-28. v1 title: "Cliff Tokens: Identifying
+%     Single-Token Failure Triggers in LLM Mathematical Reasoning"; v1 authors: Ko, Kang, Lee)
+@misc{ko2026cliff,
+  title         = {Cliff Tokens: Analyzing Failure Trigger Tokens in {LLM} Mathematical Reasoning},
+  author        = {Ko, Jaeyong and Lee, Jinu and Kang, Pilsung and Lee, Yukyung},
+  year          = {2026},
+  eprint        = {2606.25524},
+  archivePrefix = {arXiv},
+  note          = {Version 3 (2026-09-28); v1 titled ``Cliff Tokens: Identifying Single-Token Failure Triggers in LLM Mathematical Reasoning''},
+  url           = {https://arxiv.org/abs/2606.25524}
+}
+
+% 9  (full title uses "Large Language Model", not "LLM")
+@misc{ruan2025enhancing,
+  title         = {Enhancing Large Language Model Reasoning via Selective Critical Token Fine-Tuning},
+  author        = {Ruan, Zhiwen and Li, Yixia and Zhu, He and Chen, Yun and Li, Peng and Liu, Yang and Chen, Guanhua},
+  year          = {2025},
+  eprint        = {2510.10974},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2510.10974}
+}
+
+% 10  (NeurIPS 2025 poster confirmed on neurips.cc)
+@inproceedings{wang2025beyond,
+  title         = {Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for {LLM} Reasoning},
+  author        = {Wang, Shenzhi and Yu, Le and Gao, Chang and Zheng, Chujie and Liu, Shixuan and Lu, Rui and Dang, Kai and Chen, Xionghui and Yang, Jianxin and Zhang, Zhenru and Liu, Yuqiong and Yang, An and Zhao, Andrew and Yue, Yang and Song, Shiji and Yu, Bowen and Huang, Gao and Lin, Junyang},
+  booktitle     = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year          = {2025},
+  eprint        = {2506.01939},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2506.01939}
+}
+
+% 11  (PUBLISHED UNDER A NEW TITLE with a different author list; arXiv v1 was
+%      "Entropy-Aware Branching for Improved Mathematical Reasoning", Li, Callanan, Zhu,
+%      Sibue, Papadimitriou, Mahfouz, Ma, Liu)
+@inproceedings{li2026entropy,
+  title         = {Entropy-Gated Branching for Efficient Test-Time Reasoning},
+  author        = {Li, Xianzhi and Callanan, Ethan and Ghassel, Abdellah and Zhu, Xiaodan},
+  booktitle     = {Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year          = {2026},
+  pages         = {5054--5069},
+  publisher     = {Association for Computational Linguistics},
+  doi           = {10.18653/v1/2026.eacl-long.235},
+  url           = {https://aclanthology.org/2026.eacl-long.235},
+  eprint        = {2503.21961},
+  archivePrefix = {arXiv}
+}
+
+% 12  (title confirmed)
+@misc{zhou2026reasoning,
+  title         = {Reasoning with Sampling: Cutting at Decision Points},
+  author        = {Zhou, Felix and Mehrotra, Anay and Liu, Quanquan C.},
+  year          = {2026},
+  eprint        = {2605.30327},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2605.30327}
+}
+
+% 13  (NeurIPS 2024 Main Conference Track confirmed on proceedings.neurips.cc)
+@inproceedings{wang2024chain,
+  title         = {Chain-of-Thought Reasoning Without Prompting},
+  author        = {Wang, Xuezhi and Zhou, Denny},
+  booktitle     = {Advances in Neural Information Processing Systems},
+  volume        = {37},
+  pages         = {66383--66409},
+  year          = {2024},
+  doi           = {10.52202/079017-2123},
+  eprint        = {2402.10200},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2402.10200}
+}
+
+% 14  (BlackboxNLP 2026 claimed only via a Hugging Face collection; not confirmed)
+@misc{candussio2026demystifying,
+  title         = {Demystifying Entropy-based Selection for Chain-of-Thought Compression in Large Reasoning Models},
+  author        = {Candussio, Sara and Scalena, Daniel and Bortolussi, Luca and Fersini, Elisabetta and Nissim, Malvina and Sarti, Gabriele},
+  year          = {2026},
+  eprint        = {2607.28707},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2607.28707}
+}
+
+% 15  (full title has a subtitle)
+@misc{patel2025chase,
+  title         = {How to Get Your {LLM} to Generate Challenging Problems for Evaluation},
+  author        = {Patel, Arkil and Reddy, Siva and Bahdanau, Dzmitry},
+  year          = {2025},
+  eprint        = {2502.14678},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2502.14678},
+  note          = {CHASE; verified 2026-10-16 on arXiv (authors, title). Data: McGill-NLP/CHASE-Math (MIT)}
+}
+
+@misc{papamichalis2026what,
+  title         = {What Does Chain-of-Thought Entropy Measure? {A} Channel Audit of Scaffolding, Routing, and Content},
+  author        = {Papamichalis, Marios and Ruane, Regina},
+  year          = {2026},
+  eprint        = {2609.25039},
+  archivePrefix = {arXiv},
+  primaryClass  = {stat.ML},
+  url           = {https://arxiv.org/abs/2609.25039}
+}
+
+% 16  (ACL 2026 confirmed on ACL Anthology. Author list follows the Anthology (7 authors);
+%      arXiv v3 additionally lists Pengfei Wan between Xin Tao and Ying-Cong Chen.)
+@inproceedings{yang2026less,
+  title         = {Less is More: Improving {LLM} Reasoning with Minimal Test-Time Intervention},
+  author        = {Yang, Zhen and Zhang, Mingyang and Chen, Feng and Ding, Ganggui and Hou, Liang and Tao, Xin and Chen, Ying-Cong},
+  booktitle     = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year          = {2026},
+  pages         = {20124--20137},
+  publisher     = {Association for Computational Linguistics},
+  doi           = {10.18653/v1/2026.acl-long.921},
+  url           = {https://aclanthology.org/2026.acl-long.921/},
+  eprint        = {2510.13940},
+  archivePrefix = {arXiv}
+}
+
+% 17  (arXiv ID found: 2506.14758; AAAI-26 confirmed on AAAI OJS)
+@inproceedings{cheng2026reasoning,
+  title         = {Reasoning with Exploration: An Entropy Perspective},
+  author        = {Cheng, Daixuan and Huang, Shaohan and Zhu, Xuekai and Dai, Bo and Zhao, Wayne Xin and Zhang, Zhenliang and Wei, Furu},
+  booktitle     = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume        = {40},
+  number        = {36},
+  pages         = {30377--30385},
+  year          = {2026},
+  doi           = {10.1609/aaai.v40i36.40290},
+  eprint        = {2506.14758},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2506.14758}
+}
+
+% 18  (arXiv ID found: 2505.22617; no venue found)
+@misc{cui2025entropy,
+  title         = {The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models},
+  author        = {Cui, Ganqu and Zhang, Yuchen and Chen, Jiacheng and Yuan, Lifan and Wang, Zhi and Zuo, Yuxin and Li, Haozhan and Fan, Yuchen and Chen, Huayu and Chen, Weize and Liu, Zhiyuan and Peng, Hao and Bai, Lei and Ouyang, Wanli and Cheng, Yu and Zhou, Bowen and Ding, Ning},
+  year          = {2025},
+  eprint        = {2505.22617},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2505.22617}
+}
+
+% 19
+@misc{lanham2023measuring,
+  title         = {Measuring Faithfulness in Chain-of-Thought Reasoning},
+  author        = {Lanham, Tamera and Chen, Anna and Radhakrishnan, Ansh and Steiner, Benoit and Denison, Carson and Hernandez, Danny and Li, Dustin and Durmus, Esin and Hubinger, Evan and Kernion, Jackson and Lukosiute, Kamile and Nguyen, Karina and Cheng, Newton and Joseph, Nicholas and Schiefer, Nicholas and Rausch, Oliver and Larson, Robin and McCandlish, Sam and Kundu, Sandipan and Kadavath, Saurav and Yang, Shannon and Henighan, Thomas and Maxwell, Timothy and Telleen-Lawton, Timothy and Hume, Tristan and Hatfield-Dodds, Zac and Kaplan, Jared and Brauner, Jan and Bowman, Samuel R. and Perez, Ethan},
+  year          = {2023},
+  eprint        = {2307.13702},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2307.13702}
+}
+
+% 20  (ICLR 2025 main-conference poster confirmed on iclr.cc)
+@inproceedings{mirzadeh2025gsm,
+  title         = {{GSM-Symbolic}: Understanding the Limitations of Mathematical Reasoning in Large Language Models},
+  author        = {Mirzadeh, Iman and Alizadeh, Keivan and Shahrokhi, Hooman and Tuzel, Oncel and Bengio, Samy and Farajtabar, Mehrdad},
+  booktitle     = {International Conference on Learning Representations (ICLR)},
+  year          = {2025},
+  eprint        = {2410.05229},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2410.05229}
+}
+
+% 21  (no peer-reviewed venue confirmed; arXiv v1 dated 2024-12-31, v3 2025-10-08; 43 author entries)
+@misc{teamolmo2025olmo,
+  title         = {2 {OLMo} 2 Furious},
+  author        = {{Team OLMo} and Walsh, Pete and Soldaini, Luca and Groeneveld, Dirk and Lo, Kyle and Arora, Shane and Bhagia, Akshita and Gu, Yuling and Huang, Shengyi and Jordan, Matt and others},
+  year          = {2025},
+  eprint        = {2501.00656},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2501.00656}
+}
+
+% 22  (198 author entries incl. "Gemma Team")
+@misc{gemmateam2024gemma,
+  title         = {Gemma 2: Improving Open Language Models at a Practical Size},
+  author        = {{Gemma Team} and Riviere, Morgane and Pathak, Shreya and Sessa, Pier Giuseppe and Hardin, Cassidy and Bhupatiraju, Surya and Hussenot, L{\'e}onard and Mesnard, Thomas and Shahriari, Bobak and Ram{\'e}, Alexandre and others},
+  year          = {2024},
+  eprint        = {2408.00118},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2408.00118}
+}
+
+% 23  (published at BlackboxNLP 2024 workshop -- ACL Anthology ID 2024.blackboxnlp-1.19; pages and DOI
+%      confirmed on the Anthology page 2026-10-09)
+@inproceedings{lieberum2024gemma,
+  title         = {Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2},
+  author        = {Lieberum, Tom and Rajamanoharan, Senthooran and Conmy, Arthur and Smith, Lewis and Sonnerat, Nicolas and Varma, Vikrant and Kram{\'a}r, J{\'a}nos and Dragan, Anca and Shah, Rohin and Nanda, Neel},
+  booktitle     = {Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP},
+  year          = {2024},
+  address       = {Miami, Florida, US},
+  publisher     = {Association for Computational Linguistics},
+  pages         = {278--300},
+  doi           = {10.18653/v1/2024.blackboxnlp-1.19},
+  url           = {https://aclanthology.org/2024.blackboxnlp-1.19},
+  eprint        = {2408.05147},
+  archivePrefix = {arXiv}
+}
+
+% 24  (NeurIPS 2024 poster confirmed on neurips.cc)
+@inproceedings{dunefsky2024transcoders,
+  title         = {Transcoders Find Interpretable {LLM} Feature Circuits},
+  author        = {Dunefsky, Jacob and Chlenski, Philippe and Nanda, Neel},
+  booktitle     = {Advances in Neural Information Processing Systems},
+  volume        = {37},
+  year          = {2024},
+  eprint        = {2406.11944},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2406.11944}
+}
+
+% 25a  (Transformer Circuits Thread, published 2025-03-27; byline order as on the page)
+@article{ameisen2025circuit,
+  title         = {Circuit Tracing: Revealing Computational Graphs in Language Models},
+  author        = {Ameisen, Emmanuel and Lindsey, Jack and Pearce, Adam and Gurnee, Wes and Turner, Nicholas L. and Chen, Brian and Citro, Craig and Abrahams, David and Carter, Shan and Hosmer, Basil and Marcus, Jonathan and Sklar, Michael and Templeton, Adly and Bricken, Trenton and McDougall, Callum and Cunningham, Hoagy and Henighan, Thomas and Jermyn, Adam and Jones, Andy and Persic, Andrew and Qi, Zhenyi and Thompson, T. Ben and Zimmerman, Sam and Rivoire, Kelley and Conerly, Thomas and Olah, Chris and Batson, Joshua},
+  journal       = {Transformer Circuits Thread},
+  year          = {2025},
+  url           = {https://transformer-circuits.pub/2025/attribution-graphs/methods.html}
+}
+
+% 25b  (canonical citation for the circuit-tracer library: BlackboxNLP 2025 paper)
+@inproceedings{hanna2025circuit,
+  title         = {Circuit-Tracer: A New Library for Finding Feature Circuits},
+  author        = {Hanna, Michael and Piotrowski, Mateusz and Lindsey, Jack and Ameisen, Emmanuel},
+  booktitle     = {Proceedings of the 8th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP},
+  year          = {2025},
+  pages         = {239--249},
+  publisher     = {Association for Computational Linguistics},
+  doi           = {10.18653/v1/2025.blackboxnlp-1.14},
+  url           = {https://aclanthology.org/2025.blackboxnlp-1.14},
+  note          = {Code: \url{https://github.com/safety-research/circuit-tracer}}
+}
+
+% 26  (PUBLISHED UNDER A NEW TITLE. arXiv titles: v1 "Think-to-Talk or Talk-to-Think? When LLMs
+%      Come Up with an Answer in Multi-Step Reasoning"; v2 "... Multi-Step Arithmetic Reasoning";
+%      v3 "... Multi-Hop Arithmetic Reasoning"; v4 = published title below)
+@inproceedings{kudo2026llms,
+  title         = {{LLMs} Faithfully and Iteratively Compute Answers During {CoT}: A Systematic Analysis With Multi-step Arithmetics},
+  author        = {Kudo, Keito and Aoki, Yoichi and Kuribayashi, Tatsuki and Sone, Shusaku and Taniguchi, Masaya and Brassard, Ana and Sakaguchi, Keisuke and Inui, Kentaro},
+  booktitle     = {Findings of the Association for Computational Linguistics: EACL 2026},
+  year          = {2026},
+  pages         = {1114--1153},
+  publisher     = {Association for Computational Linguistics},
+  url           = {https://aclanthology.org/2026.findings-eacl.59},
+  eprint        = {2412.01113},
+  archivePrefix = {arXiv}
+}
+
+% 27  (kuhn2023semantic removed 2026-10-09: not cited in the paper.)
+
+% 28  (v2, 2026-04-03, lists 4 authors; v1, 2026-03-30, listed Song Yu and Li Li)
+@misc{yu2026erpo,
+  title         = {{ERPO}: Token-Level Entropy-Regulated Policy Optimization for Large Reasoning Models},
+  author        = {Yu, Song and Li, Li and Zhao, Wenwen and Yang, Zhisheng},
+  year          = {2026},
+  eprint        = {2603.28204},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2603.28204}
+}
+
+% ---------------------------------------------------------------------------
+% Added 2026-10-09 from the novelty check (scratchpad/refs/novelty.md); checked by the main session.
+
+% arXiv abstract page read (v2, 2026-05-15); no venue.
+@misc{garcia2026last,
+  title         = {The Last Word Often Wins: A Format Confound in Chain-of-Thought Corruption Studies},
+  author        = {Garcia, Gabriel},
+  year          = {2026},
+  eprint        = {2605.10799},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2605.10799}
+}
+
+% arXiv PDF read (v2; v1 2026-04-13 titled "Rethinking Token-Level Credit Assignment in RLVR:
+% A Polarity-Entropy Analysis"); no venue. Proposition 2: I(o_t; r | s_t) <= H_t.
+@misc{he2026where,
+  title         = {Where Hindsight Credit Can Reside: A Signed-Capacity View of Token Updates in {RLVR}},
+  author        = {He, Yuhang and Wu, Haodong and Liu, Siyi and Ge, Hongyu and Zhou, Hange and Wu, Keyi and Zheng, Zhuo and Lin, Qihong and Zhong, Zixin and Zhang, Yongqi},
+  year          = {2026},
+  eprint        = {2604.11056},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2604.11056}
+}
+
+% Author order confirmed on arXiv (Bin Lei first) by an independent check, 2026-10-09. No venue.
+@misc{lei2026fork,
+  title         = {Fork Where the Model Changes Its Mind: Belief-Shift Branching for Tree-Structured Reinforcement Learning},
+  author        = {Lei, Bin and Li, Yu and Choubey, Prafulla Kumar and Zhang, Jiaxin and Peng, Becky Xiangyu and Ye, Qinyuan and Narayan, Kartik and Ding, Caiwen and Savarese, Silvio and Wu, Chien-Sheng},
+  year          = {2026},
+  eprint        = {2609.11061},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2609.11061}
+}
+
+% Added 2026-10-09 after the review round (Rao-Blackwellization as prior art for the stratified drop);
+% PMLR page read: proceedings.mlr.press/v97/liu19c.html.
+@inproceedings{liu2019rao,
+  title         = {Rao-{B}lackwellized Stochastic Gradients for Discrete Distributions},
+  author        = {Liu, Runjing and Regier, Jeffrey and Tripuraneni, Nilesh and Jordan, Michael and McAuliffe, Jon},
+  booktitle     = {Proceedings of the 36th International Conference on Machine Learning},
+  series        = {Proceedings of Machine Learning Research},
+  volume        = {97},
+  pages         = {4023--4031},
+  year          = {2019},
+  eprint        = {1810.04777},
+  archivePrefix = {arXiv},
+  url           = {https://proceedings.mlr.press/v97/liu19c.html}
+}
+
+% arXiv:2610.11399v1 (cs.AI, 2026-10-08). Read 2026-10-09 from the arXiv HTML text pasted by the owner
+% (arXiv itself returned HTTP 429 to us). A general potential-based variance-reduction framework for
+% expectations under LMs that uses next-token distributions computed during sampling; the stratified drop is
+% the same idea at one position with two strata. Does not address entropy or forking tokens. No venue.
+@misc{re2026estimating,
+  title         = {Estimating Great Expectations under Autoregressive Language Models with Potentials},
+  author        = {Re, Francesco Ignazio and Ghosh, Shubhangi and Vieira, Tim and Cotterell, Ryan},
+  year          = {2026},
+  eprint        = {2610.11399},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2610.11399}
+}
+
+% Added 2026-10-13 for Appendix D (PARA-1a typing uses WordNet 3.0 through NLTK). Standard citations; not yet
+% re-checked against the publishers' pages.
+@book{bird2009nltk,
+  title     = {Natural Language Processing with Python},
+  author    = {Bird, Steven and Klein, Ewan and Loper, Edward},
+  publisher = {O'Reilly Media},
+  year      = {2009}
+}
+
+@article{miller1995wordnet,
+  title   = {{WordNet}: A Lexical Database for {English}},
+  author  = {Miller, George A.},
+  journal = {Communications of the ACM},
+  volume  = {38},
+  number  = {11},
+  pages   = {39--41},
+  year    = {1995}
+}
+
+% Added 2026-10-17 for Appendix F (JP-1). Titles, authors and venues checked against arXiv / the ACL Anthology on
+% 2026-10-17; the model card is cited as a web resource.
+@inproceedings{shi2023mgsm,
+  title         = {Language Models are Multilingual Chain-of-Thought Reasoners},
+  author        = {Shi, Freda and Suzgun, Mirac and Freitag, Markus and Wang, Xuezhi and Srivats, Suraj and Vosoughi, Soroush and Chung, Hyung Won and Tay, Yi and Ruder, Sebastian and Zhou, Denny and Das, Dipanjan and Wei, Jason},
+  booktitle     = {International Conference on Learning Representations (ICLR)},
+  year          = {2023},
+  eprint        = {2210.03057},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2210.03057}
+}
+
+@inproceedings{mccann2020fugashi,
+  title     = {fugashi, a Tool for Tokenizing {Japanese} in {Python}},
+  author    = {McCann, Paul},
+  booktitle = {Proceedings of the Second Workshop for NLP Open Source Software (NLP-OSS)},
+  pages     = {44--51},
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.nlposs-1.7}
+}
+
+@misc{sbintuitions2025sarashina,
+  title        = {Sarashina2.2-1B-instruct-v0.1},
+  author       = {{SB Intuitions}},
+  year         = {2025},
+  howpublished = {Model card, Hugging Face},
+  url          = {https://huggingface.co/sbintuitions/sarashina2.2-1b-instruct-v0.1}
+}
+
+% Added for rev. 7 (DP9, 2026-10-18): Qwen2.5 Technical Report; arXiv abstract page checked 2026-10-18 (author
+% field begins "Qwen", then An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu; only these
+% were checked, so the rest are "others").
+@misc{qwenteam2024qwen25,
+  title         = {Qwen2.5 Technical Report},
+  author        = {{Qwen Team} and Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and others},
+  year          = {2024},
+  eprint        = {2412.15115},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2412.15115}
+}

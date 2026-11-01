@@ -1,0 +1,46 @@
+# CR-1 negative-control calibration (simulation only; scripts/cr1_null_calibration.py)
+# run 2026-10-11; null scenarios: 2 seeds x 150 datasets; effect scenarios: seed 3, 100 datasets; R=199 permutations
+## alt_m_eff_highm.txt
+I=90 P=55 A=12 B=36 datasets=100 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+alt_m_eff_highm | 0.280 | 0.792 | 0.788 | +0.005
+## alt_m_null.1.txt
+I=90 P=55 A=12 B=36 datasets=150 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+alt_m_null | 0.073 | 0.737 | 0.736 | +0.001
+## alt_m_null.2.txt
+I=90 P=55 A=12 B=36 datasets=150 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+alt_m_null | 0.060 | 0.736 | 0.735 | +0.001
+## beta_eff_highm.txt
+I=90 P=55 A=12 B=36 datasets=100 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_eff_highm | 1.000 | 0.794 | 0.761 | +0.033
+## beta_eff_random.txt
+I=90 P=55 A=12 B=36 datasets=100 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_eff_random | 0.360 | 0.734 | 0.723 | +0.011
+## beta_eff_u.txt
+I=90 P=55 A=12 B=36 datasets=100 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_eff_u | 1.000 | 0.860 | 0.809 | +0.052
+## beta_null.1.txt
+I=90 P=55 A=12 B=36 datasets=150 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_null | 0.040 | 0.694 | 0.694 | +0.000
+## beta_null.2.txt
+I=90 P=55 A=12 B=36 datasets=150 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_null | 0.040 | 0.695 | 0.695 | -0.000
+## beta_trend_eff_highm.txt
+I=90 P=55 A=12 B=36 datasets=100 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_trend_eff_highm | 1.000 | 0.793 | 0.762 | +0.031
+## beta_trend_null.1.txt
+I=90 P=55 A=12 B=36 datasets=150 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_trend_null | 0.013 | 0.690 | 0.691 | -0.001
+## beta_trend_null.2.txt
+I=90 P=55 A=12 B=36 datasets=150 permutations=199
+scenario | reject rate (p<=0.05) | mean observed AUROC | mean null median | mean delta
+beta_trend_null | 0.053 | 0.691 | 0.690 | +0.000

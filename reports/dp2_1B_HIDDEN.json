@@ -1,0 +1,11 @@
+{
+ "argmax_agreement": 0.9992283950617284,
+ "code_commit": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b",
+ "dim": 2048,
+ "gpu_name": "NVIDIA L4",
+ "layer": 12,
+ "n_layers": 16,
+ "seconds": 2.341822862625122,
+ "sha256": "7e9f97bd02e250d8fe89e018a33a47773ac00e5556049540e54170594e4c3b62",
+ "windows": 1296
+}

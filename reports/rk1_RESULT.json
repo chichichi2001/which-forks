@@ -1,0 +1,122 @@
+{
+ "analysis": {
+  "K1_rank_by_entropy_tertile": [
+   {
+    "entropy_max": 0.0034285870173667164,
+    "positions": 271,
+    "rank_median": 4.0,
+    "rank_q25": 3.0,
+    "rank_q75": 7.0,
+    "share_rank_le_10": 0.948339483394834,
+    "tertile": 0
+   },
+   {
+    "entropy_max": 0.1484984049296218,
+    "positions": 270,
+    "rank_median": 12.0,
+    "rank_q25": 8.0,
+    "rank_q75": 23.75,
+    "share_rank_le_10": 0.3888888888888889,
+    "tertile": 1
+   },
+   {
+    "entropy_max": 2.8044040245554136,
+    "positions": 270,
+    "rank_median": 27.0,
+    "rank_q25": 18.25,
+    "rank_q75": 94.75,
+    "share_rank_le_10": 0.07407407407407407,
+    "tertile": 2
+   }
+  ],
+  "K2_spearman_entropy_logrank": {
+   "ci": [
+    0.8060731872897049,
+    0.8551185696842912
+   ],
+   "items": 39,
+   "mean": 0.8315530861988032
+  },
+  "K3_spearman_logrank_e_tau": {
+   "ci": [
+    -0.23883043616254615,
+    -0.07350816449575952
+   ],
+   "items": 38,
+   "mean": -0.1567508536994678
+  },
+  "K4_high_rank": {
+   "ci": [
+    0.3237258312738725,
+    0.5358158701773281
+   ],
+   "items_both": 16,
+   "positions": 402,
+   "positives": 33,
+   "within_item_auroc": 0.4310640916033739
+  },
+  "K4_low_rank": {
+   "ci": [
+    0.24144562444654355,
+    0.35956752868547215
+   ],
+   "items_both": 31,
+   "positions": 409,
+   "positives": 88,
+   "within_item_auroc": 0.2994166899408835
+  },
+  "K5_digit_or_item_x_logrank_quintile": {
+   "bootstrap_undefined": 1,
+   "ci": [
+    33.24923708920187,
+    262.0260101010101
+   ],
+   "control_median": 1.0097276805832405,
+   "control_ok": true,
+   "label": "DIGIT_BEYOND_CONFIDENCE_AND_SWAP",
+   "mh_den": 0.6284271284271284,
+   "mh_num": 41.976839826839814,
+   "odds_ratio": 66.7966704936854
+  },
+  "check_top_e_tau_auroc": {
+   "ci": [
+    0.22307944076587172,
+    0.3508179032148027
+   ],
+   "items_both": 35,
+   "positions": 811,
+   "positives": 121,
+   "within_item_auroc": 0.28340610022926355
+  },
+  "items": 39,
+  "positions": 811,
+  "rank_median": 11.0,
+  "reading": {
+   "K2_K3": "CONFIDENT_HIGHER_RANK_YET_MORE_FRAGILE",
+   "K4": "CANNOT_EXCLUDE",
+   "K5": "DIGIT_BEYOND_RANK"
+  }
+ },
+ "checks": {
+  "p_within_1pct_share": 1.0,
+  "pass": true,
+  "positions": 851,
+  "steps": 6651,
+  "tau_share": 1.0,
+  "top1_share": 1.0
+ },
+ "code_commit": "a92192f5efe1fb11e7bf6008631e244c4545f3ab",
+ "gpu_name": "NVIDIA L4",
+ "plan_doc_sha256": "ad42ce984e4dd473ec7b508b5609213e69d81e5ea198578fec64a2f53e19a5c8",
+ "reread_dp7": {
+  "result_sha256_exact": true,
+  "stored_result_sha256": "7d15e62e258588dfd239c976e9490fd86862b043a548dcaccf2bc4f2b3b85ff1",
+  "within_1e-9": true
+ },
+ "result_sha256": "d17d32f57a37fa84e4ab6005666d94f41f91a5ee3260c53f61756c637a42c125",
+ "schema": "rk1_tau_rank_v1",
+ "versions": {
+  "numpy": "2.1.3",
+  "scipy": "1.16.3"
+ }
+}

@@ -1,0 +1,430 @@
+# Commits cited in the paper and the notes
+
+The experiments ran from a private repository. This table maps every commit hash cited in `paper/draft_en.md` (and in the notes) to its full hash, date and subject, and to the files it changed that are in this release. Each file's SHA-256 is in `MANIFEST.json`; gate documents and result files can be checked against the SHA-256 values quoted in the paper and the notes.
+
+- `02421adc00830f09682861f2897b74e1da238ea8` → `02421adc00830f09682861f2897b74e1da238ea8` — 2026-10-13 14:45:18 +0900 CR-2 plan draft v5 (unfrozen): owner decision E = option 2 (B_cap $60, B_stop $54) applied to every budget rule; D2 early-stop compares remaining estimate with remaining budget; prelook ordering, excluded-row hash serialization and S10 denominator clarified; review request v5
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v5.md
+- `0267cbd` → `0267cbdf16d77d6620892d66ac66ca490d460b9b` — 2026-10-13 00:37:51 +0900 CR-1a G3: notebook pinned to bcafae783d2a369f3e8363434b40c981b3490c6f
+  - notebooks/CR1A_G3.ipynb
+- `03b0cd7` → `03b0cd75535afe55ad8c159003a9ccd9f7450da7` — 2026-10-15 09:19:59 +0900 CR-5 stage A lock (a913f2b7): NW0 310, R6 3+3, B1 5,728 requests, budget $5.05 <= $5.64
+  - notes/cr5_lock_stageA.json
+  - notes/cr5_lock_stageA.md
+- `0493790` → `0493790442035c7e8544c4a57f933e4c3740e6a5` — 2026-10-15 17:41:19 +0900 DP8 gate FROZEN (owner approval 2026-10-15 17:40 JST; GPU notebooks run one at a time)
+  - notes/dp8_rarity_bridge_gate.md
+- `04e259d` → `04e259d5ebe4cec91dc3263ed8598812022fe7dd` — 2026-10-06 04:55:42 +0900 DP1-X: exploratory plan (hidden-state probes vs distribution signals on DP1 1B rows), code, tests, notebook builder — committed before any analysis
+  - notes/dp1x_probe_exploratory_plan.md
+- `08b481d` → `08b481df5b7d7b85cdf45caf3da098f56ad658d2` — 2026-10-13 20:25:50 +0900 CR-2 plan: owner chose [決定A'] [決定B'] [決定H] as recommended and approved the freeze (verbatim, 20:25 JST)
+  - notes/cr2_plan.md
+- `093e761` → `093e7610880d7508d3a5a2404189384826a73f99` — 2026-10-15 13:05:28 +0900 Merge remote decision-points into CR-5 line
+- `0b1abbd` → `0b1abbd64b6a60a14db6f05eb46c6bc4f1e8ada2` — 2026-10-13 16:42:20 +0900 CR-2 exploration result: in pre-look-shaped worlds with few forks per item, BEYOND is 2-6% (no better than null)
+  - notes/cr2_power_realistic_result.md
+  - reports/cr2_power_realistic.txt
+- `0e683b1` → `0e683b18efb6e84682a79c15202d56afaa81668e` — 2026-10-15 07:58:13 +0900 CR-4 stage B2 collected: 2,784/2,784, 0 retries, CR-4 total $5.18
+  - notes/cr4_stageB2_result.md
+- `0f798b31362e8f80942051f72d908a82af4cd803` → `0f798b31362e8f80942051f72d908a82af4cd803` — 2026-10-13 20:02:25 +0900 CR-2 plan v9 (unfrozen): move data to CHASE-Math (pinned a8fb6a26, pre-look 3 exclusion, fixed-order 120 candidates, seed-cluster sensitivity), license record G-L, CHASE cost/power, decisions A'/B'/H; review request v9
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v9.md
+- `0fff4f7` → `0fff4f7fdd1c609037827b0d54195d0ddf43b3d5` — 2026-10-06 16:46:20 +0900 DP2: gate FROZEN (owner approval 2026-10-06 16:45 JST)
+  - notes/dp2_real_forks_gate.md
+- `10977e1` → `10977e164564b2ee8eb87b614b3bb23222fbc250` — 2026-10-12 18:43:29 +0900 CR-1: fix the prompt text before G1 (owner chose option A, 18:41 JST); request helpers and G1/G1b notebook builder
+  - notes/cr1_prompt_record.md
+- `10ff7d4` → `10ff7d47c5ffb55b0bf24093dede978ac85565db` — 2026-10-17 12:18:02 +0900 DP9 smoke notebook rebuilt at 1172e5b6788b6496076fe06169094ffd4e900a6e (revised Cell 4)
+  - notebooks/DP9_SMOKE.ipynb
+- `116bb1edaabb5cf7aab705eb61c6059472fd607a` → `116bb1edaabb5cf7aab705eb61c6059472fd607a` — 2026-10-16 23:11:51 +0900 JP-1 en-A builder: audit cell comment for amendment 2
+- `1172e5b` → `1172e5b6788b6496076fe06169094ffd4e900a6e` — 2026-10-17 12:18:02 +0900 DP9 smoke: E2 as a teacher-forced count rule (>= 29/32 steps, max |diff| <= 1.0), eager E2 recorded, G1 vs cached greedy + repeat
+- `16c96e3` → `16c96e3ca0e1bba75806941313ba74b32afa0f80` — 2026-10-17 01:38:30 +0900 Paper rev. 6: repairs from the independent fact-check (18 findings: sampling-step and audit disclosures, stop-line wording, undecided digit test, untested DP5 comparison, strict readout, contamination, item counts, timeline, captions, reference order); LaTeX rebuilt
+  - paper/draft_en.md
+  - paper/latex/main.pdf
+  - paper/latex/main.tex
+- `1aeaf00` → `1aeaf00c62c309f3fbc7c7c568ce119ab1e332c0` — 2026-10-13 19:15:20 +0900 Pre-look 3 plan: CHASE-Math and MATH Level 5 (integer) as CR-2 alternatives, written before any request
+  - notes/alt_prelook_plan.md
+- `1c1824d` → `1c1824d9260db24c3da863b5075ecad0167ee0f8` — 2026-10-13 20:20:37 +0900 review: independent CR-2 v10 confirmation audit and cluster/hash edge cases
+  - notes/cr2_independent_review_v10_20261013_gpt6.md
+- `1ee04f64a563f6295af7d503ba4d2932d87ee141` → `1ee04f64a563f6295af7d503ba4d2932d87ee141` — 2026-10-13 17:47:57 +0900 CR-2 plan v6 (unfrozen): search-then-measure design (S2) replaces uniform word sampling; review request v6
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v6.md
+- `1eeca82` → `1eeca82a79da979add0b9719cbc2ceab9f1a8810` — 2026-10-12 19:15:02 +0900 Add independent CR-1a and PARA-1a prereg amendment adversarial review at d9a6db5
+  - notes/cr1a_independent_review_20261012_gpt6.md
+- `1fa306b` → `1fa306bdefb06e572cbe21ae0a840b9a53d60f9a` — 2026-10-13 17:54:25 +0900 review: independent CR-2 v6 audit of adaptive search and conditional null
+  - notes/cr2_independent_review_v6_20261013_gpt6.md
+- `1fbf8b6` → `1fbf8b6c811695503bbf5909869eb776cc910272` — 2026-10-13 19:40:22 +0900 Pre-look 3 result: CHASE-Math passes (accuracy 0.66, all baselines usable, $0.31/item est.), MATH L5 fails the band (0.74); $0.52 spent
+  - notes/alt_prelook_result.md
+  - reports/alt_prelook_summary.json
+- `2199f31` → `2199f3162747c629921c6621fe7496861bea0d6a` — 2026-10-06 06:23:59 +0900 DP1-X2: fix record keys (token / w2) for top-1 / top-2 digit flags; nothing analysed before the fix
+  - notes/dp1x2_followup_plan.md
+- `21a0b63` → `21a0b633413e80a4feeb0223da300c95ff8b4c7b` — 2026-10-14 23:05:29 +0900 CR-4 plan v3 frozen (owner approval 2026-10-14 23:05 JST)
+  - notes/cr4_freeze_record.md
+  - notes/cr4_plan.md
+- `22b4407` → `22b4407f865789ad30bff809f1252b978a721665` — 2026-10-13 16:54:46 +0900 CR-2 exploration plan: simulate the "search for forks, then measure" design (option A), written before computing
+  - notes/cr2_search_design_sim_plan.md
+- `231db8c` → `231db8c58a8903d8e95fcb6ac18f9a9602f43e14` — 2026-10-07 02:03:26 +0900 CT-1: review fixes (GPU memory in Cell 6, IT-check settings, S1 main-2 form, resume after rebuild, throughput stop line); implementation notes
+  - notes/ct1_implementation_notes.md
+- `241a3f6` → `241a3f6c5cc6e93feb6608ad7c5cc42183267b00` — 2026-10-17 13:26:08 +0900 DP9 gate FROZEN (owner 2026-10-17 13:24 JST: 凍結を承認する！ノートブックおねがい！); freeze-time details filled
+  - notes/dp9_qwen7b_replication_gate.md
+- `24f01cc` → `24f01cc75e320dd0b7cc32608c9a9021374d5125` — 2026-10-06 05:35:08 +0900 DP1-X2: post-hoc follow-up plan (token-type/position baselines, plausible swaps, lead probes), code and notebook builder — committed before running
+  - notes/dp1x2_followup_plan.md
+- `27ce605` → `27ce60546987b660b0e4942659fccf6ba19b82d4` — 2026-10-15 13:34:23 +0900 JP-1: main-run GPU notebook builder (one language x half per notebook, run one at a time) + Dropbox client copy
+- `2813ef1` → `2813ef176d93c51df6cd0d16364e0d8b4a05e47e` — 2026-10-15 08:50:02 +0900 JP-1 pre-G0 lock: freeze/code commits and blobs, seeds, model/MGSM/package versions, item indices (numbers only), G0 switch rule, code choices
+  - notes/jp1_lock_pre_g0.md
+- `2a5783e` → `2a5783e434aab1aff4839ab33d5bab4d6016c1c1` — 2026-10-13 19:05:29 +0900 review: CR-2 v8 independent F1 exact-rational verification and S12 edge case
+  - notes/cr2_independent_review_v8_20261013_gpt6.md
+- `2c4f70a` → `2c4f70afb8a4229f167a94de83699bb0335ba944` — 2026-10-14 17:29:26 +0900 review: independently re-audit JP-1 v2 repair gates V1-V6
+  - notes/jp1_independent_review_v2_20261014_gpt6.md
+- `2d0c806` → `2d0c8062ba0de01da8b91bac5a3f3b1e91be0255` — 2026-10-07 13:10:19 +0900 DP2-X2: part A module/tests/notebook builder; part B script and result
+  - reports/dp2x2_B_dp1s5.json
+- `311e300` → `311e3008211ebaca0735abccf3501e6fcb8da3df` — 2026-10-14 00:12:52 +0900 CR-2 code lock: pre-G1 acceptance 1 passed at a9fd534 (tests, 9-world safety diagnostic, 3-world regression; identical to records)
+  - notes/cr2_code_lock.md
+  - reports/cr2_preg1_result.json
+- `3198152` → `3198152f5aac8e68bc5a5482f06bd55bdb81539e` — 2026-10-15 08:37:08 +0900 JP-1 FREEZE: owner approval 2026-10-15 08:36 JST (verbatim), freeze record (decisions 1-7, reconfirmed answer format and v2/v3 changes, reviews to v6 PASS, C0 run 3 pass at 5dfbf0e)
+  - notes/jp1_sarashina_gate.md
+- `3257d33` → `3257d33c91205cf712eb2503db9ba3cdf5d820d3` — 2026-10-14 17:08:47 +0900 review: adversarial JP-1 R2/R3 parser and language-category gate audit
+  - notes/jp1_independent_review_20261014_gpt6.md
+- `3338f98` → `3338f9814fd5520c74a3662fe23244160b4430eb` — 2026-10-13 17:06:27 +0900 CR-2 exploration plan 2: stronger search (more draws, stop at a window, confirm the whole window), written before computing
+  - notes/cr2_search_design_sim2_plan.md
+- `34c6515` → `34c6515cb198e0cd11725582f9ca146f7b0298e0` — 2026-10-17 12:50:00 +0900 DP9 smoke 3 (asked for by the fresh-eyes review, approved by the owner): matched coverage, M1 at 128 rows, memory at max length, real wall time of whole positions
+- `3b4c7aebd0c94cb2d1e9594ef5016749e423ca46` → `3b4c7aebd0c94cb2d1e9594ef5016749e423ca46` — 2026-10-14 17:02:19 +0900 JP-1: independent review request (draft v1, plan unfrozen)
+  - notes/jp1_review_request.md
+- `3c74aa9` → `3c74aa95fe883479013d1ac832c86e146c4b312b` — 2026-10-07 13:51:36 +0900 DP3: notebook builder review fixes (8 GB/worker, B1 rows record, GPU free check, 16h message, info timing)
+- `3cd74a1` → `3cd74a181f6584333819102b99781e9ba7d4c954` — 2026-10-13 17:57:56 +0900 CR-2: shared search-stage module (definition 17/18) and the S2 recalibration plan with a one-sided upper-bound rule (review v6 E1/E2), written before computing
+  - notes/cr2_s2_recalibration_plan.md
+- `3f75bb895b2e1036ab2149950c3da243ea1deae3` → `3f75bb895b2e1036ab2149950c3da243ea1deae3` — 2026-10-12 16:49:43 +0900 PARA-1 draft v6 (unfrozen): address re-review dbe77ad (T1-L1, T2-L1)
+  - notes/para1_paraphasia_plan.md
+  - notes/para1_review_request_v6.md
+- `3feed77` → `3feed77368cb7ff41c83ff75f3f03873b97252a5` — 2026-10-14 23:44:29 +0900 CR-4: code review fixes (89-item check, reference rebuild of cut sources, caveat at 5%, symmetric unglued S6)
+  - notes/cr4_implementation_notes.md
+- `409c277` → `409c27794e3e0df88bc01b394c9163ac90a0599c` — 2026-10-07 13:39:05 +0900 DP3 gate FROZEN (owner approval 13:38 JST)
+  - notes/dp3_definition_flip_gate.md
+- `4140ca8` → `4140ca818f8a2f6ff3138bd91997a712b200950d` — 2026-10-12 15:50:43 +0900 Add PARA-1 v3 narrow independent repair re-audit at 72cc791
+  - notes/para1_independent_review_v3_20261012_gpt6.md
+- `42268044796bb9bf461602fc7221eb29044d8381` → `42268044796bb9bf461602fc7221eb29044d8381` — 2026-10-17 00:41:18 +0900 JP-1: Kaggle notebook builder for the ja-only analysis (Dropbox in/out, category audit row 8) + test
+- `42da64b` → `42da64b3c3765edb922f4de8b655c3d3b330e03d` — 2026-10-12 17:12:21 +0900 Archive PARA-1 v7 narrow independent confirmation at dff35fc
+  - notes/para1_independent_review_v7_20261012_gpt6.md
+- `43cb73c` → `43cb73cb070fd662ae2cbb12d47733422ff2eb49` — 2026-10-14 17:39:34 +0900 JP-1 draft v3 (repairs from review v3, PASS WITH REPAIRS): N1 NO_TOKEN_START_IN_WORD in appendix C check, N2 whitespace excluded from S4 and classified-share on P_B, N3 heading
+  - notes/jp1_sarashina_gate.md
+- `43ef025` → `43ef025fdedc964048a596536ce180139e4f549f` — 2026-10-17 13:34:56 +0900 DP9 code (gate frozen 241a3f6): items, merged points + free, work pulling with a base-only phase, length-only stop line, audit, analysis (7 mains, guards, S1-S12), notebook builders (GPU A-D + CPU analysis)
+- `440bee2` → `440bee2e31aeaa21f7190be59c07d79da51d513f` — 2026-10-13 13:44:19 +0900 review: independent CR-2 v2 verification and remaining blockers
+  - notes/cr2_independent_review_v2_20261013_gpt6.md
+- `486ee4d` → `486ee4d2fddb9eb79ed0a9a62d1d9a4489e53bcd` — 2026-10-14 18:23:55 +0900 JP-1 C0 fixes after diagnosis: J3 expectation by surface + add 割れる to calc list, J13 expectation 万=DIGIT (known dictionary limitation), new J17; C0 notebook keeps JA morphemes and fixes MGSM filter
+  - notes/jp1_c0_record.md
+  - notes/jp1_sarashina_gate.md
+- `4b10409` → `4b1040911bc31bbf1f42705587290597b5136740` — 2026-10-07 00:55:30 +0900 CT-0: re-read HF token in Cell 3, record token/whoami status, gated-access hints
+  - notes/ct_feasibility_plan.md
+- `4dcae3f` → `4dcae3f089c8b2a7218fbd13cde5317e9f1dcc4c` — 2026-10-12 18:12:52 +0900 CR-1 stage 2 lock: write the exact time (18:12 JST); no content change
+  - notes/cr1_lock_pre_g0.md
+- `4ee631a4a125d6494b1fcc580420eec157392703` → `4ee631a4a125d6494b1fcc580420eec157392703` — 2026-10-13 18:18:24 +0900 CR-2 v7: S2 recalibration with the shared search module (all 9 null worlds pass the upper-bound rule; power as before); plan power section updated; review request v7
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v7.md
+  - notes/cr2_s2_recalibration_result.md
+  - reports/cr2_s2_recalibration.txt
+- `547730a` → `547730a5d104d9eaae9f689a43e0ef562c9bf668` — 2026-10-13 13:34:50 +0900 review: verify calculations and add CR-2 truncation and missingness risks
+  - notes/cr2_independent_review_20261013_gpt6.md
+- `5592aa7` → `5592aa76bdd1d0576af563f241f2e31c96d33511` — 2026-10-09 23:22:57 +0900 DP7: fixes from the independent check (S3 seed, S4 digit test, S8 quantiles, NaN control median); implementation notes
+  - notes/dp7_implementation_notes.md
+- `58023f9` → `58023f92126d3991631f340e6c80db166b46874e` — 2026-10-07 12:20:52 +0900 DP2-X1: analysis module, tests, notebook builder (post-hoc, plan b3fbc3b)
+- `59a15a6` → `59a15a6d421d19587ebff88b11aac8c0ec8e15ef` — 2026-10-09 13:07:06 +0900 DP6 stage-2 freeze: Gemma h = 1 (typical base path 79 tokens); OLMo DP6_NON_DISCRIMINATING_OLMO
+  - notes/dp6_stage2_h.md
+  - reports/dp6_CALIB_SUMMARY.json
+  - reports/dp6_CALIB_gemma.json
+  - reports/dp6_CALIB_olmo.json
+- `5bc2f39` → `5bc2f39cae7a4d01782afc3b2862f6520f6fb913` — 2026-10-15 11:10:41 +0900 CR-5 stage B1 collected (5,728/5,728, $2.845) and stage B2 lock (a95f5a0d): T5 11, K5 64, 1,152 requests
+  - notes/cr5_lock_stageB2.json
+  - notes/cr5_lock_stageB2.md
+- `5c9dde7` → `5c9dde710db5fcccf6f676ab2f83588932bccd95` — 2026-10-15 08:33:03 +0900 review: JP-1 v6 narrow independent Z1-Z3 re-audit
+  - notes/jp1_independent_review_v6_20261015_gpt6.md
+- `5cab6e1` → `5cab6e1b00ef613cac8b66aacf1195ec0c1d0d2f` — 2026-10-13 19:49:33 +0900 CR-2 CHASE-shaped power: N 90/62 results recorded; addendum (before computing) for N 150
+  - notes/cr2_chase_power_plan.md
+  - reports/cr2_chase_power.txt
+- `5dfbf0e` → `5dfbf0eb26c9936f3cef8e32751cf9ddc84447b2` — 2026-10-15 06:51:01 +0900 JP-1 repairs from review v4: JA per-line tagging written into definition 5 (+ J18 two-line example), MORPH_ALIGN_FAIL handling (no stop), drop 割れる from calc list; tests 17
+  - notes/jp1_sarashina_gate.md
+- `5ea5f1a` → `5ea5f1a7a1933000b53e718da941fce56cdeabec` — 2026-10-13 19:41:32 +0900 CR-2 exploration plan: S2 power in CHASE-shaped worlds (q0 0.26, L 41-159, N 90 vs 62), written before computing
+  - notes/cr2_chase_power_plan.md
+- `5eb6356` → `5eb63561aa54b2e91cc54aca1a2044ba1d9a7b9c` — 2026-10-12 19:30:26 +0900 Add CR-1a/PARA-1a v2 narrow independent repair review at d3cdd56
+  - notes/cr1a_independent_review_v2_20261012_gpt6.md
+- `5f3d8c5` → `5f3d8c516e573fbb7ed40c408a08bdb7a66a80e2` — 2026-10-12 19:51:19 +0900 CR-1a: G1/G1b notebook pinned to the freeze commit 7d95ee9
+  - notebooks/CR1A_G1.ipynb
+- `5fea51a` → `5fea51aa465c54981ef1d857a362710dc7fe81fd` — 2026-10-13 13:15:49 +0900 review: add independent critical assessment of CR-2 sampling plan
+  - notes/cr2_independent_review_20261013_gpt6.md
+- `60e611b` → `60e611bb585011a35138d07e1b10219199039c7f` — 2026-10-15 12:32:02 +0900 JP-1 amendment 1 implemented: float32, shared-prefix step in the workers, precision checks, 2 workers, G0 run-2 builder
+- `644ef87` → `644ef873b445c7e2f0c73703243e4f7881b5968f` — 2026-10-08 09:04:33 +0900 FREEZE DP4 gate (owner approval 2026-10-08 09:04 JST)
+  - notes/dp4_weighting_gate.md
+- `6596353` → `65963539735761ba2a41876e60d2c86565ffbfe4` — 2026-10-12 16:21:35 +0900 PARA-1 draft v5 (unfrozen): address re-review dd1e74e (S1, S3)
+  - notes/para1_paraphasia_plan.md
+  - notes/para1_review_request_v5.md
+  - reports/para1_g0_dryrun_v5.txt
+- `65ed838` → `65ed8387729a1f224978eb3c5d16bddede670789` — 2026-10-17 11:58:17 +0900 DP9 timing smoke (Qwen2.5-7B-Instruct on L4): helpers, tests, notebook builder
+- `69b43d8` → `69b43d8d3ca726a83e9571daa78c10154da5575b` — 2026-10-12 20:41:45 +0900 CR-1a 段3 lock: exact write time (no content change)
+  - notes/cr1a_lock_pre_g2.md
+- `69dd041` → `69dd041b6d07699e7ae42ce055c494c54d3270fb` — 2026-10-12 17:40:33 +0900 PARA-1 FREEZE: owner approved ("凍結を承認するね！", 2026-10-12 17:38 JST)
+  - notes/para1_paraphasia_plan.md
+- `6b6f108` → `6b6f10828bb145417e7dfe7d793a034d850723dc` — 2026-10-06 22:40:06 +0900 CT-0: circuit-tracer feasibility plan and notebook builder (no benchmark data)
+  - notes/ct_feasibility_plan.md
+- `6c339ae` → `6c339aef8265aa093a18f0aa17b25386d3d4a8a2` — 2026-10-12 21:09:55 +0900 Add independent pre-money CR-1a G2 adversarial review at 83f9bf0
+  - notes/cr1a_g2_independent_review_20261012_gpt6.md
+- `6c4a11771dcf93d3e11a3ca40111dcb84ef51a8b` → `6c4a11771dcf93d3e11a3ca40111dcb84ef51a8b` — 2026-10-15 08:07:18 +0900 JP-1 repairs from review v5: classified-share line counted on P before the P_B filter (whole-response MORPH_ALIGN_FAIL counts as 0), three unclassified reasons in appendix C; review request v6
+  - notes/jp1_review_request_v6.md
+  - notes/jp1_sarashina_gate.md
+- `7001163` → `7001163dc2072c7929ca93041bc60b195477acee` — 2026-10-11 11:50:43 +0900 FREEZE CR-1 gate v6 (owner approval 2026-10-11 11:50 JST): decisions 1-4 as recommended, decision 5 = C (report in the paper appendix and a repo result note regardless of outcome)
+  - notes/cr1_claude_resample_gate.md
+- `70e649c` → `70e649c248688b13fc0cf9c04cd3959043b7235b` — 2026-10-15 12:13:06 +0900 review: correct pinned lock-file blob SHA in JP-1 A-2 audit
+  - notes/jp1_amendment1_review_20261015_gpt6.md
+- `720c369ef897fcc325f90e282b6ecb26a30e2406` → `720c369ef897fcc325f90e282b6ecb26a30e2406` — 2026-10-12 21:17:53 +0900 CR-1a G2 fixes for review 6c339ae: lock erratum ($ lost to shell expansion; owner confirmation pending), uncertain create never auto-resent (hold, adopt-unverified, 30 min then owner), results files verified on resume/end with safe recovery, lease, input bound; tests; re-review request
+  - notes/cr1a_g2_review_request_v2.md
+  - notes/cr1a_lock_pre_g2_erratum.md
+- `72cc7910b6416ae52e64e1481fddaf66f137c80e` → `72cc7910b6416ae52e64e1481fddaf66f137c80e` — 2026-10-12 15:44:43 +0900 PARA-1 draft v3 (unfrozen): address independent review e167d76 (P1-P5)
+  - notes/para1_paraphasia_plan.md
+  - notes/para1_review_request_v3.md
+  - reports/para1_g0_dryrun_v3.txt
+- `73252cf` → `73252cfef3f10156b4ef9f768ff33164b3c60a5c` — 2026-10-12 19:43:34 +0900 Add CR-1a v3 narrow independent repair confirmation review at a301e1c
+  - notes/cr1a_independent_review_v3_20261012_gpt6.md
+- `75b9b66` → `75b9b6600f64a77b9c009338d83c762b228259fc` — 2026-10-07 01:02:35 +0900 CT-0: handle Colab secret-access TimeoutException with hidden token input fallback
+  - notes/ct_feasibility_plan.md
+- `7708f5d` → `7708f5dbf01e57e5d3a412273e4cbaf2091ea9f9` — 2026-10-16 11:39:08 +0900 JP-1 amendment 2: review request (R1-R6)
+  - notes/jp1_amendment2_review_request.md
+- `7804d4831f80b60295b102a65cff4eabc37d37a7` → `7804d4831f80b60295b102a65cff4eabc37d37a7` — 2026-10-11 11:22:55 +0900 CR-1 gate draft v6: separate H_perm from the prefill contrast g (Q1), finite permutation statistic T (Q2), end-to-end synthetic check (Q3), association-only wording (Q4), audit/record details (Q5)
+  - notes/cr1_claude_resample_gate.md
+  - reports/cr1_e2e_calibration.txt
+- `7949d74` → `7949d74fdc243fb17dc279f456a83c907cb818a7` — 2026-10-13 20:26:17 +0900 CR-2 FROZEN (plan v10 + addendum b9564ad; owner approval 20:25 JST). No CR-2 requests sent.
+  - notes/cr2_freeze_record.md
+  - notes/cr2_plan.md
+- `79b184f` → `79b184f51e8a0c748d267eda443aacd8b8517e1a` — 2026-10-08 19:04:43 +0900 FREEZE DP5 gate (owner approval 2026-10-08 19:03 JST; all recommended; freeze-time details filled by DP4's procedure)
+  - notes/dp5_gemma_replication_gate.md
+- `7b398bc` → `7b398bc0da977675c0d0488b01611a9d6f3f31d4` — 2026-10-12 20:23:54 +0900 CR-1a 段3: manifest notebook pinned to the prep commit
+  - notebooks/CR1A_LOCK3_MANIFEST.ipynb
+- `7d95ee9` → `7d95ee90a7b536fb85326e2a30981b9bc8030421` — 2026-10-12 19:51:09 +0900 Freeze CR-1a and PARA-1a (owner approval 2026-10-12 19:50 JST); status lines only + freeze record. No CR-1a request sent yet.
+  - notes/cr1a_amendment.md
+  - notes/cr1a_freeze_record.md
+  - notes/para1a_amendment.md
+- `7ea84c98a73e4645817cf79309909f2c8f6676a0` → `7ea84c98a73e4645817cf79309909f2c8f6676a0` — 2026-10-15 11:41:55 +0900 JP-1: amendment 1 (A-2: float32 + shared-prefix step) and its review request; record the shared-prefix check
+  - notes/jp1_after_freeze.md
+  - notes/jp1_amendment1.md
+  - notes/jp1_amendment1_review_request.md
+- `8145a56` → `8145a560519cbb7dfd97c2f5d64340e579df858d` — 2026-10-14 12:48:12 +0900 CR-2 G3 result: LABELS_ISSUED — main1 BBU_MODERATE (AUROC 0.757, 0.690-0.815) / WITHIN_CUT_EXCHANGEABILITY_NOT_EXCLUDED (p=0.148); main2 BASELINE_UNDECIDED; main3 DIGIT_TEST_UNDEFINED; audit pass
+  - notes/cr2_g3_result.md
+  - reports/cr2_g3_result.json
+- `832525d` → `832525d7cd975d5472469c42a931b1668e9af7b6` — 2026-10-14 12:55:44 +0900 CR-3 prep: exploratory re-analysis of the CR-2 data (spec X1-X6 written before running), module + tests + notebook builder; patch_cell1 for the error report
+  - notes/cr2_implementation_notes.md
+  - notes/cr3_explore_spec.md
+- `83f9bf001b0e1ba92fbf5411e1fd596345fe015f` → `83f9bf001b0e1ba92fbf5411e1fd596345fe015f` — 2026-10-12 20:54:02 +0900 CR-1a G2: notebook pinned to dcdb1fde42c4cd538b32423411049544cb772871
+  - notebooks/CR1A_G2.ipynb
+- `848b116` → `848b116f0cb3a5c5840c371b55f9607300531741` — 2026-10-13 17:04:46 +0900 CR-2 exploration result: search-then-measure (option A) helps (BEYOND 2% -> 12-22% with 3 forks) but not enough
+  - notes/cr2_search_design_sim_result.md
+  - reports/cr2_search_design_sim.txt
+- `86e7220684c29c5794636630ee308ff990920515` → `86e7220684c29c5794636630ee308ff990920515` — 2026-10-13 13:39:01 +0900 CR-2 plan draft v2 (unfrozen): fixes for review F1-F10 (interleaved op order, sampling before G1b with stable IDs, sampled-word estimand, unit-equality keep rule, acceptance tests, hard per-batch budget check, license gate before any send, dedup and prelook exclusion, 0.42 caveat, 5/6-16/18 missingness); review request v2
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v2.md
+- `88b029d` → `88b029da398556fc3b3c49903a318d7d5e81ba50` — 2026-10-15 17:41:45 +0900 DP8: frozen gate hash and freeze commit filled in (tests pass)
+- `89e5448` → `89e5448eaa93a49456ea84afcff65d03580c44e4` — 2026-10-12 18:01:04 +0900 CR-1 definition 1: exclusion chain and candidate items (for the pre-G0 lock)
+- `8a841a6` → `8a841a663597f820ef2c008f6ec3a23eee22250a` — 2026-10-05 16:04:24 +0900 DP1: Colab notebook builder (MODEL x HALF)
+- `8a9caa4` → `8a9caa4d7a080d6e55b197bded7af4163ecfeaf4` — 2026-10-09 23:03:52 +0900 DP7 gate frozen (owner: recommended options, two notebooks)
+  - notes/dp7_matched_swap_gate.md
+- `8b04f77` → `8b04f77886565388c5ca3ba1c87506e18547e93a` — 2026-10-15 10:12:48 +0900 JP-1: record G0 run 1 (stopped at G1 check_ja, bf16) and add the G1 diagnosis notebook builder
+  - notes/jp1_after_freeze.md
+  - notes/jp1_lock_pre_g0.md
+- `8b3f279` → `8b3f279677655be2f1fdf2092bae0607f024cdb7` — 2026-10-13 16:37:42 +0900 CR-2 exploration plan: recompute power in synthetic worlds shaped by pre-look 2 (written before computing)
+  - notes/cr2_power_realistic_plan.md
+- `8e0384c` → `8e0384c1632ab76bc1fc0d180ce48e0203ba73c1` — 2026-10-12 21:46:05 +0900 Add independent CR-1a G2 v3 W4-L narrow confirmation review at d7f332f
+  - notes/cr1a_g2_independent_review_v3_20261012_gpt6.md
+- `8f7d2a7` → `8f7d2a7024a606eb83f80fb4e4e19d6d756c8e0c` — 2026-10-16 22:59:05 +0900 JP-1 amendment 2, second version (H1-H8 repairs) + owner choices 22:57
+  - notes/jp1_after_freeze.md
+  - notes/jp1_amendment2.md
+- `926c25fae380c3421a3af62aa1a28ca830162769` → `926c25fae380c3421a3af62aa1a28ca830162769` — 2026-10-12 20:23:52 +0900 CR-1a 段3 prep: token-free dataset loader, G2 manifest builder (hashes only) with tests, manifest notebook builder
+- `940cda6` → `940cda6a6bac088f678a63a453459c844b1c40ff` — 2026-10-15 13:45:57 +0900 DP8-X: exploratory re-read of DP4/DP5/DP7 by rarity of the alternative (spec, code, tests, CPU notebook builder)
+  - notes/dp8x_rarity_effect_explore_spec.md
+- `9450e1f` → `9450e1fdd8e4c54f992f0895b8e7cf668410d0f4` — 2026-10-14 13:54:41 +0900 CR-3 plan v1 (not frozen): force the top alternative word at CR-2's 264 deviating words; Q1 fork reproduction, Q2 u->g, Q3 m->g; B_stop $21 / B_cap $24
+  - notes/cr3_plan.md
+- `9556310` → `95563109abdb1817a660c60105c61ff3e79c1646` — 2026-10-16 10:42:44 +0900 JP-1 option A: resample batch that drops finished rows + GPU check builder (4 ja-A points, old vs new, vs stored)
+  - notes/jp1_after_freeze.md
+- `957f492` → `957f492368cacdf1927a0e587b2db2e24bce71ae` — 2026-10-06 17:28:57 +0900 Plan: DP2 side analyses (A power sim, B DP1-S5 post-hoc, C related work) — committed before running
+  - notes/dp2_side_analyses_plan.md
+- `959e98d` → `959e98d8a651e0a112c4864d4816fd6b714608d1` — 2026-10-16 11:39:18 +0900 JP-1: log amendment 2 draft and next steps
+  - notes/jp1_after_freeze.md
+- `9711c56` → `9711c5673c8d7eace445235aa00e2946d99cd443` — 2026-10-14 16:30:52 +0900 CR-3 stage A lock: K_F=32, 26,912 requests, W=264 forks=92
+  - notes/cr3_lock_stageA.json
+  - notes/cr3_lock_stageA.md
+- `98cd63a` → `98cd63a61f913ff9c9d2023bb25d5509bb64c3e7` — 2026-10-13 10:27:29 +0900 Exploration (post-hoc, no labels): plan and code for E1 (A2 without 表記ゆれ / whitespace-only / 空) and E2 (CR-1a with a whitespace-insensitive 'wrote s_w' rule), written before running on data
+  - notes/para1a_explore_ws_plan.md
+- `9b620de` → `9b620de1c36adc509aff116c61cd39fbc8858793` — 2026-10-13 19:17:14 +0900 Pre-look 3: runner, tests and notebook builder (CHASE-Math, MATH Level 5 integer; CR-2 prompt, 1,024 tokens, cap $3)
+  - notes/alt_prelook_plan.md
+- `9e896e1` → `9e896e1606f6708b46e7117c722125c505f255b8` — 2026-10-05 16:27:17 +0900 DP1: move to its own theme (Drive DECISION_POINTS, branch decision-points); quality_pork read-only
+  - notes/dp1_notebooks.md
+- `9f4129c` → `9f4129c9bb3f682ecd531b6f9b0824ed7c67410b` — 2026-10-06 17:08:34 +0900 DP2: review fixes (unreported a=0 items, guard-null labels, stale locks, read retries/quarantine, resume with other worker count, Cell 9 commit checks, versions); implementation notes
+  - notes/dp2_implementation_notes.md
+- `9faddbc` → `9faddbc7e8406e43cb0615071c85d01872ad2922` — 2026-10-15 07:58:15 +0900 CR-4 notebook: stage C (built at 0e683b1)
+  - notebooks/CR4_STAGEC.ipynb
+- `a23e465` → `a23e46520116c0113cae981b3fadd782e7830f06` — 2026-10-12 21:31:02 +0900 Add CR-1a G2 v2 pre-money narrow independent review for 720c369
+  - notes/cr1a_g2_independent_review_v2_20261012_gpt6.md
+- `a301e1c` → `a301e1cb5367cf4e3bcbb505c17a10fddddfee10` — 2026-10-12 19:36:41 +0900 CR-1a v3 (unfrozen): one atomic PRIVATE checkpoint validated for content before resume (review V1(c)/V2); per-candidate saves, unknown-outcome and retry counts; stop other workers after an error; tests; re-review request
+  - notes/cr1a_amendment.md
+  - notes/cr1a_review_request_v3.md
+- `a3aa298` → `a3aa298a5a8c8f3afc8ecebbd1320e4a9642fd2b` — 2026-10-18 16:37:04 +0900 HR-1 plan FROZEN 2026-10-18 16:36 JST (owner: うん！凍結を承認する！)
+  - notes/hr1_headroom_plan.md
+- `a3cf1d7cc97e78dfb68c16e0f033d3b53b9165d7` → `a3cf1d7cc97e78dfb68c16e0f033d3b53b9165d7` — 2026-10-14 17:32:51 +0900 JP-1 draft v3: address re-review I1-I5 (re-review after any C0 change, A4 over P_A4 per-item diffs, B over P_B, whitespace category + 0.90 classified-share line, readout S12, drop undefined bootstrap draws with 1,900 floor); review request v3
+  - notes/jp1_review_request_v3.md
+  - notes/jp1_sarashina_gate.md
+- `a3f74ca` → `a3f74ca4546e6942846f52120912d9a4cfa7d500` — 2026-10-06 23:09:15 +0900 CT-0 v2: robust HF token/access check, Qwen3-0.6B with lazy encoder, no fallback after OOM; record v1 outcome
+  - notes/ct_feasibility_plan.md
+- `a49135f` → `a49135f89441afe922d3a058ed0994559ebf8c79` — 2026-10-14 11:26:49 +0900 CR-2 G2c notebook v3: create the G2C folder before the Drive smoke test (cell 2 stopped with FileNotFoundError; nothing sent)
+  - notebooks/CR2_G2C.ipynb
+  - notes/cr2_implementation_notes.md
+- `a5dbcf3` → `a5dbcf3b0f8bc4f2ee9dea6a6ad2ca8d1502312b` — 2026-10-15 08:49:58 +0900 CR-5: notebooks check the frozen plan a7f2756 as an ancestor
+- `a6f7e87` → `a6f7e87ed29674aee545398330c96d8c356cab85` — 2026-10-13 18:23:35 +0900 review: CR-2 v7 independent audit and missing-response tie counterexample
+  - notes/cr2_independent_review_v7_20261013_gpt6.md
+- `a7f2756` → `a7f2756b67ac63e5405be0079e4b9aa663f992f7` — 2026-10-15 08:49:41 +0900 CR-5 FREEZE: plan v2, owner approval 2026-10-15 08:49 JST (verbatim)
+  - notes/cr5_freeze_record.md
+  - notes/cr5_plan.md
+- `a92192f` → `a92192f5efe1fb11e7bf6008631e244c4545f3ab` — 2026-10-18 17:57:55 +0900 RK-1 + EX-1 code (plans frozen a7989ec / f02b1d5): rank of DP7's w_tau via DP7's own cached single steps (stop lines), 20-feature sweep with recompute checks and the spec's mechanical candidate rules, one GPU notebook builder; 8 tests + a synthetic dry run of the notebook's analysis code
+- `a95a0af` → `a95a0af9e51aae398fae8288fe39ce9624624ee2` — 2026-10-12 22:06:36 +0900 CR-1a G2: notebook pinned to f6c6bb94fe2ff77a5726e71b835f7ee0632a9d4d (owner-confirmed erratum blob)
+  - notebooks/CR1A_G2.ipynb
+- `a9fd534` → `a9fd5344084cdec8c402f1768cdf993056a7b86f` — 2026-10-13 21:31:14 +0900 CR-2: fixes from the independent code review (M1 code/rules lock checks, M2 段3b hash on adopted batches, M3 unknown-state-only INCOMPLETE, m1-m6)
+  - notes/cr2_implementation_notes.md
+- `ac77535` → `ac775351e4f0fb1a8be64d0777c94e737b1c3ec7` — 2026-10-09 11:02:17 +0900 DP6 code at the stage-1 freeze: module, worker, calibration, tests, calibration notebook builder
+- `ac8d33d` → `ac8d33dbfcf4d88af7b9e4de600d4f5f46d31a7b` — 2026-10-13 17:59:07 +0900 CR-2 recalibration plan: 2,000 null datasets per world (pass if x <= 120), fixed before computing
+  - notes/cr2_s2_recalibration_plan.md
+- `ada0c7f` → `ada0c7fa3ee6792f24cc461eb5edeaf7693b8068` — 2026-10-12 15:26:24 +0900 PARA-1 draft v2 (unfrozen): prior work, typing-rule clarifications, G0 30 pairs, decision 6
+  - notes/para1_paraphasia_plan.md
+  - notes/para1_review_request.md
+  - reports/para1_g0_dryrun_v2.txt
+- `ae20bef` → `ae20befe670b5e3a0c01922410f8555cc2bc3c77` — 2026-10-12 16:53:28 +0900 Add independent narrow PARA-1 v6 repair review at 3f75bb8
+  - notes/para1_independent_review_v6_20261012_gpt6.md
+- `b113ed0` → `b113ed08a5ee9671f30ad1c3b5525697595b7fdb` — 2026-10-15 07:03:29 +0900 CR-4 B1 collected (30/340 NW words deviated), stage-B2 lock (K2=64, 2,784 requests), post-B1 simulation re-run passes
+  - notes/cr4_lock_stageB2.json
+  - notes/cr4_lock_stageB2.md
+  - reports/cr4_presim_after_b1.json
+- `b28ef50` → `b28ef50e7c79d5c604a4bfb7496a489c75ce9be4` — 2026-10-14 13:50:09 +0900 CR-3 prep: exploratory X1-X6 result (u's fork discrimination comes from whether any different word appears; within deviating words u~chance, u vs g ~0)
+  - notes/cr3_explore_result.md
+  - reports/cr3_explore_result.json
+- `b3fbc3b` → `b3fbc3bee965ccabf111afd32462890526d2cfa6` — 2026-10-07 12:17:37 +0900 DP2-X1 plan (post-hoc): is the prompt-end prediction of where it breaks explained by cheap features or q0?
+  - notes/dp2x1_where_it_breaks_plan.md
+- `b6067da` → `b6067dac7a94f7c35d21ede9291d077100245a1f` — 2026-10-13 19:55:29 +0900 CR-2 CHASE-shaped power result: nulls pass; N90 0.275/0.155 (consult band); N150 0.42/0.11 (not both >= 0.2, so no N increase recommended)
+  - notes/cr2_chase_power_result.md
+  - reports/cr2_chase_power_n150.txt
+- `b64a006` → `b64a0065590662c2270d110c80ff095f41f80f5e` — 2026-10-08 09:09:41 +0900 DP4: module, worker (alt first-token draw, p1), tests, notebook builder, implementation notes
+  - notes/dp4_implementation_notes.md
+- `b9516df` → `b9516df5d07500d9919ad4959d6505d4db954d31` — 2026-10-15 11:19:11 +0900 JP-1 A-2: builder for the shared-prefix GPU check (two fp32 workers at the longest sequence, old vs new step, timing)
+- `b9564ad` → `b9564adce45ccdc4556e6f960a092e7b2de809fd` — 2026-10-13 20:23:50 +0900 CR-2 plan v10 addendum: non-blocking repairs I1 (empty seed sets, NA_EMPTY), I2 (seed bootstrap keeps item weights; N_eff and 1.5x are descriptive), I3 (git blob SHA-1 vs LFS SHA-256 provenance) from review 1c1824d
+  - notes/cr2_plan.md
+- `ba2a191` → `ba2a19166069db54b0dca38552336424dd341d1c` — 2026-10-15 12:12:50 +0900 review: independent JP-1 A-2 amendment audit R1-R5
+  - notes/jp1_amendment1_review_20261015_gpt6.md
+- `bb52eed` → `bb52eed55bc601f3030cc1ea4168649a60fc146b` — 2026-10-07 12:11:29 +0900 CT-1 fix: allocator expandable_segments, OOM batch ladder for the IT check only
+  - notes/ct1_implementation_notes.md
+- `bcafae7` → `bcafae783d2a369f3e8363434b40c981b3490c6f` — 2026-10-13 00:37:50 +0900 CR-1a G3: analysis + audit from raw files only (integrity checks, first success per custom_id, full_audit before analyze, S7, S8), tests, notebook builder
+- `bcccd85` → `bcccd85ccf74ab60956148d2b1e61c9cc724d360` — 2026-10-15 11:15:57 +0900 JP-1: record the G1 diagnosis (bf16 near-tie flips; fp32 clean but too big for 2 workers) and A-2's shared-prefix step
+  - notes/jp1_after_freeze.md
+- `c1542ed` → `c1542edcc75419cca9ecc02b2b1dd07b7b35bd6e` — 2026-10-18 16:40:05 +0900 HR-1 code (plan frozen a3aa298): headroom views H1-H4 with the experiments' own top-label/AUROC functions, stop line on the recomputed original top-e AUROC, CPU notebook builder re-reading DP4/DP5/DP7/DP9 records at their run commits; 8 tests
+- `c197fab` → `c197fab2bb6fd090cc78252918ce1393552f8fad` — 2026-10-08 01:02:26 +0900 DP3-X1 (post-hoc): permutation module, tests, notebook builder
+- `c2659a5` → `c2659a50138f5983f2528f42d711e257c94bf579` — 2026-10-14 10:50:07 +0900 CR-2 段3b lock committed: G2s search 4 rounds, 90/90 windows, 0 dropped ($9.46); confirmation = 20,880 requests (stage3b 1a70cc32)
+  - notes/cr2_lock_stage3b.json
+  - notes/cr2_lock_stage3b.md
+- `c91f6df813a543e10f5844c5fee037f993dfc768` → `c91f6df813a543e10f5844c5fee037f993dfc768` — 2026-10-15 06:58:46 +0900 JP-1 C0 run 3 (code 5dfbf0e): all pass, 34/34 incl. two-line J18; review request v5
+  - notes/jp1_c0_record.md
+  - notes/jp1_review_request_v5.md
+- `c9854c40a806dabe8b7f23302dac7c4cb37a84b9` → `c9854c40a806dabe8b7f23302dac7c4cb37a84b9` — 2026-10-13 14:07:28 +0900 CR-2 plan draft v4 (unfrozen): fixes for review C1-C4 (reproduce all 96 prelook rows before mapping op15 rows, strict dataset revision pin, fixed cross-op dedup order, count_tokens margin with $40 operating stop line, stage-3 then pre-G2 order); review request v4
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v4.md
+- `c9f85cd65b214e9eb405acff536d67b378832aac` → `c9f85cd65b214e9eb405acff536d67b378832aac` — 2026-10-13 13:09:36 +0900 CR-2 plan draft v1 (unfrozen): sampled-word resampling on GSM-Infinite Hard ops 12-15, M=8 words, K=24, max_tokens 1024, whitespace-insensitive keep rule, budget $45; review request
+  - notes/cr2_plan.md
+  - notes/cr2_review_request.md
+- `cdf77e1` → `cdf77e1861d1356ad3ec37ce073a3691d4ce92ab` — 2026-10-16 09:19:59 +0900 JP-1: length count of ja-A's resamples (CPU notebook, numbers only) before deciding how to go on
+- `d1d0ec1` → `d1d0ec1dadefd8787bbaf204d1eb9f75a4649d04` — 2026-10-07 13:09:07 +0900 DP2-X2 plan (post-hoc): same-window definition comparison (DP2 S3) and p2-weighting decomposition (DP1 S5)
+  - notes/dp2x2_definition_flip_plan.md
+- `d2374156e712ee25f2fce23c8fc0a2a1573fc858` → `d2374156e712ee25f2fce23c8fc0a2a1573fc858` — 2026-10-14 17:24:03 +0900 JP-1 draft v2: address review P1-P10 (pre-G0 version lock incl. 1B/3B/MGSM, C0 pre-freeze CPU check, JA readout table (appendix D), numeral rule via UniDic POS, B2 as enrichment difference, paired set P / UNDEFINED, 45 CU total stop); review request v2
+  - notes/jp1_review_request_v2.md
+  - notes/jp1_sarashina_gate.md
+- `d3cdd56d9e43b15f19fd503978fca11ee7b3a77a` → `d3cdd56d9e43b15f19fd503978fca11ee7b3a77a` — 2026-10-12 19:24:09 +0900 CR-1a v2 (unfrozen): study/run contract for G1/G2 (review R7), separate Drive folder, header-checked resume, fake-API end-to-end tests; nonblocking fixes; re-review request
+  - notes/cr1a_amendment.md
+  - notes/cr1a_review_request_v2.md
+  - notes/para1a_amendment.md
+- `d3eabe7` → `d3eabe7d6abf9f9d22bb373a3bc5c70c41d4ae2f` — 2026-10-09 19:00:09 +0900 Paper: four figures drawn from the result files, with captions
+  - notes/paper_forks_definition_outline.md
+  - paper/draft_en.md
+  - paper/figures/fig1_definitions.pdf
+  - paper/figures/fig1_definitions.png
+  - paper/figures/fig2_reversal.pdf
+  - paper/figures/fig2_reversal.png
+  - paper/figures/fig3_weighting.pdf
+  - paper/figures/fig3_weighting.png
+  - paper/figures/figure_data.json
+  - scripts/make_paper_figures.py
+- `d41e649` → `d41e649339d9fc051c1b573c494b3046ecca311d` — 2026-10-12 19:50:03 +0900 CR-1a v4 (unfrozen): nonblocking items from the PASS review 73252cf only (Drive write smoke before G1, multi-pending wording, parallel-stop and multi-pending tests)
+  - notes/cr1a_amendment.md
+- `d42828a` → `d42828ac7448b05e27b95bc382afa48d4d71be0f` — 2026-10-07 00:01:58 +0900 CT-0: retry models skipped for access or failed load (keep earlier attempt); record CT-0b first attempt
+  - notes/ct_feasibility_plan.md
+- `d4d0f4a` → `d4d0f4a13885a7db222c5e33499f68fb6ec8a403` — 2026-10-09 10:58:33 +0900 FREEZE DP6 gate, stage 1 (owner approval 2026-10-09 10:49 JST; all recommended; 2 notebooks per model, 18 h stop line, standard memory)
+  - notes/dp6_lookup_gate.md
+- `d5a56a0` → `d5a56a06c40c8b1ea8e41271cae4a7063be1acef` — 2026-10-16 09:58:58 +0900 JP-1 length count: string keys for the caps table (atomic_json's read-back failed on int keys) + round-trip test
+- `d6201ab` → `d6201ab063c3e144557716a2a3a5e04ca54a4510` — 2026-10-13 19:11:56 +0900 CR-2: alternative benchmark candidates in case G-L fails (license labels only, no problem text)
+  - notes/cr2_alt_benchmarks.md
+- `d7a4e8b` → `d7a4e8b209af684d51cae6b46fded86b0f6c319e` — 2026-10-13 10:24:48 +0900 PARA-1a Part A result: SEMANTIC_BELOW, FORM/BOTH not distinguished, DIGIT vs SEMANTIC no difference, FORM vs SEMANTIC A3_INSUFFICIENT; G0a 45/45, G0c FP max 0.025; 75% of substitutions are 表記ゆれ (post-hoc reading noted separately)
+  - notes/para1a_partA_result.md
+  - reports/para1a_g0_result.json
+  - reports/para1a_partA_result.json
+- `d7f332ff868b62c0236db648add9675fac2e212b` → `d7f332ff868b62c0236db648add9675fac2e212b` — 2026-10-12 21:36:49 +0900 CR-1a G2 fix for review a23e465 (W4-L): no automatic lease takeover (owner confirms the old runtime is stopped), generation + fence read-back before every create and loop step (best effort, not a lock), token-count check of the longest input; tests; re-review request
+  - notes/cr1a_g2_review_request_v3.md
+- `d903246` → `d9032464b215ce96428a7b946decf2c5a0c3de1b` — 2026-10-14 18:47:51 +0900 CR-4 plan draft v3 (hidden forks): reviewed twice, awaiting owner approval
+  - notes/cr4_plan.md
+- `d977d1f` → `d977d1f138879c3f50e963455751e728b512f437` — 2026-10-13 19:10:11 +0900 CR-2 plan: owner chose [決定F] N_MIN 60 and [決定G] S2 (as recommended); still unfrozen
+  - notes/cr2_plan.md
+- `d9a6db50028bf9ad52ec606621f0c26b6d9cdd1a` → `d9a6db50028bf9ad52ec606621f0c26b6d9cdd1a` — 2026-10-12 19:09:09 +0900 CR-1a draft: add a 60-word limit to the prompt and redo G1 (unfrozen); PARA-1a draft; G1 length summary; review request
+  - notes/cr1a_amendment.md
+  - notes/cr1a_review_request.md
+  - notes/para1a_amendment.md
+  - reports/cr1_g1_lengths.json
+- `da200a4` → `da200a4805bdd727f4bb4b4094a08aa070c31a47` — 2026-10-14 08:25:16 +0900 CR-2 段3 lock committed: G1 120/120 pass ($0.148), G1b N=90 (est. $25.5), search round 0 = 14,400 requests (7f87bc60)
+  - notes/cr2_lock_stage3.json
+  - notes/cr2_lock_stage3.md
+- `dbe77ad` → `dbe77ada3e1151826fc3d31ece89e6420d1a0630` — 2026-10-12 16:25:39 +0900 Add independent narrow PARA-1 v5 re-review at 6596353
+  - notes/para1_independent_review_v5_20261012_gpt6.md
+- `dcdb1fde42c4cd538b32423411049544cb772871` → `dcdb1fde42c4cd538b32423411049544cb772871` — 2026-10-12 20:54:02 +0900 CR-1a G2: batch runner (lock check, budget watch, <=3 in flight, retries <=2, create without SDK retry + submitting mark, resumable), fake-API tests, notebook builder, review request
+  - notes/cr1a_g2_review_request.md
+- `dd1e74e` → `dd1e74e593a9a28f13dde2427b7dfd37ea478cfe` — 2026-10-12 16:08:17 +0900 Add PARA-1 v4 narrow independent repair review at f27def5
+  - notes/para1_independent_review_v4_20261012_gpt6.md
+- `ddd8047` → `ddd80473d12d0cc8bb5b5a4873dd8ffb32208a44` — 2026-10-13 14:11:40 +0900 review: audit CR-2 v4 prelook repairs and budget option consistency
+  - notes/cr2_independent_review_v4_20261013_gpt6.md
+- `de53fa7` → `de53fa7b8cfdf01aea3a7c96b0365b9162658e00` — 2026-10-14 17:46:48 +0900 JP-1 C0: readout (appendix D) and token-category rules (definition 5) in pork/jp1_text.py, tests, C0 notebook builder
+- `dff35fc61792c58a74f8c5d70388dd9287e0b236` → `dff35fc61792c58a74f8c5d70388dd9287e0b236` — 2026-10-12 17:02:58 +0900 PARA-1 draft v7 (unfrozen): address re-review ae20bef (U2-B)
+  - notes/para1_paraphasia_plan.md
+  - notes/para1_review_request_v7.md
+- `e0ac94a` → `e0ac94a0cc0b5033223285e88d9b9e3590f50025` — 2026-10-13 01:16:50 +0900 PARA-1a Part A: notebook builder (pinned NLTK commit and SHA-checked nltk_data, G0a, G0c with Drive resume, Part A on CR-1a data); verdict name PART_A_RUN
+- `e167d76` → `e167d76101e0765de02d058104c2ab49d0eadc10` — 2026-10-12 15:33:28 +0900 Add independent PARA-1 pre-freeze review (GPT-6, ada0c7f)
+  - notes/para1_independent_review_20261012_gpt6.md
+- `e453ab2273fed4939da0f58d8602ca6576518413` → `e453ab2273fed4939da0f58d8602ca6576518413` — 2026-10-15 08:49:02 +0900 JP-1: category-audit outcome in final_labels (code choice, recorded in the lock)
+- `e7eac74` → `e7eac74e349afec8ee704bd63eb6a87bd4a5b267` — 2026-10-13 20:08:00 +0900 review: independent CR-2 v9 CHASE-Math migration audit
+  - notes/cr2_independent_review_v9_20261013_gpt6.md
+- `e8b729e` → `e8b729e89c41283896e2bc84cd8959c5816dfc4b` — 2026-10-09 11:38:41 +0900 DP6 amendment A1: answer-line reading fixed before any model run
+  - notes/dp6_amendment_A1_answer_line.md
+- `ed24e8d` → `ed24e8d56d2856070c8904aaafd21d81ba645179` — 2026-10-16 11:44:28 +0900 JP-1: add independent amendment 2 review (GPT-6)
+  - notes/jp1_amendment2_review_20261016_gpt6.md
+- `ef8def3` → `ef8def31f94f66d582184d634d4e9dd81906a454` — 2026-10-09 22:01:06 +0900 R1: bin edges as in the experiments ((lo, hi]); record input result hashes; implementation notes
+  - notes/r1_implementation_notes.md
+- `f02f50e89e184d99faaeac51a2ca2ab1ff6470cb` → `f02f50e89e184d99faaeac51a2ca2ab1ff6470cb` — 2026-10-15 06:42:02 +0900 JP-1 C0 run 2: all pass (33/33 appendix C, 17/17 appendix D); review request v4 (C0 changes + code)
+  - notes/jp1_c0_record.md
+  - notes/jp1_review_request_v4.md
+- `f184ef9` → `f184ef9d6165fe65ead10db7436ed7ebb4f88189` — 2026-10-13 14:00:11 +0900 review: add independent CR-2 v3 audit on prelook hash and gating
+  - notes/cr2_independent_review_v3_20261013_gpt6.md
+- `f27def579beb3fe6c03394356b64bc944018266f` → `f27def579beb3fe6c03394356b64bc944018266f` — 2026-10-12 16:04:22 +0900 PARA-1 draft v4 (unfrozen): address re-review 4140ca8 (R1, R3, R4, R5)
+  - notes/para1_paraphasia_plan.md
+  - notes/para1_review_request_v4.md
+  - reports/para1_g0_dryrun_v4.txt
+- `f2dd689` → `f2dd6893afd3f9ee4c3f81efd16eebcddd530170` — 2026-10-13 21:17:57 +0900 CR-2: port the code to the frozen plan v10 (CHASE-Math, search-then-measure, G2s rounds, 段3b, G2c, G3 search audit, tests a-p, notebooks); no API requests
+  - notes/cr2_implementation_notes.md
+- `f5296e1` → `f5296e1e6b22958f301b15e9cab26488481cadcd` — 2026-10-06 23:50:56 +0900 CT-0b: A100 check for Gemma-2 2B and Llama-3.2 1B without offload (plan + builder variant)
+  - notes/ct_feasibility_plan.md
+- `f5adb8f` → `f5adb8fd1a60bfebd391b7f360de9d17c840d924` — 2026-10-13 12:55:32 +0900 Pre-look 2 (exploratory): plan, runner and tests for GSM-Infinite Hard (ops 5-30, CR-1 and CR-1a prompts, cap $4), written before any request
+  - notes/infinite_prelook_plan.md
+- `f6bc565` → `f6bc5659e161b51a02f6e42200119071f0e55164` — 2026-10-13 20:14:20 +0900 CR-2 plan v10 (unfrozen): fix H1 (G1b uses the fixed permutation order, no depth interleave; test p), H2 regression-only label for known CHASE null worlds, H3 seed-cluster reporting, H4 file provenance via HF canonical hash, H5 empty depth strata; review request v10
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v10.md
+- `f6c6bb9` → `f6c6bb94fe2ff77a5726e71b835f7ee0632a9d4d` — 2026-10-12 22:06:34 +0900 CR-1a G2: owner confirmed the 段3 lock erratum ($65.84 / $90) and the single-runtime contract (22:06 JST)
+  - notes/cr1a_g2_run_contract.md
+  - notes/cr1a_lock_pre_g2_erratum.md
+- `f92d0fb` → `f92d0fb20062b0e644a725c8fd722bbf8098f9d3` — 2026-10-13 12:01:03 +0900 Pre-look (exploratory): plan, runner and tests for GSM-Symbolic P1/P2 difficulty under the CR-1a prompt (Haiku 4.5, cap $3), written before any request
+  - notes/hard_prelook_plan.md
+- `fc8573d4502b05d8f55693ebe5230b261bdbf366` → `fc8573d4502b05d8f55693ebe5230b261bdbf366` — 2026-10-13 18:42:31 +0900 CR-2 v8 (unfrozen): exact rational comparison in the search stage (review v7 F1); tie tests for denominators 28-32; review request v8
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v8.md
+- `fd5b175` → `fd5b17566df21a1c0522afa53b97f4af8b42d552` — 2026-10-08 19:16:20 +0900 DP5: module, worker, tests, 3-part notebook builder (gemma-2-2b-it), implementation notes; review fixes (HF token sent, memory probe, audit time text)
+  - notes/dp5_implementation_notes.md
+- `ff456ca3cfb92b0c176a7c0f2348094b6a9ff3a2` → `ff456ca3cfb92b0c176a7c0f2348094b6a9ff3a2` — 2026-10-13 13:56:40 +0900 CR-2 plan draft v3 (unfrozen): fixes for review B1-B5 (pre-G1 vs pre-G2 acceptance and gate order, realized op-mix estimand, prelook sorted-index to raw-row mapping, independence stated as assumption with pre-set sensitivity, S10 point estimate only with q(w-1)); review request v3
+  - notes/cr2_plan.md
+  - notes/cr2_review_request_v3.md

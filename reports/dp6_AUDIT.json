@@ -1,0 +1,320 @@
+{
+ "audit_references": {
+  "A": "numpy_stable_argsort",
+  "B": "numpy_stable_argsort"
+ },
+ "diverged_rows": 0,
+ "halves": [
+  "A",
+  "B"
+ ],
+ "max_diverged_rows": 1,
+ "pass": true,
+ "per_half": {
+  "A": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "59a15a6d421d19587ebff88b11aac8c0ec8e15ef",
+   "diverged_rows": 0,
+   "half": "A",
+   "model": "gemma",
+   "per_row": [
+    {
+     "base_compared_steps": 106,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 0,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 0
+      },
+      {
+       "i": 1,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 8
+      },
+      {
+       "i": 12,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 96
+      }
+     ],
+     "row": 8
+    },
+    {
+     "base_compared_steps": 72,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 1,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 8
+      },
+      {
+       "i": 2,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 16
+      },
+      {
+       "i": 3,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 24
+      }
+     ],
+     "row": 10
+    },
+    {
+     "base_compared_steps": 95,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 1,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 8
+      },
+      {
+       "i": 5,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 40
+      },
+      {
+       "i": 7,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 56
+      }
+     ],
+     "row": 11
+    },
+    {
+     "base_compared_steps": 91,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 0,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 0
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 64
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 72
+      }
+     ],
+     "row": 16
+    }
+   ],
+   "rows": [
+    8,
+    10,
+    11,
+    16
+   ]
+  },
+  "B": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "59a15a6d421d19587ebff88b11aac8c0ec8e15ef",
+   "diverged_rows": 0,
+   "half": "B",
+   "model": "gemma",
+   "per_row": [
+    {
+     "base_compared_steps": 48,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 0,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 0
+      },
+      {
+       "i": 4,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 32
+      },
+      {
+       "i": 5,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true
+       },
+       "t": 40
+      }
+     ],
+     "row": 22
+    }
+   ],
+   "rows": [
+    22
+   ]
+  }
+ },
+ "rows_as_declared": true
+}

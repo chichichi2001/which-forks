@@ -1,0 +1,316 @@
+{
+ "audit_references": {
+  "A": "python_sorted",
+  "B": "python_sorted"
+ },
+ "diverged_rows": 0,
+ "halves": [
+  "A",
+  "B"
+ ],
+ "max_diverged_rows": 1,
+ "pass": true,
+ "per_half": {
+  "A": {
+   "audit_reference": "python_sorted",
+   "code_commit": "5592aa76bdd1d0576af563f241f2e31c96d33511",
+   "diverged_rows": 0,
+   "half": "A",
+   "per_row": [
+    {
+     "base_compared_steps": 338,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 6,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 48
+      },
+      {
+       "i": 27,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 216
+      },
+      {
+       "i": 38,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 304
+      }
+     ],
+     "row": 1,
+     "tau_compared_positions": 42,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 140,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 10,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 80
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 88
+      },
+      {
+       "i": 16,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 128
+      }
+     ],
+     "row": 3,
+     "tau_compared_positions": 17,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 164,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 3,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 24
+      },
+      {
+       "i": 15,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 120
+      },
+      {
+       "i": 16,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 128
+      }
+     ],
+     "row": 7,
+     "tau_compared_positions": 20,
+     "tau_diverged_at": null
+    }
+   ],
+   "rows": [
+    1,
+    3,
+    7
+   ]
+  },
+  "B": {
+   "audit_reference": "python_sorted",
+   "code_commit": "5592aa76bdd1d0576af563f241f2e31c96d33511",
+   "diverged_rows": 0,
+   "half": "B",
+   "per_row": [
+    {
+     "base_compared_steps": 156,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 0,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 0
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 104
+      },
+      {
+       "i": 14,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 112
+      }
+     ],
+     "row": 20,
+     "tau_compared_positions": 19,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 321,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 6,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 48
+      },
+      {
+       "i": 8,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 64
+      },
+      {
+       "i": 37,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 296
+      }
+     ],
+     "row": 28,
+     "tau_compared_positions": 40,
+     "tau_diverged_at": null
+    }
+   ],
+   "rows": [
+    20,
+    28
+   ]
+  }
+ },
+ "rows_as_declared": true
+}

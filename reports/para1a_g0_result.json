@@ -1,0 +1,64 @@
+{
+ "G0a": {
+  "pairs": 45,
+  "mismatches": 0,
+  "mismatch_numbers": [],
+  "pass": true
+ },
+ "G0c": {
+  "worlds": 200,
+  "table_sha256": "a3add09a78df42ba652fa11f57d855cb40f3cbb9fee1111453e86347abb32549",
+  "false_positive_share": {
+   "SEMANTIC": 0.0,
+   "FORM": 0.025,
+   "BOTH": 0.0
+  },
+  "worlds_without_type_labels": 0,
+  "cuts_by_stratum": {
+   "digits": {
+    "min": 120,
+    "median": 154.5,
+    "max": 190
+   },
+   "function": {
+    "min": 121,
+    "median": 151.5,
+    "max": 188
+   },
+   "wordnet": {
+    "min": 1493,
+    "median": 1536.0,
+    "max": 1598
+   },
+   "other": {
+    "min": 120,
+    "median": 157.0,
+    "max": 185
+   }
+  },
+  "items_not_compared": {
+   "total": 0,
+   "max_per_world": 0
+  },
+  "substitutions": {
+   "min": 4831,
+   "median": 4989.0,
+   "max": 5133
+  },
+  "pass": true
+ },
+ "versions": {
+  "nltk": "3.10.3",
+  "nltk_commit": "5ff995ba15ce45a488360123b2926cbf20ef10bf",
+  "nltk_data_commit": "550b6625bcef1f2abff2ff770a5a0d272c9c6b2a",
+  "wordnet": "3.0",
+  "stopwords_en": 198,
+  "numpy": "2.1.3",
+  "python": "3.13.16",
+  "cpus": 2
+ },
+ "typing_blob": "9c0eae53b81a83a3df87b7f72e1d643cf8f5cfd0",
+ "wordtable_blob": "17d20a06360808545ff83f751e1fc1d9897afca3",
+ "code_head": "e0ac94a0cc0b5033223285e88d9b9e3590f50025",
+ "seconds": 2684.3
+}

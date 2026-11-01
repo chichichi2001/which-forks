@@ -1,0 +1,34 @@
+# PARA-1 G0 pre-freeze dry run (draft v2, 2026-10-12 JST). Reference only; not the frozen G0.
+# nltk source: github nltk/nltk main 5ff995ba15ce45a488360123b2926cbf20ef10bf; nltk_data gh-pages 550b6625bcef1f2abff2ff770a5a0d272c9c6b2a
+nltk=3.10.3 wordnet=3.0 stopwords_en=198
+ 1 OK  w='Mario' a='Dario' expected=形型 got=形型 edit_sim=0.80
+ 2 OK  w='cold' a='chilly' expected=意味型 got=意味型 similar_to
+ 3 OK  w='apple' a='Apple.' expected=表記ゆれ got=表記ゆれ 
+ 4 OK  w='river' a=' River!?' expected=表記ゆれ got=表記ゆれ 
+ 5 OK  w='river' a='...' expected=空 got=空 
+ 6 OK  w='river' a='(' expected=空 got=空 
+ 7 OK  w='river' a='' expected=空 got=空 
+ 8 OK  w='12' a='13' expected=数字・形 got=数字・形 
+ 9 OK  w='12' a='120' expected=数字・形 got=数字・形 
+10 OK  w='12' a='21' expected=数字・その他 got=数字・その他 
+11 OK  w='twelve' a='12' expected=数字・その他 got=数字・その他 
+12 OK  w='1.5' a='2' expected=数字・その他 got=数字・その他 
+13 OK  w='apple' a='apples' expected=活用 got=活用 
+14 OK  w='go' a='went' expected=活用 got=活用 
+15 OK  w='see' a='saw' expected=活用 got=活用 
+16 OK  w='is' a='was' expected=活用 got=活用 
+17 OK  w='the' a='a' expected=機能語 got=機能語 
+18 OK  w='of' a='in' expected=機能語 got=機能語 
+19 OK  w='car' a='automobile' expected=意味型 got=意味型 synonym
+20 OK  w='car' a='truck' expected=意味型 got=意味型 cohyponym
+21 OK  w='dog' a='canine' expected=意味型 got=意味型 hyper_hypo
+22 OK  w='big' a='small' expected=意味型 got=意味型 antonym
+23 OK  w='Paris' a='London' expected=意味型 got=意味型 cohyponym
+24 OK  w='house' a='horse' expected=形型 got=形型 edit_sim=0.80
+25 OK  w='form' a='from' expected=形型 got=形型 edit_sim=0.50
+26 OK  w='catalog' a='cat' expected=形型 got=形型 same_first3
+27 OK  w='photo' a='photograph' expected=両方 got=両方 synonym;edit_sim=0.50
+28 OK  w='cat' a='dog' expected=その他 got=その他 
+29 OK  w='ox' a='on' expected=その他 got=その他 
+30 OK  w='table' a='blorp' expected=その他・断片 got=その他・断片 
+mismatches=0 / 30

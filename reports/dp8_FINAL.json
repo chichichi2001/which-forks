@@ -1,0 +1,24 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_references": {
+  "A": "numpy_stable_argsort",
+  "B": "numpy_stable_argsort"
+ },
+ "audit_sha256": "f81c26360f5450b84edff5536635bbc0a45a5cd2c3cf912b3769eb7d3168ac63",
+ "base_accuracy": 0.65,
+ "code_commits": {
+  "A": "88b029da398556fc3b3c49903a318d7d5e81ba50",
+  "B": "88b029da398556fc3b3c49903a318d7d5e81ba50"
+ },
+ "coverage_ok": true,
+ "final_labels": {
+  "main1": "NATURAL_LIKE_SECOND",
+  "main2": "RARER_ALT_HURTS_MORE",
+  "main3": "RARE_POSITIONS_CONTRIBUTE_LITTLE",
+  "main4": "TAU_HURTS_MORE_THAN_SECOND"
+ },
+ "guard_ok": true,
+ "match_coverage": 0.9661016949152542,
+ "result_sha256": "95178d05a442bfb22d4d964d8c3960040a585cd103657ccfaff9580eaab703eb"
+}

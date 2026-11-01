@@ -1,0 +1,69 @@
+{
+ "R_perm_in_sims": 199,
+ "a": {
+  "NW_EFFECT_LARGER": {
+   "rate": 0.008,
+   "upper95": 0.014388224952091968
+  },
+  "NW_EFFECT_SIMILAR": {
+   "rate": 0.0,
+   "upper95": 0.0029912495450952767
+  },
+  "NW_EFFECT_SMALLER": {
+   "rate": 0.018,
+   "upper95": 0.02657562264509578
+  },
+  "labels": {
+   "NW_EFFECT_DIFFERENCE_UNDETERMINED": 974,
+   "NW_EFFECT_LARGER": 8,
+   "NW_EFFECT_SMALLER": 18
+  }
+ },
+ "a_pass": true,
+ "d_minus": {
+  "NW_EFFECT_LARGER": {
+   "rate": 0.0,
+   "upper95": 0.0029912495450952767
+  },
+  "NW_EFFECT_SIMILAR": {
+   "rate": 0.0,
+   "upper95": 0.0029912495450952767
+  },
+  "NW_EFFECT_SMALLER": {
+   "rate": 0.095,
+   "upper95": 0.11165153645820054
+  },
+  "labels": {
+   "NW_EFFECT_DIFFERENCE_UNDETERMINED": 905,
+   "NW_EFFECT_SMALLER": 95
+  }
+ },
+ "d_pass": true,
+ "d_plus": {
+  "NW_EFFECT_LARGER": {
+   "rate": 0.036,
+   "upper95": 0.04726510664571577
+  },
+  "NW_EFFECT_SIMILAR": {
+   "rate": 0.0,
+   "upper95": 0.0029912495450952767
+  },
+  "NW_EFFECT_SMALLER": {
+   "rate": 0.003,
+   "upper95": 0.007735244718479473
+  },
+  "labels": {
+   "NW_EFFECT_DIFFERENCE_UNDETERMINED": 961,
+   "NW_EFFECT_LARGER": 36,
+   "NW_EFFECT_SMALLER": 3
+  }
+ },
+ "layout_counts": {
+  "K2": 64,
+  "T": 30,
+  "W": 264,
+  "items": 88
+ },
+ "n": 1000,
+ "pass": true
+}

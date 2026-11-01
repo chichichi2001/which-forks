@@ -1,0 +1,380 @@
+{
+ "audit_references": {
+  "A": "numpy_stable_argsort",
+  "B": "numpy_stable_argsort",
+  "C": "numpy_stable_argsort",
+  "D": "numpy_stable_argsort"
+ },
+ "diverged_rows": 0,
+ "max_diverged_rows": 1,
+ "parts": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "pass": true,
+ "per_part": {
+  "A": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "43ef025fdedc964048a596536ce180139e4f549f",
+   "diverged_rows": 0,
+   "part": "A",
+   "per_row": [
+    {
+     "base_compared_steps": 285,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 2,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 16
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 104
+      },
+      {
+       "i": 18,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 144
+      }
+     ],
+     "row": 3,
+     "tau_compared_positions": 36,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 372,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 10,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 80
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 88
+      },
+      {
+       "i": 45,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 360
+      }
+     ],
+     "row": 4,
+     "tau_compared_positions": 47,
+     "tau_diverged_at": null
+    }
+   ],
+   "rows": [
+    3,
+    4
+   ]
+  },
+  "B": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "43ef025fdedc964048a596536ce180139e4f549f",
+   "diverged_rows": 0,
+   "part": "B",
+   "per_row": [],
+   "rows": []
+  },
+  "C": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "43ef025fdedc964048a596536ce180139e4f549f",
+   "diverged_rows": 0,
+   "part": "C",
+   "per_row": [
+    {
+     "base_compared_steps": 224,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 0,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 0
+      },
+      {
+       "i": 18,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 144
+      },
+      {
+       "i": 26,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 208
+      }
+     ],
+     "row": 20,
+     "tau_compared_positions": 28,
+     "tau_diverged_at": null
+    }
+   ],
+   "rows": [
+    20
+   ]
+  },
+  "D": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "43ef025fdedc964048a596536ce180139e4f549f",
+   "diverged_rows": 0,
+   "part": "D",
+   "per_row": [
+    {
+     "base_compared_steps": 334,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 2,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 16
+      },
+      {
+       "i": 6,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 48
+      },
+      {
+       "i": 9,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "free": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 72
+      }
+     ],
+     "row": 30,
+     "tau_compared_positions": 42,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 482,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 5,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 40
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 104
+      },
+      {
+       "i": 32,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 256
+      }
+     ],
+     "row": 36,
+     "tau_compared_positions": 60,
+     "tau_diverged_at": null
+    }
+   ],
+   "rows": [
+    30,
+    36
+   ]
+  }
+ },
+ "rows_as_declared": true
+}

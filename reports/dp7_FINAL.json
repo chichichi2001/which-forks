@@ -1,0 +1,20 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_sha256": "abd93eeaa93e020f099fd887b6e9aa23f1858a47f6c95ffbb86647f264434b07",
+ "base_accuracy": 0.6,
+ "code_commits": {
+  "A": "5592aa76bdd1d0576af563f241f2e31c96d33511",
+  "B": "5592aa76bdd1d0576af563f241f2e31c96d33511"
+ },
+ "coverage_ok": true,
+ "final_labels": {
+  "main1": "AWAY_PERSISTS_MATCHED",
+  "main1_prerequisite_met": true,
+  "main2": "AWAY_REPLICATED",
+  "main3": "DIGIT_BEYOND_CONFIDENCE_AND_SWAP"
+ },
+ "guard_ok": true,
+ "match_coverage": 0.9529964747356052,
+ "result_sha256": "7d15e62e258588dfd239c976e9490fd86862b043a548dcaccf2bc4f2b3b85ff1"
+}

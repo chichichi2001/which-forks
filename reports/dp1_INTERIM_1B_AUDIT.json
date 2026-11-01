@@ -1,0 +1,387 @@
+{
+ "1B": {
+  "diverged_rows": 0,
+  "halves": [
+   "A",
+   "B"
+  ],
+  "max_diverged_rows": 2,
+  "model": "1B",
+  "pass": true,
+  "per_half": {
+   "A": {
+    "code_commit": "9e896e1606f6708b46e7117c722125c505f255b8",
+    "diverged_rows": 0,
+    "half": "A",
+    "model": "1B",
+    "per_row": [
+     {
+      "base_compared_steps": 184,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 160,
+        "t": 38
+       },
+       {
+        "identical": true,
+        "stored_tokens": 114,
+        "t": 65
+       },
+       {
+        "identical": true,
+        "stored_tokens": 61,
+        "t": 120
+       },
+       {
+        "identical": true,
+        "stored_tokens": 23,
+        "t": 155
+       },
+       {
+        "identical": true,
+        "stored_tokens": 292,
+        "t": 174
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 13
+     },
+     {
+      "base_compared_steps": 490,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 489,
+        "t": 22
+       },
+       {
+        "identical": true,
+        "stored_tokens": 485,
+        "t": 26
+       },
+       {
+        "identical": true,
+        "stored_tokens": 372,
+        "t": 139
+       },
+       {
+        "identical": true,
+        "stored_tokens": 291,
+        "t": 220
+       },
+       {
+        "identical": true,
+        "stored_tokens": 136,
+        "t": 236
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 21
+     },
+     {
+      "base_compared_steps": 88,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 78,
+        "t": 9
+       },
+       {
+        "identical": true,
+        "stored_tokens": 60,
+        "t": 27
+       },
+       {
+        "identical": true,
+        "stored_tokens": 37,
+        "t": 39
+       },
+       {
+        "identical": true,
+        "stored_tokens": 44,
+        "t": 41
+       },
+       {
+        "identical": true,
+        "stored_tokens": 26,
+        "t": 58
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 26
+     },
+     {
+      "base_compared_steps": 124,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 104,
+        "t": 0
+       },
+       {
+        "identical": true,
+        "stored_tokens": 97,
+        "t": 24
+       },
+       {
+        "identical": true,
+        "stored_tokens": 46,
+        "t": 77
+       },
+       {
+        "identical": true,
+        "stored_tokens": 44,
+        "t": 79
+       },
+       {
+        "identical": true,
+        "stored_tokens": 12,
+        "t": 114
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 36
+     },
+     {
+      "base_compared_steps": 109,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 102,
+        "t": 0
+       },
+       {
+        "identical": true,
+        "stored_tokens": 55,
+        "t": 53
+       },
+       {
+        "identical": true,
+        "stored_tokens": 44,
+        "t": 64
+       },
+       {
+        "identical": true,
+        "stored_tokens": 25,
+        "t": 83
+       },
+       {
+        "identical": true,
+        "stored_tokens": 32,
+        "t": 84
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 38
+     }
+    ],
+    "rows": [
+     13,
+     21,
+     26,
+     36,
+     38
+    ],
+    "rows_as_declared": true
+   },
+   "B": {
+    "code_commit": "9e896e1606f6708b46e7117c722125c505f255b8",
+    "diverged_rows": 0,
+    "half": "B",
+    "model": "1B",
+    "per_row": [
+     {
+      "base_compared_steps": 135,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 150,
+        "t": 13
+       },
+       {
+        "identical": true,
+        "stored_tokens": 75,
+        "t": 59
+       },
+       {
+        "identical": true,
+        "stored_tokens": 47,
+        "t": 87
+       },
+       {
+        "identical": true,
+        "stored_tokens": 43,
+        "t": 91
+       },
+       {
+        "identical": true,
+        "stored_tokens": 11,
+        "t": 123
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 51
+     },
+     {
+      "base_compared_steps": 151,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 134,
+        "t": 16
+       },
+       {
+        "identical": true,
+        "stored_tokens": 96,
+        "t": 66
+       },
+       {
+        "identical": true,
+        "stored_tokens": 80,
+        "t": 69
+       },
+       {
+        "identical": true,
+        "stored_tokens": 76,
+        "t": 75
+       },
+       {
+        "identical": true,
+        "stored_tokens": 32,
+        "t": 104
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 52
+     },
+     {
+      "base_compared_steps": 89,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 66,
+        "t": 16
+       },
+       {
+        "identical": true,
+        "stored_tokens": 87,
+        "t": 29
+       },
+       {
+        "identical": true,
+        "stored_tokens": 42,
+        "t": 45
+       },
+       {
+        "identical": true,
+        "stored_tokens": 36,
+        "t": 51
+       },
+       {
+        "identical": true,
+        "stored_tokens": 6,
+        "t": 84
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 68
+     },
+     {
+      "base_compared_steps": 512,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 344,
+        "t": 106
+       },
+       {
+        "identical": true,
+        "stored_tokens": 292,
+        "t": 201
+       },
+       {
+        "identical": true,
+        "stored_tokens": 286,
+        "t": 225
+       },
+       {
+        "identical": true,
+        "stored_tokens": 182,
+        "t": 329
+       },
+       {
+        "identical": true,
+        "stored_tokens": 168,
+        "t": 343
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 74
+     },
+     {
+      "base_compared_steps": 140,
+      "base_diverged_at": null,
+      "continuations": [
+       {
+        "identical": true,
+        "stored_tokens": 124,
+        "t": 0
+       },
+       {
+        "identical": true,
+        "stored_tokens": 124,
+        "t": 27
+       },
+       {
+        "identical": true,
+        "stored_tokens": 76,
+        "t": 54
+       },
+       {
+        "identical": true,
+        "stored_tokens": 46,
+        "t": 82
+       },
+       {
+        "identical": true,
+        "stored_tokens": 27,
+        "t": 114
+       }
+      ],
+      "diverged": false,
+      "model": "1B",
+      "row": 95
+     }
+    ],
+    "rows": [
+     51,
+     52,
+     68,
+     74,
+     95
+    ],
+    "rows_as_declared": true
+   }
+  },
+  "rows_as_declared": true
+ }
+}

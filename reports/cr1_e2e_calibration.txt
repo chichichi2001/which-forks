@@ -1,0 +1,38 @@
+# CR-1 gate v6 end-to-end synthetic check (scripts/cr1_e2e_calibration.py); run 2026-10-11 JST
+# null scenarios: seeds 11 and 12, 200 datasets each; other scenarios: seed 13, 150 datasets; R=199 permutations
+## effect_highm.txt
+N=90 L=55 A=12 B=36 datasets=150 R=199 seed=13
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+effect_highm [item redraw share 0.137] | 1.000 | 0.333 | 0.333 | 0.333 (n=150) | 1.000 | +0.008
+## effect_u.txt
+N=90 L=55 A=12 B=36 datasets=150 R=199 seed=13
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+effect_u [item redraw share 0.018] | 1.000 | 1.000 | 1.000 | 1.000 (n=150) | 1.000 | +0.048
+## g_zero_perm_false.txt
+N=90 L=55 A=12 B=36 datasets=150 R=199 seed=13
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+g_zero_perm_false [item redraw share 0.289] | 0.060 | 0.133 | 0.013 | 0.222 (n=9) | 0.060 | +0.005
+## perm_null.11.txt
+N=90 L=55 A=12 B=36 datasets=200 R=199 seed=11
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+perm_null [item redraw share 0.000] | 0.030 | 0.050 | 0.000 | 0.000 (n=6) | 0.030 | -0.001
+## perm_null.12.txt
+N=90 L=55 A=12 B=36 datasets=200 R=199 seed=12
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+perm_null [item redraw share 0.000] | 0.035 | 0.055 | 0.000 | 0.000 (n=7) | 0.035 | +0.000
+## perm_null_drift.11.txt
+N=90 L=55 A=12 B=36 datasets=200 R=199 seed=11
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+perm_null_drift [item redraw share 0.000] | 0.030 | 0.040 | 0.000 | 0.000 (n=6) | 0.030 | -0.001
+## perm_null_drift.12.txt
+N=90 L=55 A=12 B=36 datasets=200 R=199 seed=12
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+perm_null_drift [item redraw share 0.000] | 0.030 | 0.045 | 0.000 | 0.000 (n=6) | 0.030 | -0.001
+## perm_null_g_nonzero.11.txt
+N=90 L=55 A=12 B=36 datasets=200 R=199 seed=11
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+perm_null_g_nonzero [item redraw share 0.066] | 1.000 | 0.045 | 0.045 | 0.045 (n=200) | 1.000 | -0.001
+## perm_null_g_nonzero.12.txt
+N=90 L=55 A=12 B=36 datasets=200 R=199 seed=12
+scenario | pass all gates | p<=0.05 (any) | BEYOND label (gates & p<=0.05) | p<=0.05 among gate-passers | main0 pass | mean delta
+perm_null_g_nonzero [item redraw share 0.065] | 1.000 | 0.050 | 0.050 | 0.050 (n=200) | 1.000 | -0.000

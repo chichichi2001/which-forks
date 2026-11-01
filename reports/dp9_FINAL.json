@@ -1,0 +1,30 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_sha256": "c9999dbdf2f1340d545bccb7ef17756324afedd3b3c8ad35539c2a35aafa119a",
+ "base_accuracy": 0.85,
+ "code_commit": "43ef025fdedc964048a596536ce180139e4f549f",
+ "estimator_check_ok": true,
+ "final_labels": {
+  "main1": "ENTROPY_AWAY_FROM_SWAP_EFFECT",
+  "main2": "WEIGHTING_EXPLAINS_FLIP",
+  "main2b": "ENTROPY_TOWARD_RESAMPLING_DROP",
+  "main3": "DIGITS_DRIVE_AWAY",
+  "main4": "NATURAL_LIKE_SECOND",
+  "main5": "RARER_ALT_HURTS_MORE",
+  "main6": "RARE_CONTRIBUTION_UNDECIDED"
+ },
+ "low_information": {
+  "accuracy_below": false,
+  "items_both": {
+   "d_s": 26,
+   "e": 37,
+   "e_alt": 37
+  },
+  "items_both_below": false,
+  "nonrare_below": false,
+  "nonrare_positions": 246,
+  "triggered": false
+ },
+ "result_sha256": "b791a04cd77d2bba73ef392b7401d61a5d16b4ae75f56c84169d1bc0f53c3671"
+}

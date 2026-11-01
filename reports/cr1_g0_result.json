@@ -1,0 +1,132 @@
+{
+ "started_utc": "2026-10-12T09:18:13.000103Z",
+ "spent_usd": 0.010651500000000003,
+ "sdk_version": "1.13.0",
+ "code_head": "4dcae3f089c8b2a7218fbd13cde5317e9f1dcc4c",
+ "models": {
+  "haiku_4_5": "claude-haiku-4-5-20251001",
+  "haiku_4_5_listed": true,
+  "sonnet_4_5": "claude-sonnet-4-5-20250929"
+ },
+ "t1_prefill": {
+  "haiku_4_5": {
+   "ok": true,
+   "continues": true,
+   "status": null,
+   "error": null
+  },
+  "sonnet_4_5": {
+   "ok": true,
+   "continues": false,
+   "status": null,
+   "error": null
+  }
+ },
+ "t2_trailing_space_prefill": {
+  "rejected": true,
+  "status": 400,
+  "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: final assistant content cannot end with trailing whitespace'}, 'request_id': 'req_011Cfx6MH3d2gy2bz"
+ },
+ "t3_extra_body_temperature_0": {
+  "accepted": true,
+  "statuses": [
+   null,
+   null,
+   null
+  ],
+  "errors": [],
+  "three_outputs_identical": true
+ },
+ "baseline_temperature": 0,
+ "t4_word_boundary": [
+  {
+   "ends_with": "number",
+   "sentence": "There are 12",
+   "first_char_kinds": {
+    "space": 10
+   }
+  },
+  {
+   "ends_with": "number",
+   "sentence": "She paid 35",
+   "first_char_kinds": {
+    "space": 9,
+    "letter": 1
+   }
+  },
+  {
+   "ends_with": "number",
+   "sentence": "The answer is 7",
+   "first_char_kinds": {
+    "symbol": 7,
+    "space": 3
+   }
+  },
+  {
+   "ends_with": "word",
+   "sentence": "He bought apples",
+   "first_char_kinds": {
+    "space": 10
+   }
+  },
+  {
+   "ends_with": "word",
+   "sentence": "The shop sells",
+   "first_char_kinds": {
+    "space": 10
+   }
+  },
+  {
+   "ends_with": "word",
+   "sentence": "We walked to the",
+   "first_char_kinds": {
+    "space": 10
+   }
+  },
+  {
+   "ends_with": "symbol",
+   "sentence": "The total is 4.",
+   "first_char_kinds": {
+    "digit": 10
+   }
+  },
+  {
+   "ends_with": "symbol",
+   "sentence": "First, we add 3 + 5 =",
+   "first_char_kinds": {
+    "space": 5,
+    "digit": 4,
+    "symbol": 1
+   }
+  },
+  {
+   "ends_with": "symbol",
+   "sentence": "The list: (a)",
+   "first_char_kinds": {
+    "space": 6,
+    "symbol": 3,
+    "letter": 1
+   }
+  }
+ ],
+ "t6_sdk_version": "1.13.0",
+ "t5_batch_id": "msgbatch_01MGQvCvauj2w3CQESVaxanw",
+ "t5_submitted_utc": "2026-10-12T09:19:12.624533Z",
+ "t5_batch": {
+  "ended": true,
+  "result_types": {
+   "succeeded": 10
+  },
+  "all_custom_ids_back": true,
+  "continued_correctly": 10,
+  "request_counts": {
+   "canceled": 0,
+   "errored": 0,
+   "expired": 0,
+   "processing": 0,
+   "succeeded": 10
+  }
+ },
+ "verdict": "G0_PASS",
+ "finished_utc": "2026-10-12T09:20:44.094190Z"
+}

@@ -1,0 +1,11 @@
+{
+ "audit_pass": true,
+ "code_commit": "bb52eed55bc601f3030cc1ea4168649a60fc146b",
+ "final_labels": {
+  "main1": "NO_CLEAR_DIFFERENCE",
+  "main2": "BEYOND_ENTROPY_UNDECIDED"
+ },
+ "guard_ok": true,
+ "repeat_pass": true,
+ "result_sha256": "64e387eff510baab0dc988bc425f5d14636306d7b1fcbd132942b3ab6968b86a"
+}

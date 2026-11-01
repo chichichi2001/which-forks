@@ -1,0 +1,76 @@
+# PARA-1 G0 pre-freeze dry run (draft v5, 2026-10-12 JST). Reference only; not the frozen G0.
+# nltk source: github nltk/nltk main 5ff995ba15ce45a488360123b2926cbf20ef10bf; nltk_data gh-pages 550b6625bcef1f2abff2ff770a5a0d272c9c6b2a; similar_to included
+# D1-D4 use the toy tokenizer in scripts/para1_typing.py; real tokenizers and G0c not tried.
+nltk=3.10.3 wordnet=3.0 stopwords_en=198
+ 1 OK  w='Mario' a='Dario' expected=形型 got=形型 edit_sim=0.80
+ 2 OK  w='cold' a='chilly' expected=意味型 got=意味型 similar_to
+ 3 OK  w='apple' a='Apple.' expected=表記ゆれ got=表記ゆれ 
+ 4 OK  w='river' a=' River!?' expected=表記ゆれ got=表記ゆれ 
+ 5 OK  w='river' a='...' expected=空 got=空 
+ 6 OK  w='river' a='(' expected=空 got=空 
+ 7 OK  w='river' a='' expected=空 got=空 
+ 8 OK  w='12' a='13' expected=数字・形 got=数字・形 
+ 9 OK  w='12' a='120' expected=数字・形 got=数字・形 
+10 OK  w='12' a='21' expected=数字・その他 got=数字・その他 
+11 OK  w='twelve' a='12' expected=数字・その他 got=数字・その他 
+12 OK  w='1.5' a='2' expected=数字・その他 got=数字・その他 
+13 OK  w='apple' a='apples' expected=活用 got=活用 
+14 OK  w='go' a='went' expected=活用 got=活用 
+15 OK  w='see' a='saw' expected=活用 got=活用 
+16 OK  w='is' a='was' expected=活用 got=活用 
+17 OK  w='the' a='a' expected=機能語 got=機能語 
+18 OK  w='of' a='in' expected=機能語 got=機能語 
+19 OK  w='car' a='automobile' expected=意味型 got=意味型 synonym
+20 OK  w='car' a='truck' expected=意味型 got=意味型 cohyponym
+21 OK  w='dog' a='canine' expected=意味型 got=意味型 hyper_hypo
+22 OK  w='big' a='small' expected=意味型 got=意味型 antonym
+23 OK  w='Paris' a='London' expected=意味型 got=意味型 cohyponym
+24 OK  w='house' a='horse' expected=形型 got=形型 edit_sim=0.80
+25 OK  w='form' a='from' expected=形型 got=形型 edit_sim=0.50
+26 OK  w='catalog' a='cat' expected=形型 got=形型 same_first3
+27 OK  w='photo' a='photograph' expected=両方 got=両方 synonym;edit_sim=0.50
+28 OK  w='cat' a='dog' expected=その他 got=その他 
+29 OK  w='ox' a='on' expected=その他 got=その他 
+30 OK  w='table' a='blorp' expected=その他・断片 got=その他・断片 
+mismatches=0 / 30
+31 OK  w='...' a='...' expected=EXCLUDED_EMPTY_TARGET got=EXCLUDED_EMPTY_TARGET 
+32 OK  w='(' a='cat' expected=EXCLUDED_EMPTY_TARGET got=EXCLUDED_EMPTY_TARGET 
+33 OK  w='cat' a='cat\n' expected=表記ゆれ got=表記ゆれ 
+34 OK  w='cat' a='\tCat' expected=表記ゆれ got=表記ゆれ 
+35 OK  w='cat' a='cat .' expected=表記ゆれ got=表記ゆれ 
+36 OK  w='12' a='١٢' expected=数字・その他 got=数字・その他 
+37 OK  w='a1' a='a2' expected=数字・その他 got=数字・その他 
+38 OK  w='٣' a='cat' expected=その他 got=その他 
+39 OK  w='cat' a='猫' expected=その他 got=その他 
+40 OK  w='mother-in-law' a='mother' expected=意味型 got=意味型 hyper_hypo
+41 OK  w='color' a='colour' expected=両方 got=両方 synonym;edit_sim=0.83
+42 OK  w='hot' a='cold' expected=意味型 got=意味型 antonym
+43 OK  w='go' a='goal' expected=その他 got=その他 
+44 OK  w='cab' a='cap' expected=形型 got=形型 edit_sim=0.67
+45 OK  w='listen' a='silent' expected=その他 got=その他 
+extra mismatches=0 / 15
+B 1 OK  w='cat' piece='ca' ws=False special=False expected=くっつき got=くっつき 
+B 2 OK  w='cat' piece=' ca' ws=True special=False expected=別の切り方 got=別の切り方 
+B 3 OK  w='cat' piece=' c' ws=True special=False expected=別の切り方 got=別の切り方 
+B 4 OK  w='cat' piece=' cats' ws=True special=False expected=活用 got=活用 
+B 5 OK  w='cat' piece=' Cat' ws=True special=False expected=表記ゆれ got=表記ゆれ 
+B 6 OK  w='cat' piece=' cat' ws=True special=False expected=表記ゆれ got=表記ゆれ 
+B 7 OK  w='cat' piece=' ' ws=True special=False expected=空 got=空 
+B 8 OK  w='cat' piece='\n' ws=True special=False expected=空 got=空 
+B 9 OK  w='cat' piece=',' ws=False special=False expected=空 got=空 
+B10 OK  w='cat' piece='<eos>' ws=False special=True expected=特別 got=特別 
+B11 OK  w='cat' piece='�' ws=False special=False expected=バイト片 got=バイト片 
+B12 OK  w='cat' piece=' the dog' ws=True special=False expected=その他 got=その他 multiword
+B13 OK  w='cat' piece=' dog' ws=True special=False expected=その他 got=その他 
+B14 OK  w='cat' piece=' truck' ws=True special=False expected=その他 got=その他 
+B15 OK  w='car' piece=' truck' ws=True special=False expected=意味型 got=意味型 cohyponym
+B16 OK  w='Mario' piece=' Dario' ws=True special=False expected=形型 got=形型 edit_sim=0.80
+B17 OK  w='...' piece=' cat' ws=True special=False expected=EXCLUDED_EMPTY_TARGET got=EXCLUDED_EMPTY_TARGET 
+B18 OK  w='...' piece='<eos>' ws=False special=True expected=EXCLUDED_EMPTY_TARGET got=EXCLUDED_EMPTY_TARGET 
+B19 OK  w='...' piece='�' ws=False special=False expected=EXCLUDED_EMPTY_TARGET got=EXCLUDED_EMPTY_TARGET 
+B mismatches=0 / 19
+D1 OK  expected=['その他', 'くっつき', '別の切り方', '特別', '空'] got=['その他', 'くっつき', '別の切り方', '特別', '空']
+D2 OK  expected=['デコード不一致'] got=['デコード不一致']
+D3 OK  expected=['EXCLUDED_TARGET_DECODE_MISMATCH', 'EXCLUDED_TARGET_DECODE_MISMATCH'] got=['EXCLUDED_TARGET_DECODE_MISMATCH', 'EXCLUDED_TARGET_DECODE_MISMATCH']
+D4 OK  expected=['バイト片', 'その他'] got=['バイト片', 'その他']
+decode mismatches=0 / 4

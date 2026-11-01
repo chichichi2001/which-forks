@@ -1,0 +1,19 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_sha256": "9fcb39732ad761e9974da6637550bbf03ab6e44f798655458f5fbe601a467e83",
+ "base_accuracy": 0.525,
+ "code_commits": {
+  "A": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+  "B": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+  "C": "fd5b17566df21a1c0522afa53b97f4af8b42d552"
+ },
+ "estimator_ok": true,
+ "final_labels": {
+  "main1": "WEIGHTING_EXPLAINS_FLIP",
+  "main2": "ENTROPY_AWAY_FROM_SWAP_EFFECT",
+  "main3": "DIGITS_DRIVE_AWAY"
+ },
+ "guard_ok": true,
+ "result_sha256": "c707264ea6ad22d9e5e2e21b8f30638321c1de7647093cadb76f2b2d789c5d62"
+}

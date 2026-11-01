@@ -1,0 +1,16 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_sha256": "8c089a628ab169ccf481eb56f103a06ef20e04d54e2878f134ff816fdb8638a3",
+ "base_accuracy": 0.375,
+ "code_commits": {
+  "A": "3c74aa95fe883479013d1ac832c86e146c4b312b",
+  "B": "3c74aa95fe883479013d1ac832c86e146c4b312b"
+ },
+ "final_labels": {
+  "main1": "WEIGHTING_UNDECIDED",
+  "main2": "DIGITS_DRIVE_FORCED_FRAGILITY"
+ },
+ "guard_ok": true,
+ "result_sha256": "e8fe79af8f7abbc5119dfb0b03c46d48e9f6a9516d300f50e0e7393bd04e3bd4"
+}

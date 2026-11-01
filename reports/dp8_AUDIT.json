@@ -1,0 +1,344 @@
+{
+ "audit_references": {
+  "A": "numpy_stable_argsort",
+  "B": "numpy_stable_argsort"
+ },
+ "diverged_rows": 0,
+ "halves": [
+  "A",
+  "B"
+ ],
+ "max_diverged_rows": 1,
+ "pass": true,
+ "per_half": {
+  "A": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "88b029da398556fc3b3c49903a318d7d5e81ba50",
+   "diverged_rows": 0,
+   "half": "A",
+   "per_row": [
+    {
+     "base_compared_steps": 322,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 2,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 16
+      },
+      {
+       "i": 5,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 40
+      },
+      {
+       "i": 25,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 200
+      }
+     ],
+     "row": 1,
+     "tau_compared_positions": 40,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 139,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 7,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 56
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 88
+      },
+      {
+       "i": 14,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 112
+      }
+     ],
+     "row": 7,
+     "tau_compared_positions": 17,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 119,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 6,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 48
+      },
+      {
+       "i": 10,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 80
+      },
+      {
+       "i": 13,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 104
+      }
+     ],
+     "row": 13,
+     "tau_compared_positions": 15,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 241,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 1,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 8
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 88
+      },
+      {
+       "i": 14,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 112
+      }
+     ],
+     "row": 15,
+     "tau_compared_positions": 23,
+     "tau_diverged_at": null
+    },
+    {
+     "base_compared_steps": 150,
+     "base_diverged_at": null,
+     "diverged": false,
+     "points": [
+      {
+       "i": 4,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 32
+      },
+      {
+       "i": 7,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 56
+      },
+      {
+       "i": 11,
+       "identical": true,
+       "record_only_all32_sha_same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "same": {
+        "alt": true,
+        "keep": true,
+        "swap": true,
+        "swapt": true
+       },
+       "t": 88
+      }
+     ],
+     "row": 18,
+     "tau_compared_positions": 19,
+     "tau_diverged_at": null
+    }
+   ],
+   "rows": [
+    1,
+    7,
+    13,
+    15,
+    18
+   ]
+  },
+  "B": {
+   "audit_reference": "numpy_stable_argsort",
+   "code_commit": "88b029da398556fc3b3c49903a318d7d5e81ba50",
+   "diverged_rows": 0,
+   "half": "B",
+   "per_row": [],
+   "rows": []
+  }
+ },
+ "rows_as_declared": true
+}

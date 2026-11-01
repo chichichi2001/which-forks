@@ -1,0 +1,270 @@
+{
+ "analysis": {
+  "ESTIMATOR_ds_minus_dplain": {
+   "ci": [
+    -0.00549769429360672,
+    0.005566504262776509
+   ],
+   "mean": 9.61915536835703e-06
+  },
+  "MAIN1_entropy_top_ds_vs_top_ealt": {
+   "first": {
+    "ci": [
+     0.8623087331825068,
+     0.9111699893002176
+    ],
+    "items_both": 36,
+    "within_item_auroc": 0.887178701605571
+   },
+   "first_minus_second": {
+    "ci": [
+     0.4647694638208505,
+     0.6041407761625088
+    ],
+    "diff": 0.5350737713031688
+   },
+   "second": {
+    "ci": [
+     0.2942572910834849,
+     0.41126010258023216
+    ],
+    "items_both": 39,
+    "within_item_auroc": 0.35210493030240225
+   }
+  },
+  "MAIN2_entropy_top_e": {
+   "ci": [
+    0.3159561979817398,
+    0.4395216149045789
+   ],
+   "items_both": 38,
+   "positives": 156,
+   "within_item_auroc": 0.37754713013367225
+  },
+  "S1_reliability": {
+   "d_plain": {
+    "pearson_halves": -0.019676524606560667,
+    "top_agreement": 0.7648183556405354,
+    "top_overlap": 33
+   },
+   "d_s": {
+    "pearson_halves": 0.4301577794728379,
+    "top_agreement": 0.8336520076481836,
+    "top_overlap": 69
+   },
+   "e": {
+    "pearson_halves": 0.7112150475051531,
+    "top_agreement": 0.875717017208413,
+    "top_overlap": 91
+   },
+   "e_alt": {
+    "pearson_halves": 0.6610127619303802,
+    "top_agreement": 0.8833652007648184,
+    "top_overlap": 95
+   }
+  },
+  "S2_ds_vs_dplain": {
+   "diff_quantiles": [
+    -0.1562476859729821,
+    -0.031417072287497134,
+    0.0,
+    0.03125,
+    0.18749877591852415
+   ],
+   "pearson": 0.37445486689973445
+  },
+  "S3_dp3_form_top_ds_vs_top_e": {
+   "first": {
+    "ci": [
+     0.8623087331825068,
+     0.9111699893002176
+    ],
+    "items_both": 36,
+    "within_item_auroc": 0.887178701605571
+   },
+   "first_minus_second": {
+    "ci": [
+     0.4369589452351086,
+     0.581339366993479
+    ],
+    "diff": 0.5096315714718987
+   },
+   "second": {
+    "ci": [
+     0.3159561979817398,
+     0.4395216149045789
+    ],
+    "items_both": 38,
+    "within_item_auroc": 0.37754713013367225
+   }
+  },
+  "S4_spearman_ealt_e": 0.573488983687265,
+  "S5_effect_size": {
+   "spearman_entropy_e": -0.10406220024164889,
+   "spearman_entropy_ealt": -0.13313695703611864,
+   "spearman_entropy_p2": 0.9755781768984142,
+   "top_e_within_p2_tertiles": [
+    {
+     "items_both": 32,
+     "p2_upper": 4.969690726012082e-05,
+     "positions": 349,
+     "top": 77,
+     "within_item_auroc": 0.4517341051003735
+    },
+    {
+     "items_both": 22,
+     "p2_upper": 0.03534934385119982,
+     "positions": 348,
+     "top": 40,
+     "within_item_auroc": 0.5343104442492284
+    },
+    {
+     "items_both": 20,
+     "p2_upper": null,
+     "positions": 349,
+     "top": 39,
+     "within_item_auroc": 0.6379234001292825
+    }
+   ]
+  },
+  "S6_by_correctness": {
+   "main1_correct_items": {
+    "first": {
+     "ci": [
+      0.8501941124760061,
+      0.9234336782591932
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.8871346077009693
+    },
+    "first_minus_second": {
+     "ci": [
+      0.49287512853991283,
+      0.6885950202696087
+     ],
+     "diff": 0.5904930293935227
+    },
+    "second": {
+     "ci": [
+      0.21356235336056217,
+      0.3813931201888591
+     ],
+     "items_both": 21,
+     "within_item_auroc": 0.29664157830744664
+    }
+   },
+   "main1_wrong_items": {
+    "first": {
+     "ci": [
+      0.8513836857303803,
+      0.9171146525384513
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.8872227955101729
+    },
+    "first_minus_second": {
+     "ci": [
+      0.3833927420237702,
+      0.5536475812546335
+     ],
+     "diff": 0.4704106212136556
+    },
+    "second": {
+     "ci": [
+      0.3409893255481077,
+      0.49294840353953656
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.4168121742965173
+    }
+   },
+   "main2_correct_items": {
+    "ci": [
+     0.23818083115141941,
+     0.39638425186063864
+    ],
+    "items_both": 20,
+    "positives": 156,
+    "within_item_auroc": 0.3198453311196857
+   },
+   "main2_wrong_items": {
+    "ci": [
+     0.35258434198651584,
+     0.5389231363889161
+    ],
+    "items_both": 18,
+    "positives": 156,
+    "within_item_auroc": 0.44166024014921285
+   }
+  },
+  "S7_permuted_top_ds": {
+   "first": 0.5071070982500676,
+   "mean": 0.5002117965831698,
+   "n": 2000,
+   "q025": 0.431147450269455,
+   "q975": 0.5738006383394505,
+   "sd": 0.036936255748682305
+  },
+  "S8_nondigit": {
+   "main1": {
+    "first": {
+     "ci": [
+      0.8226758499964667,
+      0.8913315766722109
+     ],
+     "items_both": 35,
+     "within_item_auroc": 0.85922201532588
+    },
+    "first_minus_second": {
+     "ci": [
+      0.34113694183847104,
+      0.5180637556687147
+     ],
+     "diff": 0.42910039656326837
+    },
+    "second": {
+     "ci": [
+      0.3498172284981393,
+      0.5088067161762914
+     ],
+     "items_both": 33,
+     "within_item_auroc": 0.4301216187626117
+    }
+   },
+   "main2": {
+    "ci": [
+     0.3803574940091346,
+     0.5454558412766575
+    ],
+    "items_both": 31,
+    "positives": 156,
+    "within_item_auroc": 0.4635687429370846
+   }
+  },
+  "base_accuracy": 0.55,
+  "estimator_ok": true,
+  "guard_ok": true,
+  "items": 40,
+  "items_in_analysis": 40,
+  "items_unreadable_base": 0,
+  "label_main1": "WEIGHTING_EXPLAINS_FLIP",
+  "label_main2": "ENTROPY_AWAY_FROM_SWAP_EFFECT",
+  "overlap_top_ds_top_dplain": 57,
+  "overlap_top_ds_top_ealt": 44,
+  "positions": 1046,
+  "top_n": 156
+ },
+ "code_commits": {
+  "A": "b64a0065590662c2270d110c80ff095f41f80f5e",
+  "B": "b64a0065590662c2270d110c80ff095f41f80f5e"
+ },
+ "gate_doc_sha256": "4a8570c2cd7e953b2f857afd4ccdf548f9c639ddf8f68fe80ccf69f878cc7828",
+ "items_sha256": "435bc0852b18d3a6299d6b48b2c0c021e287bb4ea4225e0e44043afa0e1f5d3f",
+ "result_sha256": "9f4b2d1bed2017a004f5681d5f5b16d93cda5d54ef267fb64b15c4523c9325df",
+ "schema": "dp4-weighting-v1",
+ "versions": {
+  "numpy": "2.1.3",
+  "scikit_learn": "1.6.1",
+  "scipy": "1.16.3"
+ }
+}

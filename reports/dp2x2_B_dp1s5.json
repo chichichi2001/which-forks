@@ -1,0 +1,44 @@
+{
+ "B1": {
+  "entropy_vs_abs_e": 0.1218810730957103,
+  "entropy_vs_e": -0.14296680817262378,
+  "entropy_vs_p2": 0.9826167663547897,
+  "entropy_vs_w": -0.10753834966750227,
+  "p2_vs_e": -0.13417525788899606,
+  "p2_vs_w": -0.09429595100098441
+ },
+ "B2_entropy_for_top_e": {
+  "forks": 66,
+  "items_with_both_classes": 17,
+  "pooled_auroc": 0.46407185628742514,
+  "pooled_ci": [
+   0.4235294117647059,
+   0.5093017127799736
+  ],
+  "windows": 400,
+  "within_item_auroc": 0.4385428762894161,
+  "within_item_ci": [
+   0.37615722469824636,
+   0.5033329849545021
+  ]
+ },
+ "B2_entropy_for_top_w": {
+  "forks": 66,
+  "items_with_both_classes": 17,
+  "pooled_auroc": 0.6760116131373617,
+  "pooled_ci": [
+   0.623828125,
+   0.7350820678018101
+  ],
+  "windows": 400,
+  "within_item_auroc": 0.7069162381154732,
+  "within_item_ci": [
+   0.653538783160323,
+   0.7606887220348666
+  ]
+ },
+ "B2_overlap_top_e_top_w": 41,
+ "k": 66,
+ "positions": 400,
+ "share_e_ge_025": 0.165
+}

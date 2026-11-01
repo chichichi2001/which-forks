@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Which forks? The definition of a forking token can flip its relation to entropy"
+type: report
+authors:
+  - family-names: Honda
+    given-names: Chisa
+    affiliation: Independent researcher
+date-released: 2026-11-01
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/chichichi2001/which-forks"

@@ -1,0 +1,1106 @@
+{
+ "argmax_agreement": 0.9994498844757399,
+ "code_commit": "2199f3162747c629921c6621fe7496861bea0d6a",
+ "exploratory": true,
+ "fork_rates": {
+  "all": 0.31648146110683245,
+  "digit": 0.5534564190639759,
+  "implausible": 0.2985205159973763,
+  "nondigit": 0.2816581487791028,
+  "plausible": 0.37177473636975544,
+  "share_digit": 0.12812190560017603,
+  "share_plausible": 0.24518648916272417
+ },
+ "forks": 5753,
+ "gpu_name": "Tesla T4",
+ "items_sha256": "18becaa5ea54d9ec05c08f9ba982cc896f98508ace84393ce84dc6c05363072c",
+ "layers": {
+  "12": {
+   "P0": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.7124592855236757,
+     "pooled_ci": [
+      0.6808228103849486,
+      0.7464325217721042
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7592294559708425,
+     "within_item_ci": [
+      0.733049675210634,
+      0.7855895515214294
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.7532278934916378,
+     "pooled_ci": [
+      0.7168459991771474,
+      0.7941016826488149
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.8159208540922953,
+     "within_item_ci": [
+      0.7813148300449215,
+      0.8476020148779337
+     ]
+    }
+   },
+   "P0_oof_sha256": "1fa35b7f871ddad707b2a7deef4ee52646be44ac6605e5fc9e3147dd5eb79898",
+   "incremental_P0cheap_vs_cheap": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "minus_other": {
+      "pooled": -0.03295026896998188,
+      "pooled_ci": [
+       -0.07273645836888487,
+       0.017106988306087922
+      ],
+      "within": 0.02159283879697771,
+      "within_ci": [
+       0.0025927062553177116,
+       0.04143879971141473
+      ]
+     },
+     "pooled_auroc": 0.7478901568633074,
+     "pooled_ci": [
+      0.7191693918476886,
+      0.7766144455095748
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7731684167676923,
+     "within_item_ci": [
+      0.7487683297783928,
+      0.7981207811890646
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "minus_other": {
+      "pooled": 0.011133712249788763,
+      "pooled_ci": [
+       -0.02194426960398632,
+       0.04791387520442736
+      ],
+      "within": 0.019870182892673727,
+      "within_ci": [
+       -0.010193824859629608,
+       0.048484186664560114
+      ]
+     },
+     "pooled_auroc": 0.7754675840970788,
+     "pooled_ci": [
+      0.7419956286206968,
+      0.8122496301152542
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.8272933362518149,
+     "within_item_ci": [
+      0.7956279893233531,
+      0.8566221025634141
+     ]
+    }
+   },
+   "lead": {
+    "20": {
+     "probe": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "pooled_auroc": 0.5896227845081964,
+       "pooled_ci": [
+        0.5420625880404157,
+        0.6361246756558552
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.5130752962944759,
+       "within_item_ci": [
+        0.49248849467296274,
+        0.5333416708349769
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "pooled_auroc": 0.557023523616772,
+       "pooled_ci": [
+        0.527817057711757,
+        0.5815857040352094
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.5163778458594951,
+       "within_item_ci": [
+        0.4811192436345092,
+        0.5527829075853723
+       ]
+      }
+     },
+     "probe_plus_pos_vs_pos": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "minus_other": {
+        "pooled": -0.07301332066796751,
+        "pooled_ci": [
+         -0.12643950435339346,
+         -0.008505638948521299
+        ],
+        "within": 0.024494549789753295,
+        "within_ci": [
+         -0.007590909186706796,
+         0.057232057383360235
+        ]
+       },
+       "pooled_auroc": 0.6473398639708929,
+       "pooled_ci": [
+        0.5992899852354633,
+        0.6905824654178093
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.5157042655285757,
+       "within_item_ci": [
+        0.4940338764691264,
+        0.5379358120479993
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "minus_other": {
+        "pooled": 0.014603171362287282,
+        "pooled_ci": [
+         -0.02482990086938086,
+         0.060119128105335984
+        ],
+        "within": 0.06545283289584714,
+        "within_ci": [
+         0.01354920137738408,
+         0.11760306939602816
+        ]
+       },
+       "pooled_auroc": 0.5803485793185119,
+       "pooled_ci": [
+        0.5479176936354585,
+        0.6050948360336658
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.5017915497941838,
+       "within_item_ci": [
+        0.46444169148651937,
+        0.5412395037247422
+       ]
+      }
+     }
+    },
+    "5": {
+     "probe": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "pooled_auroc": 0.6386284751792521,
+       "pooled_ci": [
+        0.5973998677501261,
+        0.6735810249967946
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.5959442711401519,
+       "within_item_ci": [
+        0.5742651594280207,
+        0.6197715998747653
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "pooled_auroc": 0.6127079084985669,
+       "pooled_ci": [
+        0.5840023594340477,
+        0.6405276000678172
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.6210773489002851,
+       "within_item_ci": [
+        0.5850086416759545,
+        0.6600952468568599
+       ]
+      }
+     },
+     "probe_plus_pos_vs_pos": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "minus_other": {
+        "pooled": -0.03810728791312101,
+        "pooled_ci": [
+         -0.08652491298402365,
+         0.021528076831794585
+        ],
+        "within": 0.10963664068074419,
+        "within_ci": [
+         0.07169727941555204,
+         0.1472610278947621
+        ]
+       },
+       "pooled_auroc": 0.6822458967257394,
+       "pooled_ci": [
+        0.6398698576042009,
+        0.7149510891837555
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.6008463564195666,
+       "within_item_ci": [
+        0.5798186638279522,
+        0.6237882267106349
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "minus_other": {
+        "pooled": 0.06798700420347159,
+        "pooled_ci": [
+         0.020467806776315545,
+         0.1263528761678337
+        ],
+        "within": 0.18031286696809345,
+        "within_ci": [
+         0.12176672645807612,
+         0.23606322739087676
+        ]
+       },
+       "pooled_auroc": 0.6337324121596962,
+       "pooled_ci": [
+        0.6080305198234065,
+        0.6577347016343595
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.6166515838664302,
+       "within_item_ci": [
+        0.5829882989281907,
+        0.6538311448484038
+       ]
+      }
+     }
+    }
+   },
+   "nondigit_P0_vs_cheap": {
+    "all": {
+     "forks": 4464,
+     "items_with_both_classes": 81,
+     "minus_other": {
+      "pooled": -0.0964980567715491,
+      "pooled_ci": [
+       -0.15576093416479098,
+       -0.01904601976373399
+      ],
+      "within": 0.040958897000467065,
+      "within_ci": [
+       -0.0015505196857313885,
+       0.08547458991391865
+      ]
+     },
+     "pooled_auroc": 0.6831058362965796,
+     "pooled_ci": [
+      0.6482248412607208,
+      0.7190496189735134
+     ],
+     "positions": 15849,
+     "within_item_auroc": 0.6330938078748368,
+     "within_item_ci": [
+      0.607890935065295,
+      0.6582908555822831
+     ]
+    },
+    "base_correct": {
+     "forks": 486,
+     "items_with_both_classes": 34,
+     "minus_other": {
+      "pooled": -0.02589414388497102,
+      "pooled_ci": [
+       -0.09182847513360215,
+       0.049241447644468694
+      ],
+      "within": 0.04282716067722603,
+      "within_ci": [
+       -0.030847067336275402,
+       0.1247243700375611
+      ]
+     },
+     "pooled_auroc": 0.6645950118634687,
+     "pooled_ci": [
+      0.6191190500006718,
+      0.703165578141113
+     ],
+     "positions": 6494,
+     "within_item_auroc": 0.6228305925053523,
+     "within_item_ci": [
+      0.5693514938251544,
+      0.6726379544284546
+     ]
+    }
+   },
+   "nondigit_entropy": {
+    "all": {
+     "forks": 4464,
+     "items_with_both_classes": 81,
+     "pooled_auroc": 0.6112818814607034,
+     "pooled_ci": [
+      0.572097055108472,
+      0.6428032504767589
+     ],
+     "positions": 15849,
+     "within_item_auroc": 0.49982937598423266,
+     "within_item_ci": [
+      0.4670267885247654,
+      0.5304479750963768
+     ]
+    },
+    "base_correct": {
+     "forks": 486,
+     "items_with_both_classes": 34,
+     "pooled_auroc": 0.5708554574696015,
+     "pooled_ci": [
+      0.5362533282957703,
+      0.5971028816061128
+     ],
+     "positions": 6494,
+     "within_item_auroc": 0.47481598427366256,
+     "within_item_ci": [
+      0.4042865270556684,
+      0.5376478239122944
+     ]
+    }
+   },
+   "plausible_P0_vs_cheap": {
+    "all": {
+     "forks": 1657,
+     "items_with_both_classes": 71,
+     "minus_other": {
+      "pooled": -0.06711462195016804,
+      "pooled_ci": [
+       -0.1526745479019137,
+       0.029619990431383747
+      ],
+      "within": -0.027661162246742643,
+      "within_ci": [
+       -0.07131554454820288,
+       0.013299405271330889
+      ]
+     },
+     "pooled_auroc": 0.6869335718596431,
+     "pooled_ci": [
+      0.6447541291291291,
+      0.733377814808544
+     ],
+     "positions": 4457,
+     "within_item_auroc": 0.6753499205386685,
+     "within_item_ci": [
+      0.6401904730011607,
+      0.7123550087479105
+     ]
+    },
+    "base_correct": {
+     "forks": 154,
+     "items_with_both_classes": 24,
+     "minus_other": {
+      "pooled": -0.06028372223457856,
+      "pooled_ci": [
+       -0.14536768263183353,
+       0.028654750967454512
+      ],
+      "within": -0.07060532307615175,
+      "within_ci": [
+       -0.16947511511032698,
+       0.0190874416123884
+      ]
+     },
+     "pooled_auroc": 0.654006827126708,
+     "pooled_ci": [
+      0.6047838051070872,
+      0.7126634489820572
+     ],
+     "positions": 1497,
+     "within_item_auroc": 0.6491684152408368,
+     "within_item_ci": [
+      0.5813257938182383,
+      0.7177808159829377
+     ]
+    }
+   },
+   "plausible_entropy": {
+    "all": {
+     "forks": 1657,
+     "items_with_both_classes": 71,
+     "pooled_auroc": 0.6039897836020347,
+     "pooled_ci": [
+      0.551715423502619,
+      0.6539667144386746
+     ],
+     "positions": 4457,
+     "within_item_auroc": 0.5655356154247626,
+     "within_item_ci": [
+      0.5252610711806918,
+      0.6077984871500495
+     ]
+    },
+    "base_correct": {
+     "forks": 154,
+     "items_with_both_classes": 24,
+     "pooled_auroc": 0.5607768999429461,
+     "pooled_ci": [
+      0.5100572183098592,
+      0.605740839086564
+     ],
+     "positions": 1497,
+     "within_item_auroc": 0.5187598517764288,
+     "within_item_ci": [
+      0.446605999572478,
+      0.5907337814059753
+     ]
+    }
+   },
+   "prompt_end_item_fork_rate": {
+    "ci": [
+     0.08040167826123493,
+     0.4705472708498427
+    ],
+    "items": 100,
+    "spearman": 0.2879567956795679
+   }
+  },
+  "8": {
+   "P0": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.6932767262360885,
+     "pooled_ci": [
+      0.6635757962040573,
+      0.7260550839478236
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7427014304373185,
+     "within_item_ci": [
+      0.716302663639534,
+      0.7687538294883614
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.7385886510523141,
+     "pooled_ci": [
+      0.7020882835350832,
+      0.7811411160756863
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.7985483441188962,
+     "within_item_ci": [
+      0.7645500017426298,
+      0.8304176667857882
+     ]
+    }
+   },
+   "P0_oof_sha256": "04c2a4812fa80dd94dbec978ea03229f4cc71e22b7a36a0ce2a0a0d2df209ebc",
+   "incremental_P0cheap_vs_cheap": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "minus_other": {
+      "pooled": -0.040255452408523795,
+      "pooled_ci": [
+       -0.07638874683362984,
+       0.0031323051683682657
+      ],
+      "within": 0.006796766755009287,
+      "within_ci": [
+       -0.013295610263974078,
+       0.027789030886297916
+      ]
+     },
+     "pooled_auroc": 0.7405849734247655,
+     "pooled_ci": [
+      0.7116075709416515,
+      0.7706578279963775
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7583723447257239,
+     "within_item_ci": [
+      0.7331274041526279,
+      0.783159305999776
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "minus_other": {
+      "pooled": 0.0023645271583732086,
+      "pooled_ci": [
+       -0.026727082297502536,
+       0.03249781145702246
+      ],
+      "within": 0.004338370791219126,
+      "within_ci": [
+       -0.029756901577906003,
+       0.03558111794377694
+      ]
+     },
+     "pooled_auroc": 0.7666983990056633,
+     "pooled_ci": [
+      0.7317234974451472,
+      0.8052538538203563
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.8117615241503603,
+     "within_item_ci": [
+      0.7788677618952666,
+      0.8429198221319004
+     ]
+    }
+   },
+   "lead": {
+    "20": {
+     "probe": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "pooled_auroc": 0.5882840935758825,
+       "pooled_ci": [
+        0.5468110506761308,
+        0.6283829013225578
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.4957495321773009,
+       "within_item_ci": [
+        0.4765913430156708,
+        0.5168594751227724
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "pooled_auroc": 0.544867740802088,
+       "pooled_ci": [
+        0.5189858292906026,
+        0.5698613329879744
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.49707326634335147,
+       "within_item_ci": [
+        0.46348125858685324,
+        0.5332400739887664
+       ]
+      }
+     },
+     "probe_plus_pos_vs_pos": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "minus_other": {
+        "pooled": -0.07007034384299893,
+        "pooled_ci": [
+         -0.1140891590599874,
+         -0.017990852515774147
+        ],
+        "within": 0.006146712907653784,
+        "within_ci": [
+         -0.02331643948585771,
+         0.03588230042448265
+        ]
+       },
+       "pooled_auroc": 0.6502828407958615,
+       "pooled_ci": [
+        0.5997925572246787,
+        0.6927232193597854
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.4973564286464762,
+       "within_item_ci": [
+        0.4775898177532033,
+        0.5178141374511922
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "minus_other": {
+        "pooled": 0.00046024652539400357,
+        "pooled_ci": [
+         -0.04218670232292954,
+         0.05046964570179413
+        ],
+        "within": 0.03998204093538049,
+        "within_ci": [
+         -0.005492553899461516,
+         0.08542564033851602
+        ]
+       },
+       "pooled_auroc": 0.5662056544816186,
+       "pooled_ci": [
+        0.5388062284031828,
+        0.589376508898401
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.4763207578337172,
+       "within_item_ci": [
+        0.44250322420610466,
+        0.512628976659371
+       ]
+      }
+     }
+    },
+    "5": {
+     "probe": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "pooled_auroc": 0.6293198089982621,
+       "pooled_ci": [
+        0.589012597500716,
+        0.6690408421215409
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.5662863052873724,
+       "within_item_ci": [
+        0.5469812153350957,
+        0.5863070618954218
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "pooled_auroc": 0.6056083718928043,
+       "pooled_ci": [
+        0.5764872192510677,
+        0.632150024632081
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.5676549338094777,
+       "within_item_ci": [
+        0.5374255740626779,
+        0.5968709399661407
+       ]
+      }
+     },
+     "probe_plus_pos_vs_pos": {
+      "all": {
+       "forks": 5753,
+       "items_with_both_classes": 100,
+       "minus_other": {
+        "pooled": -0.03632426927285948,
+        "pooled_ci": [
+         -0.08273872144501504,
+         0.020910254470660528
+        ],
+        "within": 0.08047587711987014,
+        "within_ci": [
+         0.048398824672250096,
+         0.11121599748508476
+        ]
+       },
+       "pooled_auroc": 0.684028915366001,
+       "pooled_ci": [
+        0.6409179460052943,
+        0.7230919049443458
+       ],
+       "positions": 18178,
+       "within_item_auroc": 0.5716855928586926,
+       "within_item_ci": [
+        0.5515279450022689,
+        0.5914041376765186
+       ]
+      },
+      "base_correct": {
+       "forks": 885,
+       "items_with_both_classes": 52,
+       "minus_other": {
+        "pooled": 0.05985705984991374,
+        "pooled_ci": [
+         0.00965228653212613,
+         0.11552180058644679
+        ],
+        "within": 0.1261524706262216,
+        "within_ci": [
+         0.07989127979328947,
+         0.16907442435553094
+        ]
+       },
+       "pooled_auroc": 0.6256024678061384,
+       "pooled_ci": [
+        0.5988379962565452,
+        0.6479157253057559
+       ],
+       "positions": 7526,
+       "within_item_auroc": 0.5624911875245583,
+       "within_item_ci": [
+        0.530229803387424,
+        0.5934403861761859
+       ]
+      }
+     }
+    }
+   },
+   "nondigit_P0_vs_cheap": {
+    "all": {
+     "forks": 4464,
+     "items_with_both_classes": 81,
+     "minus_other": {
+      "pooled": -0.11753641684099847,
+      "pooled_ci": [
+       -0.17298322310483527,
+       -0.045401158841330336
+      ],
+      "within": 0.02930133824320913,
+      "within_ci": [
+       -0.01585300292846714,
+       0.07805355232490807
+      ]
+     },
+     "pooled_auroc": 0.6620674762271302,
+     "pooled_ci": [
+      0.6283553955544925,
+      0.6977719246891745
+     ],
+     "positions": 15849,
+     "within_item_auroc": 0.6214362491175789,
+     "within_item_ci": [
+      0.5926108475418703,
+      0.6501875413446364
+     ]
+    },
+    "base_correct": {
+     "forks": 486,
+     "items_with_both_classes": 34,
+     "minus_other": {
+      "pooled": -0.027957236715928868,
+      "pooled_ci": [
+       -0.08641208831859915,
+       0.041127116375560435
+      ],
+      "within": 0.045439388234616684,
+      "within_ci": [
+       -0.027544994688345925,
+       0.13079267770129932
+      ]
+     },
+     "pooled_auroc": 0.6625319190325109,
+     "pooled_ci": [
+      0.6204160700441383,
+      0.7013408165481898
+     ],
+     "positions": 6494,
+     "within_item_auroc": 0.625442820062743,
+     "within_item_ci": [
+      0.5676096798925079,
+      0.6834168949805371
+     ]
+    }
+   },
+   "nondigit_entropy": {
+    "all": {
+     "forks": 4464,
+     "items_with_both_classes": 81,
+     "pooled_auroc": 0.6112818814607034,
+     "pooled_ci": [
+      0.572097055108472,
+      0.6428032504767589
+     ],
+     "positions": 15849,
+     "within_item_auroc": 0.49982937598423266,
+     "within_item_ci": [
+      0.4670267885247654,
+      0.5304479750963768
+     ]
+    },
+    "base_correct": {
+     "forks": 486,
+     "items_with_both_classes": 34,
+     "pooled_auroc": 0.5708554574696015,
+     "pooled_ci": [
+      0.5362533282957703,
+      0.5971028816061128
+     ],
+     "positions": 6494,
+     "within_item_auroc": 0.47481598427366256,
+     "within_item_ci": [
+      0.4042865270556684,
+      0.5376478239122944
+     ]
+    }
+   },
+   "plausible_P0_vs_cheap": {
+    "all": {
+     "forks": 1657,
+     "items_with_both_classes": 71,
+     "minus_other": {
+      "pooled": -0.0953269678420553,
+      "pooled_ci": [
+       -0.17678627219515197,
+       -0.0012752172572110254
+      ],
+      "within": -0.05633343565214144,
+      "within_ci": [
+       -0.0919043692772572,
+       -0.01929748566105638
+      ]
+     },
+     "pooled_auroc": 0.6587212259677558,
+     "pooled_ci": [
+      0.614768341871061,
+      0.7036148336482041
+     ],
+     "positions": 4457,
+     "within_item_auroc": 0.6466776471332697,
+     "within_item_ci": [
+      0.6155619606280125,
+      0.6804350762669189
+     ]
+    },
+    "base_correct": {
+     "forks": 154,
+     "items_with_both_classes": 24,
+     "minus_other": {
+      "pooled": -0.05637214609664354,
+      "pooled_ci": [
+       -0.12215794576810368,
+       0.008954127233048559
+      ],
+      "within": -0.09906887943781517,
+      "within_ci": [
+       -0.1671232823185118,
+       -0.025280359748088843
+      ]
+     },
+     "pooled_auroc": 0.657918403264643,
+     "pooled_ci": [
+      0.6047693176180783,
+      0.7057002798489942
+     ],
+     "positions": 1497,
+     "within_item_auroc": 0.6207048588791734,
+     "within_item_ci": [
+      0.5664240255947407,
+      0.6794692405695448
+     ]
+    }
+   },
+   "plausible_entropy": {
+    "all": {
+     "forks": 1657,
+     "items_with_both_classes": 71,
+     "pooled_auroc": 0.6039897836020347,
+     "pooled_ci": [
+      0.551715423502619,
+      0.6539667144386746
+     ],
+     "positions": 4457,
+     "within_item_auroc": 0.5655356154247626,
+     "within_item_ci": [
+      0.5252610711806918,
+      0.6077984871500495
+     ]
+    },
+    "base_correct": {
+     "forks": 154,
+     "items_with_both_classes": 24,
+     "pooled_auroc": 0.5607768999429461,
+     "pooled_ci": [
+      0.5100572183098592,
+      0.605740839086564
+     ],
+     "positions": 1497,
+     "within_item_auroc": 0.5187598517764288,
+     "within_item_ci": [
+      0.446605999572478,
+      0.5907337814059753
+     ]
+    }
+   },
+   "prompt_end_item_fork_rate": {
+    "ci": [
+     0.12774029341849355,
+     0.4948154641465479
+    ],
+    "items": 100,
+    "spearman": 0.3194239423942394
+   }
+  }
+ },
+ "plan_sha256": "04a1d0754410bf7856a1d81d5e1d7d9ede71f145f47573101855855b66b99cce",
+ "positions": 18178,
+ "post_hoc": true,
+ "promising": {
+  "A_incremental": false,
+  "B_nondigit": false,
+  "C_plausible": false,
+  "all": false
+ },
+ "result_sha256": "58569ea0e113905e0ec1e273bfbf9f84af187216e3e8587d00b6891a15f02791",
+ "schema": "dp1x2-followup-v1",
+ "single_baselines": {
+  "cheap": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.7808404258332893,
+    "pooled_ci": [
+     0.728170926104062,
+     0.820798144848265
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.7515755779707146,
+    "within_item_ci": [
+     0.7270522521549044,
+     0.7749193764120713
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.7643338718472901,
+    "pooled_ci": [
+     0.7366959681650097,
+     0.7939289669450852
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.8074231533591412,
+    "within_item_ci": [
+     0.782159293673231,
+     0.8319001928402536
+    ]
+   }
+  },
+  "digit_any": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.5701774002261439,
+    "pooled_ci": [
+     0.5530970710924394,
+     0.5974258551679573
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.7110594297716136,
+    "within_item_ci": [
+     0.6787207899437682,
+     0.7439147822011357
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.6777652436456629,
+    "pooled_ci": [
+     0.6378099780877559,
+     0.7297032783780282
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.7943014438360682,
+    "within_item_ci": [
+     0.7510498529331608,
+     0.8362027801821151
+    ]
+   }
+  },
+  "neg_t": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.43270542077425445,
+    "pooled_ci": [
+     0.38168365495089457,
+     0.5012935246171046
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.5274948904859277,
+    "within_item_ci": [
+     0.4899284828022515,
+     0.5653190330807325
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.5392316350151473,
+    "pooled_ci": [
+     0.48818836802667526,
+     0.5862906081221229
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.4532919519801211,
+    "within_item_ci": [
+     0.39701477194670454,
+     0.5094103655307213
+    ]
+   }
+  },
+  "p2": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.5455981779780018,
+    "pooled_ci": [
+     0.5101958899835594,
+     0.5713161126483007
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.4184397238097866,
+    "within_item_ci": [
+     0.39102680248282984,
+     0.4450598679082789
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.4528774765899561,
+    "pooled_ci": [
+     0.4095411796140913,
+     0.4833513236578143
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.37570911059900003,
+    "within_item_ci": [
+     0.3313310957615812,
+     0.41971221285422455
+    ]
+   }
+  },
+  "position_lr": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.7203531846388604,
+    "pooled_ci": [
+     0.6402262787074616,
+     0.7743441375135034
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.49120971573882244,
+    "within_item_ci": [
+     0.4583432044989275,
+     0.523645204549458
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.5657454079562246,
+    "pooled_ci": [
+     0.509811117770068,
+     0.6103895044221145
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.4363387168983367,
+    "within_item_ci": [
+     0.38813553464200656,
+     0.4834822897923519
+    ]
+   }
+  }
+ }
+}

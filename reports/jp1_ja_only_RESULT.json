@@ -1,0 +1,537 @@
+{
+ "schema": "jp1_ja_only_v1",
+ "naming": "revised analysis: the frozen 40-item plan cut to the A half (20 items) after the computing cost was seen; Japanese only (en-A stopped at the CU line); exploratory, not the pre-registered confirmatory result",
+ "head": "42268044796bb9bf461602fc7221eb29044d8381",
+ "sources": {
+  "tar": "/stash/jp1/ja_A/jp1_ja_A.tar.gz",
+  "tar_sha256": "e0df2009767214037f537d7fb6c3299b6596a150318ad40076fa19d786e21146",
+  "run_code_commit": "27ce60546987b660b0e4942659fccf6ba19b82d4",
+  "versions": {
+   "transformers": "5.18.0",
+   "tokenizers": "0.23.2",
+   "huggingface_hub": "1.33.0",
+   "fugashi": "1.5.2",
+   "unidic-lite": "1.0.8",
+   "nltk": "3.9.1",
+   "sentencepiece": "0.2.2"
+  },
+  "via": "GodPork kaggle/jobs/jp1_ja_analysis.py"
+ },
+ "lang": "ja",
+ "rows": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "replay_audit": {
+  "rows": [
+   2,
+   10,
+   11
+  ],
+  "rows_as_declared": true,
+  "complete": true,
+  "diverged_rows": 0,
+  "count_matches": true,
+  "pass": true
+ },
+ "category_audit": {
+  "rows": [
+   8
+  ],
+  "rows_as_declared": true,
+  "category_mismatches": 0,
+  "answer_token_match": true,
+  "pass": true
+ },
+ "per_lang": {
+  "ja": {
+   "base_accuracy": 0.2,
+   "guard_ok": true,
+   "items": 20,
+   "S8_lengths": {
+    "base_tokens": {
+     "min": 96,
+     "median": 205.0,
+     "max": 447,
+     "mean": 222.0
+    },
+    "positions": 533,
+    "unclassified_tokens_by_reason": {
+     "EMPTY": 20,
+     "PREFIX_MISMATCH": 6
+    },
+    "straddle_tokens": 753,
+    "items_unreadable_base": 0,
+    "items_in_analysis": 20
+   },
+   "S12_readout": {
+    "items": 20,
+    "reasons": {
+     "OK_MARKER": 20
+    },
+    "known_misread": 1,
+    "unreadable": 0,
+    "unreadable_share": 0.0,
+    "strict_accuracy": 0.15,
+    "strict_agrees_with_main": 0.7
+   },
+   "A1": {
+    "first": {
+     "within_item_auroc": 0.8023724932388678,
+     "ci": [
+      0.7085454264992703,
+      0.8803442294190799
+     ],
+     "valid_draws": 2000,
+     "items_both": 19
+    },
+    "second": {
+     "within_item_auroc": 0.3913226509270308,
+     "ci": [
+      0.31675935406593975,
+      0.46569817029375854
+     ],
+     "valid_draws": 2000,
+     "items_both": 20
+    },
+    "first_minus_second": {
+     "diff": 0.41104984231183705,
+     "ci": [
+      0.3121060579439904,
+      0.5101996500300536
+     ],
+     "valid_draws": 2000
+    }
+   },
+   "label_A1": "WEIGHTING_EXPLAINS_FLIP",
+   "A2": {
+    "within_item_auroc": 0.40937027635418666,
+    "ci": [
+     0.34686214884374333,
+     0.4696344255160045
+    ],
+    "valid_draws": 2000,
+    "items_both": 19,
+    "positives": 79,
+    "per_item": {
+     "11": 0.19852941176470587,
+     "24": 0.6458333333333334,
+     "29": 0.5076923076923077,
+     "31": 0.35526315789473684,
+     "34": 0.5714285714285714,
+     "36": 0.3,
+     "43": 0.35353535353535354,
+     "46": 0.5723270440251572,
+     "47": 0.19166666666666668,
+     "58": 0.3448275862068966,
+     "74": 0.4107142857142857,
+     "75": 0.40476190476190477,
+     "86": 0.18181818181818182,
+     "88": 0.5238095238095238,
+     "97": 0.59375,
+     "100": 0.3418181818181818,
+     "110": 0.45454545454545453,
+     "112": 0.3,
+     "116": 0.5257142857142857
+    }
+   },
+   "label_A2": "ENTROPY_AWAY_FROM_SWAP_EFFECT",
+   "A3": {
+    "first": {
+     "within_item_auroc": 0.3963635160599759,
+     "ci": [
+      0.305082374407822,
+      0.49297325481536003
+     ],
+     "valid_draws": 2000,
+     "items_both": 17
+    },
+    "second": {
+     "within_item_auroc": 0.40937027635418666,
+     "ci": [
+      0.34686214884374333,
+      0.4696344255160045
+     ],
+     "valid_draws": 2000,
+     "items_both": 19
+    },
+    "first_minus_second": {
+     "diff": -0.013006760294210773,
+     "ci": [
+      -0.08442671437808735,
+      0.05829365674193171
+     ],
+     "valid_draws": 2000
+    }
+   },
+   "A3_share_digit_minus_nondigit": {
+    "diff": 0.14120568977195755,
+    "ci": [
+     0.039706862091938716,
+     0.24747461632345685
+    ],
+    "valid_draws": 2000,
+    "share_digit": 0.2621359223300971,
+    "share_nondigit": 0.12093023255813953
+   },
+   "label_A3": "DIGIT_AWAY_UNDECIDED",
+   "estimator": {
+    "mean": -0.005361389339125062,
+    "ci": [
+     -0.0163940293060275,
+     0.00449094360257484
+    ],
+    "valid_draws": 2000
+   },
+   "estimator_ok": true,
+   "top_n": 79,
+   "S1_reliability": {
+    "d_s": {
+     "pearson_halves": 0.41265076365353925,
+     "top_agreement": 0.8348968105065666,
+     "top_overlap": 35
+    },
+    "e_alt": {
+     "pearson_halves": 0.6328829919444101,
+     "top_agreement": 0.8761726078799249,
+     "top_overlap": 46
+    },
+    "e": {
+     "pearson_halves": 0.7133345395296505,
+     "top_agreement": 0.8799249530956847,
+     "top_overlap": 47
+    },
+    "d_s_free_positions": {
+     "pearson_halves": 0.567005867806231
+    },
+    "d_plain_free_positions": {
+     "pearson_halves": 0.03830206377545096
+    }
+   },
+   "S2_top_e_within_p2_tertiles": [
+    {
+     "p2_upper": 0.0011858919760199575,
+     "within_item_auroc": 0.39450699763199765,
+     "items_both": 12,
+     "positions": 178,
+     "top": 38
+    },
+    {
+     "p2_upper": 0.08361874374766909,
+     "within_item_auroc": 0.49926697530864206,
+     "items_both": 12,
+     "positions": 177,
+     "top": 25
+    },
+    {
+     "p2_upper": null,
+     "within_item_auroc": 0.40561383061383055,
+     "items_both": 13,
+     "positions": 178,
+     "top": 16
+    }
+   ],
+   "S4_mid_word": {
+    "all": 0.13807531380753138,
+    "top_d_s": 0.04054054054054054,
+    "top_minus_all": -0.09753477326699084,
+    "positions": 478,
+    "top_positions": 74
+   },
+   "S5_entropy_by_category": {
+    "DIGIT": {
+     "n": 103,
+     "mean_entropy": 0.28515947998924634
+    },
+    "CALC": {
+     "n": 36,
+     "mean_entropy": 0.5633847401451225
+    },
+    "CONN": {
+     "n": 66,
+     "mean_entropy": 1.2401496547947326
+    },
+    "OTHER": {
+     "n": 273,
+     "mean_entropy": 0.8124155932420476
+    },
+    "SPACE": {
+     "n": 53,
+     "mean_entropy": 0.29467863674006994
+    },
+    "UNCLASSIFIED": {
+     "n": 2,
+     "mean_entropy": 1.3271120947924526e-05
+    }
+   },
+   "S6_by_correctness": {
+    "correct": {
+     "A1": {
+      "first": {
+       "within_item_auroc": 0.7800231991616973,
+       "ci": [
+        0.6982758620689654,
+        0.8592770989974937
+       ],
+       "valid_draws": 2000,
+       "items_both": 4
+      },
+      "second": {
+       "within_item_auroc": 0.2630054240631164,
+       "ci": [
+        0.0,
+        0.59375
+       ],
+       "valid_draws": 1993,
+       "items_both": 3
+      },
+      "first_minus_second": {
+       "diff": 0.5170177750985809,
+       "ci": [
+        0.18876663641863278,
+        0.7192982456140351
+       ],
+       "valid_draws": 1993
+      }
+     },
+     "label_A1": "WEIGHTING_EXPLAINS_FLIP",
+     "A2": {
+      "within_item_auroc": 0.4234310699588477,
+      "ci": [
+       0.3,
+       0.59375
+      ],
+      "valid_draws": 1994,
+      "items_both": 3,
+      "positives": 15,
+      "per_item": {
+       "58": 0.3765432098765432,
+       "97": 0.59375,
+       "112": 0.3
+      }
+     },
+     "label_A2": "AWAY_UNDECIDED",
+     "A3": {
+      "first": {
+       "within_item_auroc": 0.39519300144300146,
+       "ci": [
+        0.28125,
+        0.5666666666666667
+       ],
+       "valid_draws": 1994,
+       "items_both": 3
+      },
+      "second": {
+       "within_item_auroc": 0.4234310699588477,
+       "ci": [
+        0.3,
+        0.59375
+       ],
+       "valid_draws": 1994,
+       "items_both": 3
+      },
+      "first_minus_second": {
+       "diff": -0.02823806851584626,
+       "ci": [
+        -0.03888087221420555,
+        -0.01874999999999999
+       ],
+       "valid_draws": 1994
+      }
+     },
+     "A3_share_digit_minus_nondigit": {
+      "diff": 0.14551083591331268,
+      "ci": [
+       -0.08235294117647059,
+       0.2823093220338983
+      ],
+      "valid_draws": 2000,
+      "share_digit": 0.2631578947368421,
+      "share_nondigit": 0.11764705882352941
+     },
+     "label_A3": "AWAY_NOT_FROM_DIGITS",
+     "estimator": {
+      "mean": -0.008026831811219229,
+      "ci": [
+       -0.03781284133389755,
+       0.02582675527241242
+      ],
+      "valid_draws": 2000
+     },
+     "estimator_ok": false,
+     "top_n": 15
+    },
+    "wrong": {
+     "A1": {
+      "first": {
+       "within_item_auroc": 0.8048437429012766,
+       "ci": [
+        0.6825774071838537,
+        0.9052335999594512
+       ],
+       "valid_draws": 2000,
+       "items_both": 15
+      },
+      "second": {
+       "within_item_auroc": 0.4281371297547768,
+       "ci": [
+        0.3603403336859219,
+        0.49799747501953384
+       ],
+       "valid_draws": 2000,
+       "items_both": 16
+      },
+      "first_minus_second": {
+       "diff": 0.3767066131464998,
+       "ci": [
+        0.2675725644299813,
+        0.48536954935353144
+       ],
+       "valid_draws": 2000
+      }
+     },
+     "label_A1": "WEIGHTING_EXPLAINS_FLIP",
+     "A2": {
+      "within_item_auroc": 0.41520284645690814,
+      "ci": [
+       0.3520508467925264,
+       0.4813819789279348
+      ],
+      "valid_draws": 2000,
+      "items_both": 16,
+      "positives": 64,
+      "per_item": {
+       "11": 0.19852941176470587,
+       "24": 0.6458333333333334,
+       "29": 0.5076923076923077,
+       "31": 0.35526315789473684,
+       "34": 0.5714285714285714,
+       "36": 0.3,
+       "43": 0.35353535353535354,
+       "46": 0.5723270440251572,
+       "47": 0.29545454545454547,
+       "74": 0.4107142857142857,
+       "75": 0.40476190476190477,
+       "86": 0.18181818181818182,
+       "88": 0.5238095238095238,
+       "100": 0.3418181818181818,
+       "110": 0.45454545454545453,
+       "116": 0.5257142857142857
+      }
+     },
+     "label_A2": "ENTROPY_AWAY_FROM_SWAP_EFFECT",
+     "A3": {
+      "first": {
+       "within_item_auroc": 0.4096361402496987,
+       "ci": [
+        0.2969385623937254,
+        0.5214060039460496
+       ],
+       "valid_draws": 2000,
+       "items_both": 14
+      },
+      "second": {
+       "within_item_auroc": 0.41520284645690814,
+       "ci": [
+        0.3520508467925264,
+        0.4813819789279348
+       ],
+       "valid_draws": 2000,
+       "items_both": 16
+      },
+      "first_minus_second": {
+       "diff": -0.005566706207209449,
+       "ci": [
+        -0.09501001102572898,
+        0.08321340588948944
+       ],
+       "valid_draws": 2000
+      }
+     },
+     "A3_share_digit_minus_nondigit": {
+      "diff": 0.1401656314699793,
+      "ci": [
+       0.03673744523087294,
+       0.2671504965622613
+      ],
+      "valid_draws": 2000,
+      "share_digit": 0.2619047619047619,
+      "share_nondigit": 0.12173913043478261
+     },
+     "label_A3": "DIGIT_AWAY_UNDECIDED",
+     "estimator": {
+      "mean": -0.004708627917387717,
+      "ci": [
+       -0.015490786117700356,
+       0.003769571704232319
+      ],
+      "valid_draws": 2000
+     },
+     "estimator_ok": true,
+     "top_n": 64
+    }
+   },
+   "S7_permuted": {
+    "top_ds": {
+     "first": 0.4863457130171873,
+     "mean": 0.49841359853299627,
+     "sd": 0.043693880375898796,
+     "q025": 0.4131269401043897,
+     "q975": 0.5844047404874952,
+     "n": 2000
+    },
+    "top_e": {
+     "first": 0.4738584707772839,
+     "mean": 0.5002344758807191,
+     "sd": 0.0450782912876914,
+     "q025": 0.4112364018873777,
+     "q975": 0.5873295965360258,
+     "n": 2000
+    }
+   }
+  }
+ },
+ "labels": {
+  "ja": {
+   "A1": "JA_WEIGHTING_EXPLAINS_FLIP",
+   "A2": "JA_ENTROPY_AWAY_FROM_SWAP_EFFECT",
+   "A3": "JA_DIGIT_AWAY_UNDECIDED"
+  },
+  "A4": {
+   "label": null,
+   "reason": "JP1_EN_A_STOPPED_CU_LINE"
+  },
+  "B": {
+   "label": null,
+   "reason": "JP1_EN_A_STOPPED_CU_LINE"
+  }
+ },
+ "not_computed": {
+  "A4": "JP1_EN_A_STOPPED_CU_LINE",
+  "B": "JP1_EN_A_STOPPED_CU_LINE",
+  "S3": "JP1_EN_A_STOPPED_CU_LINE",
+  "S10": "JP1_EN_A_STOPPED_CU_LINE",
+  "S11": "JP1_EN_A_STOPPED_CU_LINE"
+ },
+ "note_category_audit": "main B is not issued anyway; the category audit is reported for S4/S5",
+ "result_sha256": "53f9a1e54cd44d6294961a30813d008d8566fb5e37e6389c097d2bb04973d17d",
+ "elapsed_minutes": 1.332891305287679
+}

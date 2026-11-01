@@ -1,0 +1,19 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_sha256": "d9d6bc10f6f24f65f0fe09df85c5aac92bed0210c11f729eacb541e1147e892b",
+ "base_accuracy": 0.725,
+ "code_commits": {
+  "A": "59a15a6d421d19587ebff88b11aac8c0ec8e15ef",
+  "B": "59a15a6d421d19587ebff88b11aac8c0ec8e15ef"
+ },
+ "estimator_ok": true,
+ "final_labels": {
+  "main1": "WEIGHTING_EXPLAINS_FLIP",
+  "main2": "AWAY_NOT_REPLICATED",
+  "main3": "NAME_AWAY_UNDECIDED"
+ },
+ "guard_ok": true,
+ "model": "gemma",
+ "result_sha256": "820530691f14e0ab296a5226e525cc5b052fcdf66c09f4c9a64dc8a87f78a977"
+}

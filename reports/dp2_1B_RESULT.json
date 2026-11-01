@@ -1,0 +1,452 @@
+{
+ "code_commits": {
+  "A": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b",
+  "B": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b"
+ },
+ "gate_doc_sha256": "15249f22ce9e6ba1d45d145666ec51941b8cbc76213434e361e860f39f1d8579",
+ "hidden": {
+  "MAIN2_probe_plus_cheap_vs_cheap": {
+   "all": {
+    "forks": 85,
+    "items_with_both_classes": 35,
+    "minus_other": {
+     "pooled": -0.11157526594452816,
+     "pooled_ci": [
+      -0.18733665953908285,
+      -0.026601822283420784
+     ],
+     "within": -0.08101609712130797,
+     "within_ci": [
+      -0.17171489456586464,
+      0.015412857975174776
+     ]
+    },
+    "pooled_auroc": 0.5815611793850488,
+    "pooled_ci": [
+     0.5169529499626587,
+     0.6529405381944444
+    ],
+    "windows": 1296,
+    "within_item_auroc": 0.6335501475264205,
+    "within_item_ci": [
+     0.5562419209548688,
+     0.7123300904469321
+    ]
+   },
+   "base_correct": {
+    "forks": 21,
+    "items_with_both_classes": 10,
+    "minus_other": {
+     "pooled": -0.0023228803716608404,
+     "pooled_ci": [
+      -0.13616838487972505,
+      0.22186147186147182
+     ],
+     "within": 0.12678216520321772,
+     "within_ci": [
+      -0.07917014759120045,
+      0.33243978243978245
+     ]
+    },
+    "pooled_auroc": 0.5252198440351751,
+    "pooled_ci": [
+     0.42427745664739885,
+     0.6724401426388181
+    ],
+    "windows": 595,
+    "within_item_auroc": 0.587996681680892,
+    "within_item_ci": [
+     0.4885938622780728,
+     0.6963764630431296
+    ]
+   }
+  },
+  "S1_lead16_plus_cheap_vs_cheap": {
+   "all": {
+    "forks": 85,
+    "items_with_both_classes": 35,
+    "minus_other": {
+     "pooled": -0.05969786758634099,
+     "pooled_ci": [
+      -0.14050088776749836,
+      0.017889072983480636
+     ],
+     "within": -0.06321341436830763,
+     "within_ci": [
+      -0.16967946627996766,
+      0.04334688552348143
+     ]
+    },
+    "pooled_auroc": 0.633438577743236,
+    "pooled_ci": [
+     0.5599802950418065,
+     0.7062767374991233
+    ],
+    "windows": 1296,
+    "within_item_auroc": 0.6513528302794208,
+    "within_item_ci": [
+     0.5786321099593715,
+     0.7234450200760437
+    ]
+   },
+   "base_correct": {
+    "forks": 21,
+    "items_with_both_classes": 10,
+    "minus_other": {
+     "pooled": 0.04363696698191466,
+     "pooled_ci": [
+      -0.16111881645862225,
+      0.26741996233521664
+     ],
+     "within": 0.15557170899276163,
+     "within_ci": [
+      -0.05808787172423535,
+      0.3961185639757071
+     ]
+    },
+    "pooled_auroc": 0.5711796913887506,
+    "pooled_ci": [
+     0.42111885404568333,
+     0.7007056870070568
+    ],
+    "windows": 595,
+    "within_item_auroc": 0.6167862254704359,
+    "within_item_ci": [
+     0.45747132983975086,
+     0.7678963893249607
+    ]
+   }
+  },
+  "S2_prompt_end": {
+   "max_drop_rel_position": {
+    "ci": [
+     0.1825890418239955,
+     0.6195550108072382
+    ],
+    "items": 60,
+    "spearman": 0.42018034698924617
+   },
+   "q0": {
+    "ci": [
+     0.21433015891711607,
+     0.6651057702663035
+    ],
+    "items": 60,
+    "spearman": 0.46172347101896205
+   }
+  },
+  "S4_main2": {
+   "digit_windows": {
+    "all": {
+     "forks": 57,
+     "items_with_both_classes": 30,
+     "minus_other": {
+      "pooled": -0.1272873719449269,
+      "pooled_ci": [
+       -0.2131467780138207,
+       -0.034747726867534356
+      ],
+      "within": -0.12273868288574186,
+      "within_ci": [
+       -0.21254835267440297,
+       -0.02501993890882781
+      ]
+     },
+     "pooled_auroc": 0.5653049409751063,
+     "pooled_ci": [
+      0.4828336557059961,
+      0.6641357330333708
+     ],
+     "windows": 754,
+     "within_item_auroc": 0.6227684271066624,
+     "within_item_ci": [
+      0.5210756009863153,
+      0.7262278009980216
+     ]
+    },
+    "base_correct": {
+     "forks": 11,
+     "items_with_both_classes": 6,
+     "minus_other": {
+      "pooled": -0.12267250821467696,
+      "pooled_ci": [
+       -0.2829396325459318,
+       0.20066666666666666
+      ],
+      "within": -0.11937830687830675,
+      "within_ci": [
+       -0.38888888888888895,
+       0.2407407407407408
+      ]
+     },
+     "pooled_auroc": 0.47973713033953996,
+     "pooled_ci": [
+      0.3374076903488668,
+      0.777027027027027
+     ],
+     "windows": 343,
+     "within_item_auroc": 0.5493386243386243,
+     "within_item_ci": [
+      0.32275132275132273,
+      0.8147619047619049
+     ]
+    }
+   },
+   "nondigit_windows": {
+    "all": {
+     "forks": 28,
+     "items_with_both_classes": 15,
+     "minus_other": {
+      "pooled": -0.08546414674819347,
+      "pooled_ci": [
+       -0.22121146487618226,
+       0.0941746425617393
+      ],
+      "within": 0.00607055471761353,
+      "within_ci": [
+       -0.17403623776926935,
+       0.17562500000000014
+      ]
+     },
+     "pooled_auroc": 0.6000555864369094,
+     "pooled_ci": [
+      0.47974193548387095,
+      0.7341819080573406
+     ],
+     "windows": 542,
+     "within_item_auroc": 0.657142617730853,
+     "within_item_ci": [
+      0.5341285403050109,
+      0.7758831908831909
+     ]
+    },
+    "base_correct": {
+     "forks": 10,
+     "items_with_both_classes": 7,
+     "minus_other": {
+      "pooled": 0.13760330578512397,
+      "pooled_ci": [
+       -0.046556122448979664,
+       0.438715953307393
+      ],
+      "within": 0.29444444444444445,
+      "within_ci": [
+       0.17222222222222222,
+       0.44642857142857145
+      ]
+     },
+     "pooled_auroc": 0.5983471074380166,
+     "pooled_ci": [
+      0.4200913242009132,
+      0.7983739837398374
+     ],
+     "windows": 252,
+     "within_item_auroc": 0.6603174603174603,
+     "within_item_ci": [
+      0.505,
+      0.8333333333333334
+     ]
+    }
+   }
+  },
+  "S6_permuted": {
+   "all": {
+    "forks": 85,
+    "items_with_both_classes": 35,
+    "pooled_auroc": 0.5411376111138096,
+    "pooled_ci": [
+     0.4867498514557338,
+     0.5950282942603072
+    ],
+    "windows": 1296,
+    "within_item_auroc": 0.5206518931873328,
+    "within_item_ci": [
+     0.4501733533397114,
+     0.5939207676795153
+    ]
+   },
+   "base_correct": {
+    "forks": 21,
+    "items_with_both_classes": 10,
+    "pooled_auroc": 0.5181682429069189,
+    "pooled_ci": [
+     0.40239870340356565,
+     0.6052158273381295
+    ],
+    "windows": 595,
+    "within_item_auroc": 0.47407148407148403,
+    "within_item_ci": [
+     0.3108329941663275,
+     0.6478354978354979
+    ]
+   }
+  },
+  "cheap_alone": {
+   "all": {
+    "forks": 85,
+    "items_with_both_classes": 35,
+    "pooled_auroc": 0.693136445329577,
+    "pooled_ci": [
+     0.6290782554093299,
+     0.7557415848527349
+    ],
+    "windows": 1296,
+    "within_item_auroc": 0.7145662446477284,
+    "within_item_ci": [
+     0.6350579144188085,
+     0.7931255387855826
+    ]
+   },
+   "base_correct": {
+    "forks": 21,
+    "items_with_both_classes": 10,
+    "pooled_auroc": 0.5275427244068359,
+    "pooled_ci": [
+     0.40476190476190477,
+     0.6340768277571251
+    ],
+    "windows": 595,
+    "within_item_auroc": 0.4612145164776743,
+    "within_item_ci": [
+     0.2998183590288854,
+     0.6238095238095237
+    ]
+   }
+  },
+  "label_main2": "NO_PRECURSOR_BEYOND_CHEAP",
+  "probe_oof_sha256": "ca420084cd3642b8ea7aa440e62dcc70e448fd38e94a8d081560d2fbbf089240"
+ },
+ "hidden_error": null,
+ "hidden_sha256": "7e9f97bd02e250d8fe89e018a33a47773ac00e5556049540e54170594e4c3b62",
+ "items_sha256": "195c9185a06fbc1cf6a465a40f3f48d6cbb7e6539279454e8e2271aca48e5e05",
+ "no_gpu": {
+  "MAIN1_win_max_entropy": {
+   "all": {
+    "forks": 85,
+    "items_with_both_classes": 35,
+    "pooled_auroc": 0.6829844076358867,
+    "pooled_ci": [
+     0.6383474362848797,
+     0.730217405433511
+    ],
+    "windows": 1296,
+    "within_item_auroc": 0.6597491042154193,
+    "within_item_ci": [
+     0.5868628247027786,
+     0.7274765373555168
+    ]
+   },
+   "base_correct": {
+    "forks": 21,
+    "items_with_both_classes": 10,
+    "pooled_auroc": 0.6714783474365356,
+    "pooled_ci": [
+     0.5647912885662432,
+     0.7627645502645503
+    ],
+    "windows": 595,
+    "within_item_auroc": 0.5934431358115569,
+    "within_item_ci": [
+     0.43579365079365084,
+     0.7475355054302424
+    ]
+   }
+  },
+  "S3_forced": {
+   "forced_fork_share": 0.32407407407407407,
+   "forced_fork_share_among_real": 0.36470588235294116,
+   "real_fork_share_among_forced": 0.07380952380952381
+  },
+  "S4_main1": {
+   "digit_windows": {
+    "all": {
+     "forks": 57,
+     "items_with_both_classes": 30,
+     "pooled_auroc": 0.6978529537617357,
+     "pooled_ci": [
+      0.6410190279688216,
+      0.7559232026143791
+     ],
+     "windows": 754,
+     "within_item_auroc": 0.6616210505181094,
+     "within_item_ci": [
+      0.5727906208374958,
+      0.7454398134545192
+     ]
+    },
+    "base_correct": {
+     "forks": 11,
+     "items_with_both_classes": 6,
+     "pooled_auroc": 0.6590909090909091,
+     "pooled_ci": [
+      0.49738675958188155,
+      0.7831395348837209
+     ],
+     "windows": 343,
+     "within_item_auroc": 0.5795634920634921,
+     "within_item_ci": [
+      0.3333333333333333,
+      0.7979166666666667
+     ]
+    }
+   },
+   "fork_share_digit": 0.07559681697612732,
+   "fork_share_nondigit": 0.05166051660516605,
+   "nondigit_windows": {
+    "all": {
+     "forks": 28,
+     "items_with_both_classes": 15,
+     "pooled_auroc": 0.6901056142301278,
+     "pooled_ci": [
+      0.5885518590998043,
+      0.7914698432258506
+     ],
+     "windows": 542,
+     "within_item_auroc": 0.6340577342047929,
+     "within_item_ci": [
+      0.5056944444444443,
+      0.7587962962962963
+     ]
+    },
+    "base_correct": {
+     "forks": 10,
+     "items_with_both_classes": 7,
+     "pooled_auroc": 0.6838842975206612,
+     "pooled_ci": [
+      0.5785365853658536,
+      0.780373831775701
+     ],
+     "windows": 252,
+     "within_item_auroc": 0.5261904761904762,
+     "within_item_ci": [
+      0.3333333333333333,
+      0.71875
+     ]
+    }
+   }
+  },
+  "S5_reliability": {
+   "label_agreement_halves": 0.8526234567901234,
+   "pearson_d_halves": 0.2932266957098817,
+   "real_fork_share_first8": 0.1111111111111111,
+   "real_fork_share_last8": 0.11496913580246913
+  },
+  "base_accuracy": 0.5666666666666667,
+  "guard_ok": true,
+  "items": 60,
+  "items_in_analysis": 60,
+  "items_unreadable_base": 0,
+  "items_without_windows": 0,
+  "label_main1": "ENTROPY_MODERATE",
+  "real_fork_share": 0.06558641975308642,
+  "real_forks": 85,
+  "windows": 1296
+ },
+ "result_sha256": "9ce98da9fffd7f19722229550f917d8ff470a2f23aec9ff944d347da47efbf5b",
+ "schema": "dp2-real-forks-v1",
+ "versions": {
+  "numpy": "2.1.3",
+  "scikit_learn": "1.6.1",
+  "scipy": "1.16.3"
+ }
+}

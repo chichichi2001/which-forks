@@ -1,0 +1,21 @@
+{
+ "audit_diverged_rows": 0,
+ "audit_pass": true,
+ "audit_sha256": "53de4d69ed93daa903f93c3512ccf679f7c196711973a38a6265f512e4334c0d",
+ "base_accuracy": 0.5666666666666667,
+ "code_commits": {
+  "A": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b",
+  "B": "9f4129c9bb3f682ecd531b6f9b0824ed7c67410b"
+ },
+ "final_labels": {
+  "main1": "ENTROPY_MODERATE",
+  "main2": "NO_PRECURSOR_BEYOND_CHEAP"
+ },
+ "guard_ok": true,
+ "hidden_sha256": "7e9f97bd02e250d8fe89e018a33a47773ac00e5556049540e54170594e4c3b62",
+ "labels_before_audit": {
+  "main1": "ENTROPY_MODERATE",
+  "main2": "NO_PRECURSOR_BEYOND_CHEAP"
+ },
+ "result_sha256": "9ce98da9fffd7f19722229550f917d8ff470a2f23aec9ff944d347da47efbf5b"
+}

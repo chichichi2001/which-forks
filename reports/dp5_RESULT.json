@@ -1,0 +1,302 @@
+{
+ "analysis": {
+  "ESTIMATOR_ds_minus_dplain_free_positions": {
+   "ci": [
+    -0.012063464842615624,
+    0.007082969000860626
+   ],
+   "mean": -0.0027241034495188742
+  },
+  "MAIN1_entropy_top_ds_vs_top_ealt": {
+   "first": {
+    "ci": [
+     0.8214459639142466,
+     0.8909491183249121
+    ],
+    "items_both": 31,
+    "within_item_auroc": 0.857720285873598
+   },
+   "first_minus_second": {
+    "ci": [
+     0.46454504030628146,
+     0.6490375710297352
+    ],
+    "diff": 0.5571590968780068
+   },
+   "second": {
+    "ci": [
+     0.21779453614028849,
+     0.38860299541721643
+    ],
+    "items_both": 38,
+    "within_item_auroc": 0.30056118899559126
+   }
+  },
+  "MAIN2_entropy_top_e": {
+   "ci": [
+    0.21125145103207463,
+    0.37007689523362297
+   ],
+   "items_both": 36,
+   "positives": 135,
+   "within_item_auroc": 0.28551330868012015
+  },
+  "MAIN3_top_e_nondigit_vs_all": {
+   "first": {
+    "ci": [
+     0.326842569386429,
+     0.5830188135451293
+    ],
+    "items_both": 17,
+    "within_item_auroc": 0.45198785352373455
+   },
+   "first_minus_second": {
+    "ci": [
+     0.05845004955925315,
+     0.28531510990940073
+    ],
+    "diff": 0.1664745448436144
+   },
+   "second": {
+    "ci": [
+     0.21125145103207463,
+     0.37007689523362297
+    ],
+    "items_both": 36,
+    "within_item_auroc": 0.28551330868012015
+   }
+  },
+  "MAIN3_top_e_share_digit_minus_nondigit": {
+   "ci": [
+    0.3138868205510052,
+    0.5046458420880608
+   ],
+   "diff": 0.40625188445998917,
+   "share_digit": 0.47282608695652173,
+   "share_nondigit": 0.06657420249653259
+  },
+  "S1_reliability": {
+   "d_plain_free_positions": {
+    "pearson_halves": 0.04042958871930153,
+    "top_agreement": 0.7827476038338658
+   },
+   "d_s": {
+    "pearson_halves": 0.6784876605754399,
+    "top_agreement": 0.8740331491712707,
+    "top_overlap": 78
+   },
+   "d_s_free_positions": {
+    "pearson_halves": 0.43452887049607625,
+    "top_agreement": 0.8466453674121406
+   },
+   "e": {
+    "pearson_halves": 0.8469476248839656,
+    "top_agreement": 0.9049723756906077,
+    "top_overlap": 92
+   },
+   "e_alt": {
+    "pearson_halves": 0.8326039941264525,
+    "top_agreement": 0.9093922651933701,
+    "top_overlap": 94
+   }
+  },
+  "S2_top_e_within_p2_tertiles": [
+   {
+    "items_both": 31,
+    "p2_upper": 0.00021651193561883535,
+    "positions": 302,
+    "top": 85,
+    "within_item_auroc": 0.40183412465670526
+   },
+   {
+    "items_both": 12,
+    "p2_upper": 0.0165603764672986,
+    "positions": 301,
+    "top": 22,
+    "within_item_auroc": 0.5339075276575277
+   },
+   {
+    "items_both": 15,
+    "p2_upper": null,
+    "positions": 302,
+    "top": 28,
+    "within_item_auroc": 0.5744088738059326
+   }
+  ],
+  "S3_entropy_digit_vs_nondigit": {
+   "digit_mean": 0.08245347297232408,
+   "nondigit_mean": 0.28071497289332614
+  },
+  "S4_spearman_ealt_e": 0.6177773987024666,
+  "S5_by_correctness": {
+   "main1_correct_items": {
+    "first": {
+     "ci": [
+      0.8129702509856181,
+      0.9004778741671325
+     ],
+     "items_both": 13,
+     "within_item_auroc": 0.8590770123242292
+    },
+    "first_minus_second": {
+     "ci": [
+      0.656670304470311,
+      0.7839885623556655
+     ],
+     "diff": 0.7241139722038747
+    },
+    "second": {
+     "ci": [
+      0.09248958109805079,
+      0.18091764954816425
+     ],
+     "items_both": 20,
+     "within_item_auroc": 0.13496304012035437
+    }
+   },
+   "main1_wrong_items": {
+    "first": {
+     "ci": [
+      0.8044696213526645,
+      0.903180535711324
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.8567404278814759
+    },
+    "first_minus_second": {
+     "ci": [
+      0.23394570476967824,
+      0.5055730324800484
+     ],
+     "diff": 0.3721812956911767
+    },
+    "second": {
+     "ci": [
+      0.3531187618332085,
+      0.619198191990894
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.48455913219029917
+    }
+   },
+   "main2_correct_items": {
+    "ci": [
+     0.09815982320092659,
+     0.21434091622172113
+    ],
+    "items_both": 18,
+    "positives": 135,
+    "within_item_auroc": 0.15144580208231384
+   },
+   "main2_wrong_items": {
+    "ci": [
+     0.30311200237670827,
+     0.5468004320808767
+    ],
+    "items_both": 18,
+    "positives": 135,
+    "within_item_auroc": 0.4195808152779265
+   },
+   "main3_correct_items": {
+    "first": {
+     "ci": [
+      0.2692577030812325,
+      0.6418948846756332
+     ],
+     "items_both": 6,
+     "within_item_auroc": 0.43673811581565586
+    },
+    "first_minus_second": {
+     "ci": [
+      0.14531896751607742,
+      0.48015772801278706
+     ],
+     "diff": 0.285292313733342
+    },
+    "second": {
+     "ci": [
+      0.09815982320092659,
+      0.21434091622172113
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.15144580208231384
+    }
+   },
+   "main3_wrong_items": {
+    "first": {
+     "ci": [
+      0.2748769870480397,
+      0.649671052631579
+     ],
+     "items_both": 11,
+     "within_item_auroc": 0.4603058922735956
+    },
+    "first_minus_second": {
+     "ci": [
+      -0.11089743012218034,
+      0.18175210626615146
+     ],
+     "diff": 0.040725076995669074
+    },
+    "second": {
+     "ci": [
+      0.30311200237670827,
+      0.5468004320808767
+     ],
+     "items_both": 18,
+     "within_item_auroc": 0.4195808152779265
+    }
+   }
+  },
+  "S6_permuted": {
+   "top_ds": {
+    "first": 0.5144642983077845,
+    "mean": 0.5007018438837852,
+    "n": 2000,
+    "q025": 0.4257555354679589,
+    "q975": 0.576111859818847,
+    "sd": 0.03827473632959044
+   },
+   "top_e": {
+    "first": 0.5126791322159083,
+    "mean": 0.4996930091199432,
+    "n": 2000,
+    "q025": 0.429331120709244,
+    "q975": 0.5711587317037152,
+    "sd": 0.03595483948443915
+   }
+  },
+  "S8_spearman_entropy": {
+   "e": -0.11178712094114708,
+   "e_alt": -0.20728724108667645,
+   "p2": 0.9875157808096936
+  },
+  "base_accuracy": 0.525,
+  "digit_positions": 184,
+  "estimator_ok": true,
+  "free_positions": 313,
+  "guard_ok": true,
+  "items": 40,
+  "items_in_analysis": 39,
+  "items_unreadable_base": 1,
+  "label_main1": "WEIGHTING_EXPLAINS_FLIP",
+  "label_main2": "ENTROPY_AWAY_FROM_SWAP_EFFECT",
+  "label_main3": "DIGITS_DRIVE_AWAY",
+  "positions": 905,
+  "top_n": 135
+ },
+ "code_commits": {
+  "A": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+  "B": "fd5b17566df21a1c0522afa53b97f4af8b42d552",
+  "C": "fd5b17566df21a1c0522afa53b97f4af8b42d552"
+ },
+ "gate_doc_sha256": "5eee532e106939e9ee70e039bb5fc43b19c7bc26d769b54699e9e3d736671be1",
+ "items_sha256": "8232f35a165ff747bc8aaba9c0db84f8ea3c906bd84ba98f3280e71faca384ab",
+ "result_sha256": "c707264ea6ad22d9e5e2e21b8f30638321c1de7647093cadb76f2b2d789c5d62",
+ "schema": "dp5-gemma-v1",
+ "versions": {
+  "numpy": "2.1.3",
+  "scikit_learn": "1.6.1",
+  "scipy": "1.16.3"
+ }
+}

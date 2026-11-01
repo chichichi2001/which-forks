@@ -1,0 +1,648 @@
+{
+ "E1": {
+  "committee_kept": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.55308657787154,
+    "pooled_ci": [
+     0.5205371308119399,
+     0.5782794931209884
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.4642568645436971,
+    "within_item_ci": [
+     0.4475927127956261,
+     0.4823697805621726
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.4799616659733193,
+    "pooled_ci": [
+     0.4559649586015015,
+     0.4973864771771799
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.4358514082529573,
+    "within_item_ci": [
+     0.4098948173669926,
+     0.4672233024229968
+    ]
+   }
+  },
+  "entropy": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.5634836377905885,
+    "pooled_ci": [
+     0.5225726505008268,
+     0.593110044157741
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.4322771748134363,
+    "within_item_ci": [
+     0.40568593015268384,
+     0.45893621848848876
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.46547785244377293,
+    "pooled_ci": [
+     0.4239395461522032,
+     0.49490726294028164
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.3935384632997711,
+    "within_item_ci": [
+     0.3491126367191931,
+     0.4389407042613858
+    ]
+   }
+  },
+  "neg_margin": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.5550024779303319,
+    "pooled_ci": [
+     0.5167838883872252,
+     0.5824528536638204
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.4245940735682116,
+    "within_item_ci": [
+     0.3976678695277488,
+     0.45057434637201565
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.4585721128037861,
+    "pooled_ci": [
+     0.4159180769211665,
+     0.488592870435322
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.3836179513201547,
+    "within_item_ci": [
+     0.3396553430107341,
+     0.4272179677469671
+    ]
+   }
+  },
+  "neg_p1": {
+   "all": {
+    "forks": 5753,
+    "items_with_both_classes": 100,
+    "pooled_auroc": 0.5587914974638374,
+    "pooled_ci": [
+     0.5192224584223414,
+     0.5871447354290558
+    ],
+    "positions": 18178,
+    "within_item_auroc": 0.4277510372626802,
+    "within_item_ci": [
+     0.4011713129978986,
+     0.45358173377348576
+    ]
+   },
+   "base_correct": {
+    "forks": 885,
+    "items_with_both_classes": 52,
+    "pooled_auroc": 0.46147294201319145,
+    "pooled_ci": [
+     0.4192771069376077,
+     0.4913860838994097
+    ],
+    "positions": 7526,
+    "within_item_auroc": 0.38727096055042587,
+    "within_item_ci": [
+     0.34387925856030016,
+     0.430553133270171
+    ]
+   }
+  }
+ },
+ "E2": {
+  "12": {
+   "control_item_mean": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.7786296852906068,
+     "pooled_ci": [
+      0.7079043885050506,
+      0.8213890746534059
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.4998074794922507,
+     "within_item_ci": [
+      0.49946119554364116,
+      0.5000824061784677
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.6575448527679022,
+     "pooled_ci": [
+      0.5975323267803322,
+      0.7049868860238274
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.49958916083916083,
+     "within_item_ci": [
+      0.4989794168096055,
+      0.5
+     ]
+    }
+   },
+   "control_permuted": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.6222728339443929,
+     "pooled_ci": [
+      0.5715829150346696,
+      0.6630151806177244
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.4835841722315336,
+     "within_item_ci": [
+      0.4622409427778559,
+      0.5040273440463435
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.5323441010602685,
+     "pooled_ci": [
+      0.5047439933559951,
+      0.5571529703815109
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.47290896378885494,
+     "within_item_ci": [
+      0.43447623419324743,
+      0.508824593749729
+     ]
+    }
+   },
+   "oof_sha256": "1fa35b7f871ddad707b2a7deef4ee52646be44ac6605e5fc9e3147dd5eb79898",
+   "probe_vs_entropy": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "minus_other": {
+      "pooled": 0.14897564773308714,
+      "pooled_ci": [
+       0.10303944015045208,
+       0.2075881165554373
+      ],
+      "within": 0.32695228115740615,
+      "within_ci": [
+       0.2849837622352782,
+       0.37085959524211615
+      ]
+     },
+     "pooled_auroc": 0.7124592855236757,
+     "pooled_ci": [
+      0.6808228103849486,
+      0.7464325217721042
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7592294559708425,
+     "within_item_ci": [
+      0.733049675210634,
+      0.7855895515214294
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "minus_other": {
+      "pooled": 0.28775004104786484,
+      "pooled_ci": [
+       0.23150089064720364,
+       0.3620208833624958
+      ],
+      "within": 0.4223823907925242,
+      "within_ci": [
+       0.3601828925419019,
+       0.4852732426209356
+      ]
+     },
+     "pooled_auroc": 0.7532278934916378,
+     "pooled_ci": [
+      0.7168459991771474,
+      0.7941016826488149
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.8159208540922953,
+     "within_item_ci": [
+      0.7813148300449215,
+      0.8476020148779337
+     ]
+    }
+   },
+   "promising": true
+  },
+  "16": {
+   "control_item_mean": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.7744709942253906,
+     "pooled_ci": [
+      0.7047946537698989,
+      0.8205985398486524
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.49986003325942346,
+     "within_item_ci": [
+      0.4994886363636364,
+      0.5000914634146342
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.6512305426740408,
+     "pooled_ci": [
+      0.593871811277648,
+      0.6956202897947288
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.49973083319119904,
+     "within_item_ci": [
+      0.49901660839160833,
+      0.5001725724804418
+     ]
+    }
+   },
+   "control_permuted": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.6017871176301682,
+     "pooled_ci": [
+      0.5581253745761877,
+      0.6401645783893672
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.4821401118614769,
+     "within_item_ci": [
+      0.461659344958972,
+      0.5020408445925535
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.51626865125649,
+     "pooled_ci": [
+      0.49043509660971274,
+      0.5432377038826577
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.47897610661498585,
+     "within_item_ci": [
+      0.44380507045804074,
+      0.5149204020406865
+     ]
+    }
+   },
+   "oof_sha256": "edda758770c6f3eab1f2d864580c6681ac2f503de619703611af0dbd0cf67678",
+   "probe_vs_entropy": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "minus_other": {
+      "pooled": 0.13316605350860589,
+      "pooled_ci": [
+       0.08513842629381851,
+       0.19109483129441773
+      ],
+      "within": 0.30879602684318697,
+      "within_ci": [
+       0.26849955916342383,
+       0.35177611365193723
+      ]
+     },
+     "pooled_auroc": 0.6966496912991944,
+     "pooled_ci": [
+      0.6574417221876705,
+      0.7371367795220634
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7410732016566233,
+     "within_item_ci": [
+      0.715546789160465,
+      0.7666022345477157
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "minus_other": {
+      "pooled": 0.2715032536281633,
+      "pooled_ci": [
+       0.2132514882600267,
+       0.34983563554006863
+      ],
+      "within": 0.39716588169621597,
+      "within_ci": [
+       0.3393998084902316,
+       0.45928002166917486
+      ]
+     },
+     "pooled_auroc": 0.7369811060719362,
+     "pooled_ci": [
+      0.6984869950266208,
+      0.7809748998933226
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.7907043449959871,
+     "within_item_ci": [
+      0.7570251735071492,
+      0.8220911507818309
+     ]
+    }
+   },
+   "promising": true
+  },
+  "4": {
+   "control_item_mean": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.7398242470641684,
+     "pooled_ci": [
+      0.6692247860360037,
+      0.7901701361061202
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.5002799340623828,
+     "within_item_ci": [
+      0.4999788841441129,
+      0.5006381187079987
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.6151946859817076,
+     "pooled_ci": [
+      0.5589893327376049,
+      0.6626401847807933
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.5004507370223138,
+     "within_item_ci": [
+      0.5,
+      0.5010731443456723
+     ]
+    }
+   },
+   "control_permuted": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.5723693945351231,
+     "pooled_ci": [
+      0.5304138561847641,
+      0.6097486783554107
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.5011671853435762,
+     "within_item_ci": [
+      0.4777832297618609,
+      0.5243236697807897
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.50555809357552,
+     "pooled_ci": [
+      0.4814341233563561,
+      0.5325757202052092
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.504660556566726,
+     "within_item_ci": [
+      0.4625626372819801,
+      0.5464165542601396
+     ]
+    }
+   },
+   "oof_sha256": "f87f4603183a13fc49aa1ed8d95d2f62077a8338e2734bfa1d3563275ef089e9",
+   "probe_vs_entropy": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "minus_other": {
+      "pooled": 0.04955572475352721,
+      "pooled_ci": [
+       0.00045688774663421583,
+       0.11593519854192458
+      ],
+      "within": 0.28167723931906163,
+      "within_ci": [
+       0.2361366347649223,
+       0.3292082941852393
+      ]
+     },
+     "pooled_auroc": 0.6130393625441157,
+     "pooled_ci": [
+      0.57735210486768,
+      0.6518949927923404
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7139544141324979,
+     "within_item_ci": [
+      0.6870737714337396,
+      0.7422422349145751
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "minus_other": {
+      "pooled": 0.22790914512398153,
+      "pooled_ci": [
+       0.16213289548129706,
+       0.3126346974195312
+      ],
+      "within": 0.38135131662831007,
+      "within_ci": [
+       0.3113241316569829,
+       0.45300778526947655
+      ]
+     },
+     "pooled_auroc": 0.6933869975677545,
+     "pooled_ci": [
+      0.6495135646118255,
+      0.7429276391250441
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.7748897799280812,
+     "within_item_ci": [
+      0.7339595191482626,
+      0.8129335380833619
+     ]
+    }
+   },
+   "promising": true
+  },
+  "8": {
+   "control_item_mean": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.7751169908377783,
+     "pooled_ci": [
+      0.7002110328989445,
+      0.8195917713230692
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.5000965537149081,
+     "within_item_ci": [
+      0.5,
+      0.5002185049344202
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.6701948263526442,
+     "pooled_ci": [
+      0.6133153947588932,
+      0.7125345469883285
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.5000985282554709,
+     "within_item_ci": [
+      0.5,
+      0.5002607003736623
+     ]
+    }
+   },
+   "control_permuted": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "pooled_auroc": 0.6374011005018465,
+     "pooled_ci": [
+      0.5896061977987667,
+      0.6719060385880626
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.4914050922371542,
+     "within_item_ci": [
+      0.46894062595718233,
+      0.5131027627758915
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "pooled_auroc": 0.5398198317760666,
+     "pooled_ci": [
+      0.51278909664159,
+      0.5651345443417055
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.49511650680005254,
+     "within_item_ci": [
+      0.4564231283616606,
+      0.5331802185796339
+     ]
+    }
+   },
+   "oof_sha256": "04c2a4812fa80dd94dbec978ea03229f4cc71e22b7a36a0ce2a0a0d2df209ebc",
+   "probe_vs_entropy": {
+    "all": {
+     "forks": 5753,
+     "items_with_both_classes": 100,
+     "minus_other": {
+      "pooled": 0.12979308844549997,
+      "pooled_ci": [
+       0.08422234316267074,
+       0.18305542587378587
+      ],
+      "within": 0.3104242556238822,
+      "within_ci": [
+       0.2693497507130677,
+       0.3559814904474469
+      ]
+     },
+     "pooled_auroc": 0.6932767262360885,
+     "pooled_ci": [
+      0.6635757962040573,
+      0.7260550839478236
+     ],
+     "positions": 18178,
+     "within_item_auroc": 0.7427014304373185,
+     "within_item_ci": [
+      0.716302663639534,
+      0.7687538294883614
+     ]
+    },
+    "base_correct": {
+     "forks": 885,
+     "items_with_both_classes": 52,
+     "minus_other": {
+      "pooled": 0.27311079860854115,
+      "pooled_ci": [
+       0.21859199371878185,
+       0.3490983441877489
+      ],
+      "within": 0.4050098808191251,
+      "within_ci": [
+       0.34311436384259303,
+       0.4681561606492197
+      ]
+     },
+     "pooled_auroc": 0.7385886510523141,
+     "pooled_ci": [
+      0.7020882835350832,
+      0.7811411160756863
+     ],
+     "positions": 7526,
+     "within_item_auroc": 0.7985483441188962,
+     "within_item_ci": [
+      0.7645500017426298,
+      0.8304176667857882
+     ]
+    }
+   },
+   "promising": true
+  }
+ },
+ "any_promising": true,
+ "argmax_agreement": 0.9994498844757399,
+ "code_commit": "04e259d5ebe4cec91dc3263ed8598812022fe7dd",
+ "exploratory": true,
+ "forks": 5753,
+ "gpu_name": "Tesla T4",
+ "items_sha256": "18becaa5ea54d9ec05c08f9ba982cc896f98508ace84393ce84dc6c05363072c",
+ "layers": [
+  4,
+  8,
+  12,
+  16
+ ],
+ "n_layers": 16,
+ "plan_sha256": "60ad4b457b389e328ca340cdaf0772ba1cfea8dafae165b98979efef2c4e80ce",
+ "positions": 18178,
+ "result_sha256": "ef2028fd16bf0f1ca1bac5077d8b4630fc0ae93ce1578e60382de40e8754945f",
+ "schema": "dp1x-probe-v1"
+}
